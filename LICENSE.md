@@ -1,4 +1,5 @@
-    Copyright © 2018, Sascha Brawer <sascha@brawer.ch>, with Reserved Font Name: “Balmhorn”.
+    Copyright © 2018, Sascha Brawer <sascha@brawer.ch>, with Reserved Font Name “Balmhorn”.
+    Copyright © 2015, Ek Type <info@ektype.in>, with Reserved Font Name “Baloo”.
 
     This Font Software is licensed under the SIL Open Font License, Version 1.1.
     This license is copied below, and is also available with a FAQ at:

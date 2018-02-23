@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="SsaRa.dv" format="1">
+	<advance width="605"/>
+	<outline>
+		<contour>
+			<point x="45" y="78" type="line"/>
+			<point x="45" y="13"/>
+			<point x="84" y="-25"/>
+			<point x="141" y="-25" type="curve" smooth="yes"/>
+			<point x="181" y="-25"/>
+			<point x="218" y="-11"/>
+			<point x="259" y="35" type="curve" smooth="yes"/>
+			<point x="374" y="164" type="line"/>
+			<point x="374" y="62" type="line" smooth="yes"/>
+			<point x="374" y="2"/>
+			<point x="404" y="-10"/>
+			<point x="462" y="-10" type="curve" smooth="yes"/>
+			<point x="489" y="-10"/>
+			<point x="527" y="-5"/>
+			<point x="538" y="-1" type="curve"/>
+			<point x="538" y="502" type="line"/>
+			<point x="628" y="502" type="line"/>
+			<point x="634" y="514"/>
+			<point x="640" y="540"/>
+			<point x="640" y="561" type="curve" smooth="yes"/>
+			<point x="640" y="600"/>
+			<point x="627" y="620"/>
+			<point x="595" y="620" type="curve" smooth="yes"/>
+			<point x="-34" y="620" type="line"/>
+			<point x="-40" y="608"/>
+			<point x="-45" y="579"/>
+			<point x="-45" y="563" type="curve" smooth="yes"/>
+			<point x="-45" y="523"/>
+			<point x="-33" y="502"/>
+			<point x="0" y="502" type="curve" smooth="yes"/>
+			<point x="45" y="502" type="line"/>
+			<point x="45" y="372" type="line" smooth="yes"/>
+			<point x="45" y="258"/>
+			<point x="96" y="184"/>
+			<point x="185" y="159" type="curve"/>
+		</contour>
+		<contour>
+			<point x="298" y="279" type="curve" smooth="yes"/>
+			<point x="229" y="279"/>
+			<point x="209" y="317"/>
+			<point x="209" y="380" type="curve" smooth="yes"/>
+			<point x="209" y="427" type="line"/>
+			<point x="371" y="303" type="line"/>
+			<point x="357" y="290"/>
+			<point x="328" y="279"/>
+		</contour>
+		<contour>
+			<point x="222" y="502" type="line"/>
+			<point x="374" y="502" type="line"/>
+			<point x="374" y="387" type="line"/>
+		</contour>
+	</outline>
+</glyph>

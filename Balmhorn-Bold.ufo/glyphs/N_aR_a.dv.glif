@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="NaRa.dv" format="1">
+	<advance width="599"/>
+	<outline>
+		<contour>
+			<point x="151" y="389" type="line" smooth="yes"/>
+			<point x="77" y="389"/>
+			<point x="30" y="344"/>
+			<point x="30" y="272" type="curve" smooth="yes"/>
+			<point x="30" y="198"/>
+			<point x="79" y="158"/>
+			<point x="133" y="158" type="curve" smooth="yes"/>
+			<point x="156" y="158"/>
+			<point x="176" y="164"/>
+			<point x="199" y="176" type="curve"/>
+			<point x="199" y="225" type="line" smooth="yes"/>
+			<point x="199" y="251"/>
+			<point x="212" y="263"/>
+			<point x="234" y="263" type="curve" smooth="yes"/>
+			<point x="368" y="263" type="line"/>
+			<point x="368" y="220" type="line"/>
+			<point x="115" y="70" type="line"/>
+			<point x="115" y="13"/>
+			<point x="148" y="-25"/>
+			<point x="200" y="-25" type="curve" smooth="yes"/>
+			<point x="239" y="-25"/>
+			<point x="271" y="-8"/>
+			<point x="314" y="38" type="curve" smooth="yes"/>
+			<point x="368" y="95" type="line"/>
+			<point x="368" y="62" type="line" smooth="yes"/>
+			<point x="368" y="2"/>
+			<point x="398" y="-10"/>
+			<point x="456" y="-10" type="curve" smooth="yes"/>
+			<point x="483" y="-10"/>
+			<point x="521" y="-5"/>
+			<point x="532" y="-1" type="curve"/>
+			<point x="532" y="502" type="line"/>
+			<point x="622" y="502" type="line"/>
+			<point x="628" y="514"/>
+			<point x="634" y="544"/>
+			<point x="634" y="561" type="curve" smooth="yes"/>
+			<point x="634" y="600"/>
+			<point x="621" y="620"/>
+			<point x="589" y="620" type="curve" smooth="yes"/>
+			<point x="-29" y="620" type="line"/>
+			<point x="-35" y="608"/>
+			<point x="-40" y="579"/>
+			<point x="-40" y="563" type="curve" smooth="yes"/>
+			<point x="-40" y="523"/>
+			<point x="-28" y="502"/>
+			<point x="5" y="502" type="curve" smooth="yes"/>
+			<point x="368" y="502" type="line"/>
+			<point x="368" y="389" type="line"/>
+		</contour>
+	</outline>
+</glyph>

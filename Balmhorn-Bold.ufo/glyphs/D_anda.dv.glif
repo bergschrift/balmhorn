@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Danda.dv" format="1">
+	<unicode hex="0964"/>
+	<advance width="334"/>
+	<outline>
+		<contour>
+			<point x="85" y="62" type="line" smooth="yes"/>
+			<point x="85" y="2"/>
+			<point x="113" y="-10"/>
+			<point x="171" y="-10" type="curve" smooth="yes"/>
+			<point x="198" y="-10"/>
+			<point x="238" y="-5"/>
+			<point x="249" y="-1" type="curve"/>
+			<point x="249" y="578" type="line" smooth="yes"/>
+			<point x="249" y="638"/>
+			<point x="221" y="650"/>
+			<point x="163" y="650" type="curve" smooth="yes"/>
+			<point x="136" y="650"/>
+			<point x="96" y="645"/>
+			<point x="85" y="641" type="curve"/>
+		</contour>
+	</outline>
+</glyph>

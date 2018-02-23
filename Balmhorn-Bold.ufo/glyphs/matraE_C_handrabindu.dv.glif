@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="matraEChandrabindu.dv" format="1">
+	<outline>
+		<contour>
+			<point x="-57" y="841" type="curve" smooth="yes"/>
+			<point x="-86" y="841"/>
+			<point x="-109" y="854"/>
+			<point x="-122" y="874" type="curve"/>
+			<point x="-142" y="870"/>
+			<point x="-159" y="856"/>
+			<point x="-159" y="835" type="curve" smooth="yes"/>
+			<point x="-159" y="802"/>
+			<point x="-125" y="775"/>
+			<point x="-57" y="775" type="curve" smooth="yes"/>
+			<point x="11" y="775"/>
+			<point x="45" y="802"/>
+			<point x="45" y="835" type="curve" smooth="yes"/>
+			<point x="45" y="856"/>
+			<point x="29" y="870"/>
+			<point x="8" y="874" type="curve"/>
+			<point x="-4" y="854"/>
+			<point x="-28" y="841"/>
+		</contour>
+		<contour>
+			<point x="-57" y="936" type="curve" smooth="yes"/>
+			<point x="-78" y="936"/>
+			<point x="-98" y="920"/>
+			<point x="-98" y="899" type="curve" smooth="yes"/>
+			<point x="-98" y="876"/>
+			<point x="-78" y="861"/>
+			<point x="-57" y="861" type="curve" smooth="yes"/>
+			<point x="-35" y="861"/>
+			<point x="-18" y="876"/>
+			<point x="-18" y="899" type="curve" smooth="yes"/>
+			<point x="-18" y="920"/>
+			<point x="-35" y="936"/>
+		</contour>
+		<contour>
+			<point x="-85" y="602" type="line"/>
+			<point x="-130" y="738"/>
+			<point x="-242" y="890"/>
+			<point x="-353" y="890" type="curve" smooth="yes"/>
+			<point x="-416" y="890"/>
+			<point x="-445" y="841"/>
+			<point x="-445" y="787" type="curve" smooth="yes"/>
+			<point x="-445" y="780"/>
+			<point x="-445" y="774"/>
+			<point x="-444" y="767" type="curve"/>
+			<point x="-374" y="748"/>
+			<point x="-263" y="683"/>
+			<point x="-221" y="602" type="curve"/>
+		</contour>
+	</outline>
+</glyph>
