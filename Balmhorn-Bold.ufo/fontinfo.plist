@@ -61,9 +61,9 @@
 		<key>openTypeNameSampleText</key>
 		<string>Balmhorn बामहॉर्न </string>
 		<key>openTypeNameUniqueID</key>
-		<string></string>
+		<string>0.1;BERG;Balmhorn-Bold</string>
 		<key>openTypeNameVersion</key>
-		<string></string>
+		<string>0.1</string>
 		<key>openTypeOS2FamilyClass</key>
 		<array>
 			<integer>0</integer>
