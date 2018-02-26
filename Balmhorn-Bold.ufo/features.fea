@@ -4,12 +4,18 @@
 
 languagesystem DFLT dflt;
 languagesystem latn dflt;
+
 languagesystem deva dflt;
 languagesystem deva MAR;
 languagesystem deva HIN;
 languagesystem dev2 dflt;
 languagesystem dev2 MAR;
 languagesystem dev2 HIN;
+
+languagesystem mlym dflt;
+languagesystem mlym MAL;
+languagesystem mlm2 dflt;
+languagesystem mlm2 MAL;
 
 
 #####################################################################
@@ -149,6 +155,7 @@ languagesystem dev2 HIN;
 
 @Vertical_Conjuncts = [NgaKa.dv NgaGa.dv NgaMa.dv CaChaVa.dv ChaVa.dv TtaTta.dv TtaTtha.dv TtaVa.dv TthaTtha.dv DdaDda.dv DdaDdha.dv DdhaDdha.dv];
 
+@ignore_Mlym = [Zha.Mlym Lla.Mlym LlaLla.Mlym];
 
 
 #----------------------------------
@@ -596,20 +603,6 @@ feature sups { # Superscript/Superior
 #--------------------------------------------------------------------
 
 
-
-
-
-
-#--------------------------------------------------------------------
-
-#---------- D E V A N A G A R I ----------#
-
-#--------------------------------------------------------------------
-
-
-
-
-
 feature locl { # Localized forms
 	script dev2;
 	language HIN;
@@ -648,18 +641,214 @@ lookup nukt1 {
 } nukt1;
 } nukt;
 
+
+#--------------------------------------------------------------------
+# akhn - Akhanda
 #--------------------------------------------------------------------
 
-feature akhn { # Akhanda
-	sub Ka.dv Halant.dv Ssa.dv by KaSsa.dv;
-	sub Ja.dv Halant.dv Nya.dv by JaNya.dv;
-	sub vowelIi.dv Bindu.dv by vowelIiBindu.dv;
-	sub PaHalant.dv vowelLru.dv by PamatraLru.dv;
-	sub PaHalant.dv vowelLruu.dv by PamatraLruu.dv;
-	sub KaHalant.dv vowelLru.dv by KamatraLru.dv;
-	sub KaHalant.dv vowelLruu.dv by KamatraLruu.dv;
-	sub Ra.dv Halant.dv ZWJ by RaNuktaHalant.dv;
+lookup akhn_Deva {
+    sub Ka.dv Halant.dv Ssa.dv by KaSsa.dv;
+    sub Ja.dv Halant.dv Nya.dv by JaNya.dv;
+    sub vowelIi.dv Bindu.dv by vowelIiBindu.dv;
+    sub PaHalant.dv vowelLru.dv by PamatraLru.dv;
+    sub PaHalant.dv vowelLruu.dv by PamatraLruu.dv;
+    sub KaHalant.dv vowelLru.dv by KamatraLru.dv;
+    sub KaHalant.dv vowelLruu.dv by KamatraLruu.dv;
+    sub Ra.dv Halant.dv ZWJ by RaNuktaHalant.dv;
+} akhn_Deva;
+
+
+lookup akhn_Mlym_1 {
+    sub LlaLla.Mlym Virama.Mlym LlaLla.Mlym by LlaLla.Mlym;
+    sub Va.Mlym Virama.Mlym Va.Mlym by VaVa.Mlym;
+} akhn_Mlym_1;
+
+
+lookup akhn_Mlym_2 {
+    sub Ka.Mlym Virama.Mlym Ssa.Mlym Virama.Mlym Ma.Mlym by KaSsaMa.Mlym;
+    sub Ga.Mlym Virama.Mlym Da.Mlym Virama.Mlym Dha.Mlym by GaDaDha.Mlym;
+    sub Ya.Mlym Virama.Mlym Ta.Mlym Virama.Mlym Ta.Mlym by YaTaTa.Mlym; 
+    sub Ya.Mlym Virama.Mlym Ka.Mlym Virama.Mlym Ka.Mlym by YaKaKa.Mlym; 
+    sub Ssa.Mlym Virama.Mlym Rra.Mlym Virama.Mlym Rra.Mlym by SsaRraRra.Mlym; 
+    sub Sa.Mlym Virama.Mlym Rra.Mlym Virama.Mlym Rra.Mlym by SaRraRra.Mlym; 
+    sub Zha.Mlym Virama.Mlym Ta.Mlym Virama.Mlym Ta.Mlym by ZhaTaTa.Mlym;
+    sub Zha.Mlym Virama.Mlym Na.Mlym Virama.Mlym Na.Mlym by ZhaNaNa.Mlym;  
+
+    sub Ka.Mlym Virama.Mlym Ka.Mlym by KaKa.Mlym;
+    sub Ka.Mlym Virama.Mlym Ta.Mlym by KaTa.Mlym;
+    sub Ka.Mlym Virama.Mlym Ssa.Mlym by KaSsa.Mlym;
+    sub Ga.Mlym Virama.Mlym Na.Mlym by GaNa.Mlym;
+    sub Ga.Mlym Virama.Mlym Ma.Mlym by GaMa.Mlym;
+    sub Ga.Mlym Virama.Mlym Da.Mlym by GaDa.Mlym;
+    sub Nga.Mlym Virama.Mlym Nga.Mlym by NgaNga.Mlym;
+    sub Nga.Mlym Virama.Mlym Ka.Mlym by NgaKa.Mlym;
+    sub Ja.Mlym Virama.Mlym Nya.Mlym by JaNya.Mlym;
+    sub Nya.Mlym Virama.Mlym Cha.Mlym by NyaCha.Mlym;
+    sub Nya.Mlym Virama.Mlym Ca.Mlym by NyaCa.Mlym;
+    sub Nya.Mlym Virama.Mlym Ja.Mlym by NyaJa.Mlym;
+    sub Nya.Mlym Virama.Mlym Nya.Mlym by NyaNya.Mlym;
+    sub Ja.Mlym Virama.Mlym Ja.Mlym by JaJa.Mlym;
+    sub Tta.Mlym Virama.Mlym Tta.Mlym by TtaTta.Mlym;
+    sub Nna.Mlym Virama.Mlym Tta.Mlym by NnaTta.Mlym;
+    sub Nna.Mlym Virama.Mlym Dda.Mlym by NnaDda.Mlym;
+    sub Nna.Mlym Virama.Mlym Ddha.Mlym by NnaDdha.Mlym;
+    sub Nna.Mlym Virama.Mlym Ma.Mlym by NnaMa.Mlym;
+    sub Ta.Mlym Virama.Mlym Na.Mlym by TaNa.Mlym;
+    sub Ta.Mlym Virama.Mlym Bha.Mlym by TaBha.Mlym;
+    sub Ta.Mlym Virama.Mlym Ma.Mlym by TaMa.Mlym;
+    sub Ta.Mlym Virama.Mlym Tha.Mlym by TaTha.Mlym;
+    sub Ta.Mlym Virama.Mlym Sa.Mlym by TaSa.Mlym;
+    sub Ta.Mlym Virama.Mlym Ta.Mlym by TaTa.Mlym;
+    sub Da.Mlym Virama.Mlym Dha.Mlym by DaDha.Mlym;
+    sub Da.Mlym Virama.Mlym Da.Mlym by DaDa.Mlym;
+    sub Na.Mlym Virama.Mlym Tha.Mlym by NaTha.Mlym;
+    sub Na.Mlym Virama.Mlym Ma.Mlym by NaMa.Mlym;
+    sub Na.Mlym Virama.Mlym Dha.Mlym by NaDha.Mlym;
+    sub Na.Mlym Virama.Mlym Ta.Mlym by NaTa.Mlym;
+    sub Na.Mlym Virama.Mlym Da.Mlym by NaDa.Mlym;
+    sub Na.Mlym Virama.Mlym Na.Mlym by NaNa.Mlym;
+    sub Ba.Mlym Virama.Mlym Ja.Mlym by BaJa.Mlym;
+    sub Ma.Mlym Virama.Mlym Pa.Mlym by MaPa.Mlym;
+    sub Ma.Mlym Virama.Mlym Ma.Mlym by MaMa.Mlym;
+    sub Lla.Mlym Virama.Mlym Lla.Mlym by LlaLla.Mlym;
+    sub Sha.Mlym Virama.Mlym Ca.Mlym by ShaCa.Mlym;
+    sub Sha.Mlym Virama.Mlym Cha.Mlym by ShaCha.Mlym;
+    sub Sa.Mlym Virama.Mlym Tha.Mlym by SaTha.Mlym;
+    sub Sa.Mlym Virama.Mlym Pha.Mlym by SaPha.Mlym;
+    sub Ha.Mlym Virama.Mlym Ma.Mlym by HaMa.Mlym;
+    sub Ha.Mlym Virama.Mlym Na.Mlym by HaNa.Mlym;
+
+    sub Ka.Mlym Virama.Mlym La.Mlym by KaLa.Mlym;
+    sub Ga.Mlym Virama.Mlym La.Mlym by GaLa.Mlym;
+    sub Ta.Mlym Virama.Mlym La.Mlym by TaLa.Mlym;
+    sub Pa.Mlym Virama.Mlym La.Mlym by PaLa.Mlym;
+    sub Ba.Mlym Virama.Mlym La.Mlym by BaLa.Mlym;
+    sub Pha.Mlym Virama.Mlym La.Mlym by PhaLa.Mlym;
+    sub Ma.Mlym Virama.Mlym La.Mlym by MaLa.Mlym;
+    sub La.Mlym Virama.Mlym La.Mlym by LaLa.Mlym;
+    sub Va.Mlym Virama.Mlym La.Mlym by VaLa.Mlym;
+    sub Sha.Mlym Virama.Mlym La.Mlym by ShaLa.Mlym;
+    sub Sa.Mlym Virama.Mlym La.Mlym by SaLa.Mlym;
+    sub Ha.Mlym Virama.Mlym La.Mlym by HaLa.Mlym;
+
+    sub Ka.Mlym Virama.Mlym Tta.Mlym by KaTta.Mlym;
+    sub Ka.Mlym Virama.Mlym Sa.Mlym by KaSa.Mlym;
+    sub Gha.Mlym Virama.Mlym Na.Mlym by GhaNa.Mlym;
+    sub Ga.Mlym Virama.Mlym Ga.Mlym by GaGa.Mlym;
+    sub Ca.Mlym Virama.Mlym Ca.Mlym by CaCa.Mlym; 
+    sub Ca.Mlym Virama.Mlym Cha.Mlym by CaCha.Mlym; 
+    sub Dda.Mlym Virama.Mlym Dda.Mlym by DdaDda.Mlym; 
+    sub Dda.Mlym Virama.Mlym Ddha.Mlym by DdaDdha.Mlym; 
+    sub Nna.Mlym Virama.Mlym Nna.Mlym by NnaNna.Mlym; 
+    sub Nna.Mlym Virama.Mlym Ttha.Mlym by NnaTtha.Mlym; 
+    sub Pa.Mlym Virama.Mlym Pa.Mlym by PaPa.Mlym; 
+    sub Pa.Mlym Virama.Mlym Na.Mlym by PaNa.Mlym; 
+    sub Pa.Mlym Virama.Mlym Sa.Mlym by PaSa.Mlym; 
+    sub Pa.Mlym Virama.Mlym Ta.Mlym by PaTa.Mlym; 
+    sub Ba.Mlym Virama.Mlym Ba.Mlym by BaBa.Mlym; 
+    sub Ba.Mlym Virama.Mlym Da.Mlym by BaDa.Mlym; 
+    sub Ba.Mlym Virama.Mlym Dha.Mlym by BaDha.Mlym; 
+    sub Ba.Mlym Virama.Mlym Ka.Mlym by BaKa.Mlym; 
+    sub Pha.Mlym Virama.Mlym Ka.Mlym by PhaKa.Mlym; 
+    sub Pha.Mlym Virama.Mlym Ta.Mlym by PhaTa.Mlym; 
+    sub Ma.Mlym Virama.Mlym Na.Mlym by MaNa.Mlym; 
+    sub Ya.Mlym Virama.Mlym Ya.Mlym by YaYa.Mlym; 
+    sub Ya.Mlym Virama.Mlym Ma.Mlym by YaMa.Mlym; 
+    sub Ya.Mlym Virama.Mlym Pa.Mlym by YaPa.Mlym; 
+    sub Ya.Mlym Virama.Mlym Ka.Mlym by YaKa.Mlym; 
+    sub Ya.Mlym Virama.Mlym Ta.Mlym by YaTa.Mlym; 
+    sub Rra.Mlym Virama.Mlym Rra.Mlym by RraRra.Mlym; 
+    sub La.Mlym Virama.Mlym Pa.Mlym by LaPa.Mlym; 
+    sub La.Mlym Virama.Mlym Ka.Mlym by LaKa.Mlym; 
+    sub La.Mlym Virama.Mlym Ma.Mlym by LaMa.Mlym; 
+    sub Sha.Mlym Virama.Mlym Sha.Mlym by ShaSha.Mlym; 
+    sub Sha.Mlym Virama.Mlym Na.Mlym by ShaNa.Mlym; 
+    sub Sha.Mlym Virama.Mlym Ma.Mlym by ShaMa.Mlym; 
+    sub Ssa.Mlym Virama.Mlym Pa.Mlym by SsaPa.Mlym; 
+    sub Ssa.Mlym Virama.Mlym Ka.Mlym by SsaKa.Mlym; 
+    sub Ssa.Mlym Virama.Mlym Nna.Mlym by SsaNna.Mlym; 
+    sub Ssa.Mlym Virama.Mlym Tta.Mlym by SsaTta.Mlym; 
+    sub Ssa.Mlym Virama.Mlym Ma.Mlym by SsaMa.Mlym; 
+    sub Ssa.Mlym Virama.Mlym Pha.Mlym by SsaPha.Mlym; 
+    sub Ssa.Mlym Virama.Mlym Ttha.Mlym by SsaTtha.Mlym; 
+    sub Ssa.Mlym Virama.Mlym Ta.Mlym by SsaTa.Mlym; 
+    sub Sa.Mlym Virama.Mlym Sa.Mlym by SaSa.Mlym;  
+    sub Sa.Mlym Virama.Mlym Pa.Mlym by SaPa.Mlym; 
+    sub Sa.Mlym Virama.Mlym Ta.Mlym by SaTa.Mlym; 
+    sub Sa.Mlym Virama.Mlym Ka.Mlym by SaKa.Mlym; 
+    sub Sa.Mlym Virama.Mlym Na.Mlym by SaNa.Mlym; 
+    sub Sa.Mlym Virama.Mlym Ma.Mlym by SaMa.Mlym; 
+    sub Zha.Mlym Virama.Mlym Ca.Mlym by ZhaCa.Mlym;  
+    sub Zha.Mlym Virama.Mlym Ta.Mlym by ZhaTa.Mlym; 
+    sub Zha.Mlym Virama.Mlym Ka.Mlym by ZhaKa.Mlym; 
+    sub Zha.Mlym Virama.Mlym Ma.Mlym by ZhaMa.Mlym; 
+    sub Na.Mlym Virama.Mlym Rra.Mlym by NaRra.Mlym; 
+
+    sub Lla.Mlym Virama.Mlym ZWJ by chilluLl.Mlym;
+    sub Nna.Mlym Virama.Mlym ZWJ by chilluNn.Mlym;
+    sub Ra.Mlym Virama.Mlym ZWJ by chilluRr.Mlym;
+    sub La.Mlym Virama.Mlym ZWJ by chilluL.Mlym;
+    sub Na.Mlym Virama.Mlym ZWJ by chilluN.Mlym;
+    sub Ka.Mlym Virama.Mlym ZWJ by chilluK.Mlym;
+} akhn_Mlym_2;
+
+
+lookup akhn_Mlym_3 {
+    sub LlaLla.Mlym LlaLla.Mlym Virama.Mlym by LlaLla.Mlym;
+    sub Va.Mlym Va.Mlym Virama.Mlym by VaVa.Mlym;
+} akhn_Mlym_3;
+
+
+feature akhn {
+    script deva; language dflt;
+    lookup akhn_Deva;
+
+    script dev2; language dflt;
+    lookup akhn_Deva;
+
+    script mlm2; language dflt;
+    lookup akhn_Mlym_1;
+    lookup akhn_Mlym_2;
+
+    script mlm2; language MAL;
+    lookup akhn_Mlym_1;
+    lookup akhn_Mlym_2;
+
+    script mlym; language dflt;
+    lookup akhn_Mlym_3;
+    lookup akhn_Mlym_2;
+
+    language dflt; language MAL;
+    lookup akhn_Mlym_3;
+    lookup akhn_Mlym_2;
 } akhn;
+
+
+#--------------------------------------------------------------------
+# haln - Halant
+#--------------------------------------------------------------------
+
+lookup haln_Mlym {
+    sub NaRra.Mlym Virama.Mlym by NaRraVirama.Mlym;
+} haln_Mlym;
+
+feature haln {
+    script mlm2;
+    language dflt;
+    lookup haln_Mlym;
+
+    script mlm2;
+    language MAL;
+    lookup haln_Mlym;
+
+    script mlym;
+    language dflt;
+    lookup haln_Mlym;
+
+    script mlym;
+    language MAL;
+    lookup haln_Mlym;
+} haln;
 
 
 #--------------------------------------------------------------------
@@ -949,8 +1138,36 @@ feature vatu { # Vattu
 
 
 #--------------------------------------------------------------------
+# pref - Pre-Base Forms
+#--------------------------------------------------------------------
 
-feature pres { # Pre-base Substitutions
+lookup pref_Mlym {
+    ignore sub @ignore_Mlym Virama.Mlym' Ra.Mlym';
+    sub Virama.Mlym' Ra.Mlym' by ViramaRa.Mlym;
+} pref_Mlym;
+
+
+feature pref {
+    script mlm2; language dflt;
+    lookup pref_Mlym;
+
+    script mlm2; language MAL;
+    lookup pref_Mlym;
+
+    script mlym; language dflt;
+    lookup pref_Mlym;
+
+    script mlym; language MAL;
+    lookup pref_Mlym;
+} pref;
+
+
+
+#--------------------------------------------------------------------
+# pres - Pre-Base Substitutions
+#--------------------------------------------------------------------
+
+feature pres {
 
 
 lookup pres4 { # Four-letter conjuncts
@@ -1405,6 +1622,63 @@ lookup pres_matraI { # matraI substitutions
 
 } pres;
 
+
+#--------------------------------------------------------------------
+# pstf - Post-base forms
+#--------------------------------------------------------------------
+
+lookup pstf_Mlym_1 {
+    ignore sub @ignore_Mlym Virama.Mlym' Ya.Mlym';
+    sub Virama.Mlym' Ya.Mlym' by ViramaYa.Mlym;
+} pstf_Mlym_1;
+
+lookup pstf_Mlym_2 {
+    ignore sub @ignore_Mlym Virama.Mlym' Va.Mlym';
+    sub Virama.Mlym' Va.Mlym' by ViramaVa.Mlym;
+} pstf_Mlym_2;
+
+lookup pstf_Mlym_3 {
+    ignore sub @ignore_Mlym Virama.Mlym' Ra.Mlym';
+    sub Virama.Mlym' Ra.Mlym' by ViramaRa.Mlym;
+} pstf_Mlym_3;
+
+lookup pstf_Mlym_4 {
+    ignore sub @ignore_Mlym Ya.Mlym' Virama.Mlym';
+    sub Ya.Mlym' Virama.Mlym' by ViramaYa.Mlym;
+} pstf_Mlym_4;
+
+lookup pstf_Mlym_5 {
+    ignore sub @ignore_Mlym Va.Mlym' Virama.Mlym';
+    sub Va.Mlym' Virama.Mlym' by ViramaVa.Mlym;
+} pstf_Mlym_5;
+
+lookup pstf_Mlym_6 {
+    ignore sub @ignore_Mlym Ra.Mlym' Virama.Mlym';
+    sub Ra.Mlym' Virama.Mlym' by ViramaRa.Mlym;
+} pstf_Mlym_6;
+
+
+feature pstf {
+    script mlm2; language dflt;
+    lookup pstf_Mlym_1;
+    lookup pstf_Mlym_2;
+    lookup pstf_Mlym_3;
+
+    script mlm2; language MAL;
+    lookup pstf_Mlym_1;
+    lookup pstf_Mlym_2;
+    lookup pstf_Mlym_3;
+
+    script mlym; language dflt;
+    lookup pstf_Mlym_4;
+    lookup pstf_Mlym_5;
+    lookup pstf_Mlym_6;
+
+    script mlym; language MAL;
+    lookup pstf_Mlym_4;
+    lookup pstf_Mlym_5;
+    lookup pstf_Mlym_6;
+} pstf;
 
 
 #--------------------------------------------------------------------
