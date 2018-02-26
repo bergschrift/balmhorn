@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ttha.Mlym" format="1">
+	<unicode hex="0D20"/>
+	<advance width="664"/>
+	<outline>
+		<contour>
+			<point x="206" y="284" type="curve"/>
+			<point x="206" y="380"/>
+			<point x="257" y="445"/>
+			<point x="332" y="445" type="curve" smooth="yes"/>
+			<point x="407" y="445"/>
+			<point x="458" y="380"/>
+			<point x="458" y="284" type="curve"/>
+			<point x="458" y="188"/>
+			<point x="407" y="122"/>
+			<point x="332" y="122" type="curve" smooth="yes"/>
+			<point x="257" y="122"/>
+			<point x="206" y="188"/>
+		</contour>
+		<contour>
+			<point x="629" y="284" type="curve"/>
+			<point x="629" y="461"/>
+			<point x="511" y="579"/>
+			<point x="332" y="579" type="curve"/>
+			<point x="153" y="579"/>
+			<point x="35" y="461"/>
+			<point x="35" y="284" type="curve" smooth="yes"/>
+			<point x="35" y="107"/>
+			<point x="153" y="-12"/>
+			<point x="332" y="-12" type="curve" smooth="yes"/>
+			<point x="511" y="-12"/>
+			<point x="629" y="107"/>
+		</contour>
+	</outline>
+</glyph>

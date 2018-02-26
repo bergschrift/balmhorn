@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Anuswara.Mlym" format="1">
+	<unicode hex="0D02"/>
+	<advance width="524"/>
+	<outline>
+		<contour>
+			<point x="494" y="213" type="curve" smooth="yes"/>
+			<point x="494" y="350"/>
+			<point x="400" y="436"/>
+			<point x="262" y="436" type="curve" smooth="yes"/>
+			<point x="124" y="436"/>
+			<point x="30" y="350"/>
+			<point x="30" y="213" type="curve" smooth="yes"/>
+			<point x="30" y="76"/>
+			<point x="124" y="-11"/>
+			<point x="262" y="-11" type="curve" smooth="yes"/>
+			<point x="400" y="-11"/>
+			<point x="494" y="76"/>
+		</contour>
+		<contour>
+			<point x="188" y="213" type="curve" smooth="yes"/>
+			<point x="188" y="272"/>
+			<point x="218" y="309"/>
+			<point x="262" y="309" type="curve" smooth="yes"/>
+			<point x="306" y="309"/>
+			<point x="335" y="272"/>
+			<point x="335" y="213" type="curve" smooth="yes"/>
+			<point x="335" y="154"/>
+			<point x="306" y="116"/>
+			<point x="262" y="116" type="curve" smooth="yes"/>
+			<point x="218" y="116"/>
+			<point x="188" y="154"/>
+		</contour>
+	</outline>
+</glyph>

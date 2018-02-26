@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="matraRu2.Mlym" format="1">
+	<advance width="369"/>
+	<outline>
+		<contour>
+			<point x="178" y="-164" type="curve" smooth="yes"/>
+			<point x="150" y="-164"/>
+			<point x="136" y="-144"/>
+			<point x="136" y="-122" type="curve" smooth="yes"/>
+			<point x="136" y="-100"/>
+			<point x="150" y="-80"/>
+			<point x="178" y="-80" type="curve" smooth="yes"/>
+			<point x="208" y="-80"/>
+			<point x="222" y="-100"/>
+			<point x="222" y="-122" type="curve" smooth="yes"/>
+			<point x="222" y="-144"/>
+			<point x="208" y="-164"/>
+		</contour>
+		<contour>
+			<point x="281" y="350" type="curve" smooth="yes"/>
+			<point x="281" y="424"/>
+			<point x="298" y="497"/>
+			<point x="326" y="540" type="curve"/>
+			<point x="308" y="565"/>
+			<point x="278" y="579"/>
+			<point x="245" y="579" type="curve" smooth="yes"/>
+			<point x="203" y="579"/>
+			<point x="176" y="557"/>
+			<point x="157" y="525" type="curve" smooth="yes"/>
+			<point x="126" y="473"/>
+			<point x="119" y="397"/>
+			<point x="119" y="349" type="curve" smooth="yes"/>
+			<point x="119" y="194"/>
+			<point x="188" y="67"/>
+			<point x="218" y="-1" type="curve"/>
+			<point x="215" y="-5" type="line"/>
+			<point x="197" y="7"/>
+			<point x="164" y="11"/>
+			<point x="139" y="11" type="curve" smooth="yes"/>
+			<point x="52" y="11"/>
+			<point x="-10" y="-37"/>
+			<point x="-10" y="-122" type="curve" smooth="yes"/>
+			<point x="-10" y="-215"/>
+			<point x="64" y="-274"/>
+			<point x="178" y="-274" type="curve" smooth="yes"/>
+			<point x="303" y="-274"/>
+			<point x="377" y="-191"/>
+			<point x="377" y="-76" type="curve" smooth="yes"/>
+			<point x="377" y="63"/>
+			<point x="281" y="193"/>
+		</contour>
+	</outline>
+</glyph>
