@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="PaSmall.or" format="1">
+	<outline>
+		<contour>
+			<point x="44" y="20" type="curve"/>
+			<point x="16" y="57"/>
+			<point x="-65" y="83"/>
+			<point x="-135" y="83" type="curve" smooth="yes"/>
+			<point x="-292" y="83"/>
+			<point x="-371" y="9"/>
+			<point x="-371" y="-81" type="curve" smooth="yes"/>
+			<point x="-371" y="-129"/>
+			<point x="-345" y="-164"/>
+			<point x="-306" y="-183" type="curve"/>
+			<point x="-308" y="-192"/>
+			<point x="-310" y="-202"/>
+			<point x="-310" y="-211" type="curve" smooth="yes"/>
+			<point x="-310" y="-301"/>
+			<point x="-239" y="-340"/>
+			<point x="-140" y="-340" type="curve" smooth="yes"/>
+			<point x="-108" y="-340"/>
+			<point x="-78" y="-334"/>
+			<point x="-55" y="-319" type="curve"/>
+			<point x="-46" y="-336"/>
+			<point x="-24" y="-340"/>
+			<point x="8" y="-340" type="curve" smooth="yes"/>
+			<point x="27" y="-340"/>
+			<point x="51" y="-337"/>
+			<point x="63" y="-335" type="curve"/>
+			<point x="63" y="-33" type="line" smooth="yes"/>
+			<point x="63" y="-3"/>
+			<point x="57" y="6"/>
+		</contour>
+		<contour>
+			<point x="-169" y="-86" type="curve" smooth="yes"/>
+			<point x="-194" y="-86"/>
+			<point x="-218" y="-93"/>
+			<point x="-238" y="-104" type="curve"/>
+			<point x="-241" y="-98"/>
+			<point x="-242" y="-93"/>
+			<point x="-242" y="-87" type="curve" smooth="yes"/>
+			<point x="-242" y="-40"/>
+			<point x="-204" y="-10"/>
+			<point x="-135" y="-10" type="curve" smooth="yes"/>
+			<point x="-105" y="-10"/>
+			<point x="-70" y="-21"/>
+			<point x="-60" y="-35" type="curve"/>
+			<point x="-60" y="-232" type="line"/>
+			<point x="-73" y="-244"/>
+			<point x="-98" y="-252"/>
+			<point x="-127" y="-252" type="curve" smooth="yes"/>
+			<point x="-164" y="-252"/>
+			<point x="-186" y="-238"/>
+			<point x="-186" y="-211" type="curve" smooth="yes"/>
+			<point x="-186" y="-190"/>
+			<point x="-170" y="-174"/>
+			<point x="-140" y="-171" type="curve" smooth="yes"/>
+			<point x="-132" y="-170"/>
+			<point x="-126" y="-169"/>
+			<point x="-120" y="-169" type="curve"/>
+			<point x="-117" y="-160"/>
+			<point x="-115" y="-149"/>
+			<point x="-115" y="-141" type="curve" smooth="yes"/>
+			<point x="-115" y="-110"/>
+			<point x="-135" y="-86"/>
+		</contour>
+	</outline>
+</glyph>

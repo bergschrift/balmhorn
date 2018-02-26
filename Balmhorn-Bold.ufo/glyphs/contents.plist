@@ -22,6 +22,8 @@
 		<string>A_dieresis.glif</string>
 		<key>Agrave</key>
 		<string>A_grave.glif</string>
+		<key>AilengthmarkChandrabindu.or</key>
+		<string>A_ilengthmarkC_handrabindu.or.glif</string>
 		<key>Amacron</key>
 		<string>A_macron.glif</string>
 		<key>Anudatta.dv</key>
@@ -32,30 +34,44 @@
 		<string>A_ring.glif</string>
 		<key>Atilde</key>
 		<string>A_tilde.glif</string>
+		<key>AulengthmarkChandrabindu.or</key>
+		<string>A_ulengthmarkC_handrabindu.or.glif</string>
 		<key>Avagraha.dv</key>
 		<string>A_vagraha.dv.glif</string>
+		<key>Avagraha.or</key>
+		<string>A_vagraha.or.glif</string>
 		<key>B</key>
 		<string>B_.glif</string>
 		<key>Ba.dv</key>
 		<string>B_a.dv.glif</string>
+		<key>Ba.or</key>
+		<string>B_a.or.glif</string>
 		<key>BaBa.dv</key>
 		<string>B_aB_a.dv.glif</string>
+		<key>BaBa.or</key>
+		<string>B_aB_a.or.glif</string>
 		<key>BaBha.dv</key>
 		<string>B_aB_ha.dv.glif</string>
 		<key>BaBhaRa.dv</key>
 		<string>B_aB_haR_a.dv.glif</string>
 		<key>BaDa.dv</key>
 		<string>B_aD_a.dv.glif</string>
+		<key>BaDa.or</key>
+		<string>B_aD_a.or.glif</string>
 		<key>BaDda.dv</key>
 		<string>B_aD_da.dv.glif</string>
 		<key>BaDha.dv</key>
 		<string>B_aD_ha.dv.glif</string>
+		<key>BaDha.or</key>
+		<string>B_aD_ha.or.glif</string>
 		<key>BaDhaVa.dv</key>
 		<string>B_aD_haV_a.dv.glif</string>
 		<key>BaHalant.dv</key>
 		<string>B_aH_alant.dv.glif</string>
 		<key>BaJa.dv</key>
 		<string>B_aJ_a.dv.glif</string>
+		<key>BaJa.or</key>
+		<string>B_aJ_a.or.glif</string>
 		<key>BaJaNukta.dv</key>
 		<string>B_aJ_aN_ukta.dv.glif</string>
 		<key>BaJaYa.dv</key>
@@ -64,18 +80,28 @@
 		<string>B_aJ_ha.dv.glif</string>
 		<key>BaLa.dv</key>
 		<string>B_aL_a.dv.glif</string>
+		<key>BaLa.or</key>
+		<string>B_aL_a.or.glif</string>
 		<key>BaLaYa.dv</key>
 		<string>B_aL_aY_a.dv.glif</string>
+		<key>BaLla.or</key>
+		<string>B_aL_la.or.glif</string>
 		<key>BaNa.dv</key>
 		<string>B_aN_a.dv.glif</string>
 		<key>BaRa.dv</key>
 		<string>B_aR_a.dv.glif</string>
+		<key>BaRa.or</key>
+		<string>B_aR_a.or.glif</string>
 		<key>BaSa.dv</key>
 		<string>B_aS_a.dv.glif</string>
 		<key>BaSaTta.dv</key>
 		<string>B_aS_aT_ta.dv.glif</string>
 		<key>BaSha.dv</key>
 		<string>B_aS_ha.dv.glif</string>
+		<key>BaSmall.or</key>
+		<string>B_aS_mall.or.glif</string>
+		<key>BaSmall.or.alt</key>
+		<string>B_aS_mall.or.alt.glif</string>
 		<key>BaTa.dv</key>
 		<string>B_aT_a.dv.glif</string>
 		<key>BaVa.dv</key>
@@ -84,16 +110,24 @@
 		<string>B_aY_a.dv.glif</string>
 		<key>Bha.dv</key>
 		<string>B_ha.dv.glif</string>
+		<key>Bha.or</key>
+		<string>B_ha.or.glif</string>
 		<key>BhaHalant.dv</key>
 		<string>B_haH_alant.dv.glif</string>
 		<key>BhaLa.dv</key>
 		<string>B_haL_a.dv.glif</string>
 		<key>BhaRa.dv</key>
 		<string>B_haR_a.dv.glif</string>
+		<key>BhaRa.or</key>
+		<string>B_haR_a.or.glif</string>
 		<key>BhaRaHalant.dv</key>
 		<string>B_haR_aH_alant.dv.glif</string>
 		<key>BhaRaYa.dv</key>
 		<string>B_haR_aY_a.dv.glif</string>
+		<key>BhaSmall.or</key>
+		<string>B_haS_mall.or.glif</string>
+		<key>BhaSmall.or.alt</key>
+		<string>B_haS_mall.or.alt.glif</string>
 		<key>BhaVa.dv</key>
 		<string>B_haV_a.dv.glif</string>
 		<key>BhaYa.dv</key>
@@ -108,10 +142,16 @@
 		<string>C_R_.glif</string>
 		<key>Ca.dv</key>
 		<string>C_a.dv.glif</string>
+		<key>Ca.or</key>
+		<string>C_a.or.glif</string>
 		<key>CaCa.dv</key>
 		<string>C_aC_a.dv.glif</string>
+		<key>CaCa.or</key>
+		<string>C_aC_a.or.glif</string>
 		<key>CaCha.dv</key>
 		<string>C_aC_ha.dv.glif</string>
+		<key>CaCha.or</key>
+		<string>C_aC_ha.or.glif</string>
 		<key>CaChaVa.dv</key>
 		<string>C_aC_haV_a.dv.glif</string>
 		<key>CaHalant.dv</key>
@@ -122,6 +162,12 @@
 		<string>C_aN_a.dv.glif</string>
 		<key>CaRa.dv</key>
 		<string>C_aR_a.dv.glif</string>
+		<key>CaRa.or</key>
+		<string>C_aR_a.or.glif</string>
+		<key>CaSmall.or</key>
+		<string>C_aS_mall.or.glif</string>
+		<key>CaSmall.or.alt</key>
+		<string>C_aS_mall.or.alt.glif</string>
 		<key>CaYa.dv</key>
 		<string>C_aY_a.dv.glif</string>
 		<key>Cacute</key>
@@ -136,8 +182,16 @@
 		<string>C_dotaccent.glif</string>
 		<key>Cha.dv</key>
 		<string>C_ha.dv.glif</string>
+		<key>Cha.or</key>
+		<string>C_ha.or.glif</string>
+		<key>ChaRa.or</key>
+		<string>C_haR_a.or.glif</string>
 		<key>ChaRaYa.dv</key>
 		<string>C_haR_aY_a.dv.glif</string>
+		<key>ChaSmall.or</key>
+		<string>C_haS_mall.or.glif</string>
+		<key>ChaSmall.or.alt</key>
+		<string>C_haS_mall.or.alt.glif</string>
 		<key>ChaVa.dv</key>
 		<string>C_haV_a.dv.glif</string>
 		<key>ChaYa.dv</key>
@@ -148,80 +202,134 @@
 		<string>C_handra.dv.glif</string>
 		<key>Chandrabindu.dv</key>
 		<string>C_handrabindu.dv.glif</string>
+		<key>Chandrabindu.or.alt</key>
+		<string>C_handrabindu.or.alt.glif</string>
 		<key>Chandrabinduone.dv</key>
 		<string>C_handrabinduone.dv.glif</string>
 		<key>D</key>
 		<string>D_.glif</string>
 		<key>Da.dv</key>
 		<string>D_a.dv.glif</string>
+		<key>Da.or</key>
+		<string>D_a.or.glif</string>
 		<key>DaBa.dv</key>
 		<string>D_aB_a.dv.glif</string>
+		<key>DaBa.or</key>
+		<string>D_aB_a.or.glif</string>
 		<key>DaBha.dv</key>
 		<string>D_aB_ha.dv.glif</string>
+		<key>DaBha.or</key>
+		<string>D_aB_ha.or.glif</string>
 		<key>DaBhaYa.dv</key>
 		<string>D_aB_haY_a.dv.glif</string>
 		<key>DaDa.dv</key>
 		<string>D_aD_a.dv.glif</string>
+		<key>DaDa.or</key>
+		<string>D_aD_a.or.glif</string>
 		<key>DaDaYa.dv</key>
 		<string>D_aD_aY_a.dv.glif</string>
 		<key>DaDha.dv</key>
 		<string>D_aD_ha.dv.glif</string>
+		<key>DaDha.or</key>
+		<string>D_aD_ha.or.glif</string>
+		<key>DaDhaVa.or</key>
+		<string>D_aD_haV_a.or.glif</string>
 		<key>DaDhaYa.dv</key>
 		<string>D_aD_haY_a.dv.glif</string>
 		<key>DaGa.dv</key>
 		<string>D_aG_a.dv.glif</string>
+		<key>DaGa.or</key>
+		<string>D_aG_a.or.glif</string>
+		<key>DaGha.or</key>
+		<string>D_aG_ha.or.glif</string>
 		<key>DaMa.dv</key>
 		<string>D_aM_a.dv.glif</string>
 		<key>DaNa.dv</key>
 		<string>D_aN_a.dv.glif</string>
 		<key>DaRa.dv</key>
 		<string>D_aR_a.dv.glif</string>
+		<key>DaRa.or</key>
+		<string>D_aR_a.or.glif</string>
 		<key>DaRaHalant.dv</key>
 		<string>D_aR_aH_alant.dv.glif</string>
 		<key>DaRaYa.dv</key>
 		<string>D_aR_aY_a.dv.glif</string>
+		<key>DaSmall.or</key>
+		<string>D_aS_mall.or.glif</string>
+		<key>DaSmall.or.alt</key>
+		<string>D_aS_mall.or.alt.glif</string>
 		<key>DaVa.dv</key>
 		<string>D_aV_a.dv.glif</string>
+		<key>DaVa.or</key>
+		<string>D_aV_a.or.glif</string>
 		<key>DaVaYa.dv</key>
 		<string>D_aV_aY_a.dv.glif</string>
 		<key>DaYa.dv</key>
 		<string>D_aY_a.dv.glif</string>
+		<key>DaYa.or</key>
+		<string>D_aY_a.or.glif</string>
 		<key>DamatraRu.dv</key>
 		<string>D_amatraR_u.dv.glif</string>
 		<key>Danda.dv</key>
 		<string>D_anda.dv.glif</string>
+		<key>Danda.or</key>
+		<string>D_anda.or.glif</string>
 		<key>Dcaron</key>
 		<string>D_caron.glif</string>
 		<key>Dcroat</key>
 		<string>D_croat.glif</string>
 		<key>Dda.dv</key>
 		<string>D_da.dv.glif</string>
+		<key>Dda.or</key>
+		<string>D_da.or.glif</string>
 		<key>DdaDda.dv</key>
 		<string>D_daD_da.dv.glif</string>
+		<key>DdaDda.or</key>
+		<string>D_daD_da.or.glif</string>
 		<key>DdaDdaYa.dv</key>
 		<string>D_daD_daY_a.dv.glif</string>
 		<key>DdaDdha.dv</key>
 		<string>D_daD_dha.dv.glif</string>
+		<key>DdaGa.or</key>
+		<string>D_daG_a.or.glif</string>
 		<key>DdaNukta.dv</key>
 		<string>D_daN_ukta.dv.glif</string>
+		<key>DdaRa.or</key>
+		<string>D_daR_a.or.glif</string>
+		<key>DdaSmall.or</key>
+		<string>D_daS_mall.or.glif</string>
+		<key>DdaSmall.or.alt</key>
+		<string>D_daS_mall.or.alt.glif</string>
 		<key>DdaYa.dv</key>
 		<string>D_daY_a.dv.glif</string>
 		<key>Ddha.dv</key>
 		<string>D_dha.dv.glif</string>
+		<key>Ddha.or</key>
+		<string>D_dha.or.glif</string>
 		<key>DdhaDdha.dv</key>
 		<string>D_dhaD_dha.dv.glif</string>
 		<key>DdhaNukta.dv</key>
 		<string>D_dhaN_ukta.dv.glif</string>
+		<key>DdhaRa.or</key>
+		<string>D_dhaR_a.or.glif</string>
 		<key>DdhaRaYa.dv</key>
 		<string>D_dhaR_aY_a.dv.glif</string>
+		<key>DdhaSmall.or</key>
+		<string>D_dhaS_mall.or.glif</string>
+		<key>DdhaSmall.or.alt</key>
+		<string>D_dhaS_mall.or.alt.glif</string>
 		<key>DdhaYa.dv</key>
 		<string>D_dhaY_a.dv.glif</string>
 		<key>Delta</key>
 		<string>D_elta.glif</string>
 		<key>Dha.dv</key>
 		<string>D_ha.dv.glif</string>
+		<key>Dha.or</key>
+		<string>D_ha.or.glif</string>
 		<key>DhaHalant.dv</key>
 		<string>D_haH_alant.dv.glif</string>
+		<key>DhaI.or</key>
+		<string>D_haI_.or.glif</string>
 		<key>DhaMa.dv</key>
 		<string>D_haM_a.dv.glif</string>
 		<key>DhaNa.dv</key>
@@ -230,16 +338,28 @@
 		<string>D_haN_aY_a.dv.glif</string>
 		<key>DhaRa.dv</key>
 		<string>D_haR_a.dv.glif</string>
+		<key>DhaRa.or</key>
+		<string>D_haR_a.or.glif</string>
 		<key>DhaRaHalant.dv</key>
 		<string>D_haR_aH_alant.dv.glif</string>
+		<key>DhaSmall.or</key>
+		<string>D_haS_mall.or.glif</string>
+		<key>DhaSmall.or.alt</key>
+		<string>D_haS_mall.or.alt.glif</string>
 		<key>DhaVa.dv</key>
 		<string>D_haV_a.dv.glif</string>
+		<key>DhaVa.or</key>
+		<string>D_haV_a.or.glif</string>
 		<key>DhaYa.dv</key>
 		<string>D_haY_a.dv.glif</string>
+		<key>DhaYya.or</key>
+		<string>D_haY_ya.or.glif</string>
 		<key>DiaComma</key>
 		<string>D_iaC_omma.glif</string>
 		<key>Don.dv</key>
 		<string>D_on.dv.glif</string>
+		<key>DoubleDanda.or</key>
+		<string>D_oubleD_anda.or.glif</string>
 		<key>Doubledanda.dv</key>
 		<string>D_oubledanda.dv.glif</string>
 		<key>E</key>
@@ -276,6 +396,8 @@
 		<string>G_.glif</string>
 		<key>Ga.dv</key>
 		<string>G_a.dv.glif</string>
+		<key>Ga.or</key>
+		<string>G_a.or.glif</string>
 		<key>GaBa.dv</key>
 		<string>G_aB_a.dv.glif</string>
 		<key>GaBha.dv</key>
@@ -284,8 +406,12 @@
 		<string>G_aB_haY_a.dv.glif</string>
 		<key>GaDa.dv</key>
 		<string>G_aD_a.dv.glif</string>
+		<key>GaDa.or</key>
+		<string>G_aD_a.or.glif</string>
 		<key>GaDha.dv</key>
 		<string>G_aD_ha.dv.glif</string>
+		<key>GaDha.or</key>
+		<string>G_aD_ha.or.glif</string>
 		<key>GaDhaVa.dv</key>
 		<string>G_aD_haV_a.dv.glif</string>
 		<key>GaDhaYa.dv</key>
@@ -300,10 +426,16 @@
 		<string>G_aJ_a.dv.glif</string>
 		<key>GaLa.dv</key>
 		<string>G_aL_a.dv.glif</string>
+		<key>GaLa.or</key>
+		<string>G_aL_a.or.glif</string>
+		<key>GaLla.or</key>
+		<string>G_aL_la.or.glif</string>
 		<key>GaMa.dv</key>
 		<string>G_aM_a.dv.glif</string>
 		<key>GaNa.dv</key>
 		<string>G_aN_a.dv.glif</string>
+		<key>GaNa.or</key>
+		<string>G_aN_a.or.glif</string>
 		<key>GaNaYa.dv</key>
 		<string>G_aN_aY_a.dv.glif</string>
 		<key>GaNna.dv</key>
@@ -316,12 +448,18 @@
 		<string>G_aN_uktaR_a.dv.glif</string>
 		<key>GaRa.dv</key>
 		<string>G_aR_a.dv.glif</string>
+		<key>GaRa.or</key>
+		<string>G_aR_a.or.glif</string>
 		<key>GaRaHalant.dv</key>
 		<string>G_aR_aH_alant.dv.glif</string>
 		<key>GaRaYa.dv</key>
 		<string>G_aR_aY_a.dv.glif</string>
 		<key>GaSa.dv</key>
 		<string>G_aS_a.dv.glif</string>
+		<key>GaSmall.or</key>
+		<string>G_aS_mall.or.glif</string>
+		<key>GaSmall.or.alt</key>
+		<string>G_aS_mall.or.alt.glif</string>
 		<key>GaVa.dv</key>
 		<string>G_aV_a.dv.glif</string>
 		<key>GaYa.dv</key>
@@ -338,36 +476,60 @@
 		<string>G_dotaccent.glif</string>
 		<key>Gha.dv</key>
 		<string>G_ha.dv.glif</string>
+		<key>Gha.or</key>
+		<string>G_ha.or.glif</string>
 		<key>GhaHalant.dv</key>
 		<string>G_haH_alant.dv.glif</string>
 		<key>GhaMa.dv</key>
 		<string>G_haM_a.dv.glif</string>
 		<key>GhaNa.dv</key>
 		<string>G_haN_a.dv.glif</string>
+		<key>GhaNa.or</key>
+		<string>G_haN_a.or.glif</string>
 		<key>GhaRa.dv</key>
 		<string>G_haR_a.dv.glif</string>
+		<key>GhaRa.or</key>
+		<string>G_haR_a.or.glif</string>
 		<key>GhaRaHalant.dv</key>
 		<string>G_haR_aH_alant.dv.glif</string>
+		<key>GhaSmall.or</key>
+		<string>G_haS_mall.or.glif</string>
+		<key>GhaSmall.or.alt</key>
+		<string>G_haS_mall.or.alt.glif</string>
 		<key>GhaYa.dv</key>
 		<string>G_haY_a.dv.glif</string>
 		<key>H</key>
 		<string>H_.glif</string>
 		<key>Ha.dv</key>
 		<string>H_a.dv.glif</string>
+		<key>Ha.or</key>
+		<string>H_a.or.glif</string>
 		<key>HaHalant.dv</key>
 		<string>H_aH_alant.dv.glif</string>
 		<key>HaLa.dv</key>
 		<string>H_aL_a.dv.glif</string>
+		<key>HaLa.or</key>
+		<string>H_aL_a.or.glif</string>
 		<key>HaMa.dv</key>
 		<string>H_aM_a.dv.glif</string>
+		<key>HaMa.or</key>
+		<string>H_aM_a.or.glif</string>
 		<key>HaMaYa.dv</key>
 		<string>H_aM_aY_a.dv.glif</string>
 		<key>HaNa.dv</key>
 		<string>H_aN_a.dv.glif</string>
+		<key>HaNa.or</key>
+		<string>H_aN_a.or.glif</string>
 		<key>HaNna.dv</key>
 		<string>H_aN_na.dv.glif</string>
 		<key>HaRa.dv</key>
 		<string>H_aR_a.dv.glif</string>
+		<key>HaRa.or</key>
+		<string>H_aR_a.or.glif</string>
+		<key>HaSmall.or</key>
+		<string>H_aS_mall.or.glif</string>
+		<key>HaSmall.or.alt</key>
+		<string>H_aS_mall.or.alt.glif</string>
 		<key>HaVa.dv</key>
 		<string>H_aV_a.dv.glif</string>
 		<key>HaYa.dv</key>
@@ -382,6 +544,8 @@
 		<string>H_circumflex.glif</string>
 		<key>I</key>
 		<string>I_.glif</string>
+		<key>IChandrabindu.or</key>
+		<string>I_C_handrabindu.or.glif</string>
 		<key>Iacute</key>
 		<string>I_acute.glif</string>
 		<key>Icircumflex</key>
@@ -396,12 +560,16 @@
 		<string>I_macron.glif</string>
 		<key>Iogonek</key>
 		<string>I_ogonek.glif</string>
+		<key>Isshar.or</key>
+		<string>I_sshar.or.glif</string>
 		<key>Itilde</key>
 		<string>I_tilde.glif</string>
 		<key>J</key>
 		<string>J_.glif</string>
 		<key>Ja.dv</key>
 		<string>J_a.dv.glif</string>
+		<key>Ja.or</key>
+		<string>J_a.or.glif</string>
 		<key>JaBa.dv</key>
 		<string>J_aB_a.dv.glif</string>
 		<key>JaDa.dv</key>
@@ -412,14 +580,20 @@
 		<string>J_aH_alant.dv.glif</string>
 		<key>JaJa.dv</key>
 		<string>J_aJ_a.dv.glif</string>
+		<key>JaJa.or</key>
+		<string>J_aJ_a.or.glif</string>
 		<key>JaJaNya.dv</key>
 		<string>J_aJ_aN_ya.dv.glif</string>
 		<key>JaJaVa.dv</key>
 		<string>J_aJ_aV_a.dv.glif</string>
+		<key>JaJaVa.or</key>
+		<string>J_aJ_aV_a.or.glif</string>
 		<key>JaJaYa.dv</key>
 		<string>J_aJ_aY_a.dv.glif</string>
 		<key>JaJha.dv</key>
 		<string>J_aJ_ha.dv.glif</string>
+		<key>JaJha.or</key>
+		<string>J_aJ_ha.or.glif</string>
 		<key>JaKa.dv</key>
 		<string>J_aK_a.dv.glif</string>
 		<key>JaMa.dv</key>
@@ -438,6 +612,8 @@
 		<string>J_aN_uktaY_a.dv.glif</string>
 		<key>JaNya.dv</key>
 		<string>J_aN_ya.dv.glif</string>
+		<key>JaNya.or</key>
+		<string>J_aN_ya.or.glif</string>
 		<key>JaNyaHalant.dv</key>
 		<string>J_aN_yaH_alant.dv.glif</string>
 		<key>JaNyaYa.dv</key>
@@ -446,18 +622,28 @@
 		<string>J_aN_yamatraU_.dv.glif</string>
 		<key>JaRa.dv</key>
 		<string>J_aR_a.dv.glif</string>
+		<key>JaRa.or</key>
+		<string>J_aR_a.or.glif</string>
+		<key>JaSmall.or</key>
+		<string>J_aS_mall.or.glif</string>
+		<key>JaSmall.or.alt</key>
+		<string>J_aS_mall.or.alt.glif</string>
 		<key>JaTa.dv</key>
 		<string>J_aT_a.dv.glif</string>
 		<key>JaTta.dv</key>
 		<string>J_aT_ta.dv.glif</string>
 		<key>JaVa.dv</key>
 		<string>J_aV_a.dv.glif</string>
+		<key>JaVa.or</key>
+		<string>J_aV_a.or.glif</string>
 		<key>JaYa.dv</key>
 		<string>J_aY_a.dv.glif</string>
 		<key>Jcircumflex</key>
 		<string>J_circumflex.glif</string>
 		<key>Jha.dv</key>
 		<string>J_ha.dv.glif</string>
+		<key>Jha.or</key>
+		<string>J_ha.or.glif</string>
 		<key>JhaHalant.dv</key>
 		<string>J_haH_alant.dv.glif</string>
 		<key>JhaMa.dv</key>
@@ -466,14 +652,24 @@
 		<string>J_haN_a.dv.glif</string>
 		<key>JhaRa.dv</key>
 		<string>J_haR_a.dv.glif</string>
+		<key>JhaRa.or</key>
+		<string>J_haR_a.or.glif</string>
+		<key>JhaSmall.or</key>
+		<string>J_haS_mall.or.glif</string>
+		<key>JhaSmall.or.alt</key>
+		<string>J_haS_mall.or.alt.glif</string>
 		<key>JhaYa.dv</key>
 		<string>J_haY_a.dv.glif</string>
 		<key>K</key>
 		<string>K_.glif</string>
 		<key>Ka.dv</key>
 		<string>K_a.dv.glif</string>
+		<key>Ka.or</key>
+		<string>K_a.or.glif</string>
 		<key>KaCa.dv</key>
 		<string>K_aC_a.dv.glif</string>
+		<key>KaCa.or</key>
+		<string>K_aC_a.or.glif</string>
 		<key>KaDa.dv</key>
 		<string>K_aD_a.dv.glif</string>
 		<key>KaHalant.dv</key>
@@ -484,12 +680,18 @@
 		<string>K_aJ_ha.dv.glif</string>
 		<key>KaKa.dv</key>
 		<string>K_aK_a.dv.glif</string>
+		<key>KaKa.or</key>
+		<string>K_aK_a.or.glif</string>
 		<key>KaKha.dv</key>
 		<string>K_aK_ha.dv.glif</string>
 		<key>KaLa.dv</key>
 		<string>K_aL_a.dv.glif</string>
+		<key>KaLla.or</key>
+		<string>K_aL_la.or.glif</string>
 		<key>KaMa.dv</key>
 		<string>K_aM_a.dv.glif</string>
+		<key>KaMa.or</key>
+		<string>K_aM_a.or.glif</string>
 		<key>KaNa.dv</key>
 		<string>K_aN_a.dv.glif</string>
 		<key>KaNna.dv</key>
@@ -520,10 +722,14 @@
 		<string>K_aP_ha.dv.glif</string>
 		<key>KaRa.dv</key>
 		<string>K_aR_a.dv.glif</string>
+		<key>KaRa.or</key>
+		<string>K_aR_a.or.glif</string>
 		<key>KaRaHalant.dv</key>
 		<string>K_aR_aH_alant.dv.glif</string>
 		<key>KaSa.dv</key>
 		<string>K_aS_a.dv.glif</string>
+		<key>KaSa.or</key>
+		<string>K_aS_a.or.glif</string>
 		<key>KaSaDda.dv</key>
 		<string>K_aS_aD_da.dv.glif</string>
 		<key>KaSaPa.dv</key>
@@ -538,16 +744,30 @@
 		<string>K_aS_aT_ta.dv.glif</string>
 		<key>KaSha.dv</key>
 		<string>K_aS_ha.dv.glif</string>
+		<key>KaSmall.or</key>
+		<string>K_aS_mall.or.glif</string>
+		<key>KaSmall.or.alt</key>
+		<string>K_aS_mall.or.alt.glif</string>
 		<key>KaSsa.dv</key>
 		<string>K_aS_sa.dv.glif</string>
+		<key>KaSsa.or</key>
+		<string>K_aS_sa.or.glif</string>
 		<key>KaSsaHalant.dv</key>
 		<string>K_aS_saH_alant.dv.glif</string>
 		<key>KaSsaMa.dv</key>
 		<string>K_aS_saM_a.dv.glif</string>
+		<key>KaSsaMa.or</key>
+		<string>K_aS_saM_a.or.glif</string>
 		<key>KaSsaMaHalant.dv</key>
 		<string>K_aS_saM_aH_alant.dv.glif</string>
 		<key>KaSsaMaYa.dv</key>
 		<string>K_aS_saM_aY_a.dv.glif</string>
+		<key>KaSsaNna.or</key>
+		<string>K_aS_saN_na.or.glif</string>
+		<key>KaSsaRa.or</key>
+		<string>K_aS_saR_a.or.glif</string>
+		<key>KaSsaSmall.or</key>
+		<string>K_aS_saS_mall.or.glif</string>
 		<key>KaSsaVa.dv</key>
 		<string>K_aS_saV_a.dv.glif</string>
 		<key>KaSsaYa.dv</key>
@@ -556,8 +776,12 @@
 		<string>K_aS_samatraU_.dv.glif</string>
 		<key>KaTa.dv</key>
 		<string>K_aT_a.dv.glif</string>
+		<key>KaTa.or</key>
+		<string>K_aT_a.or.glif</string>
 		<key>KaTaRa.dv</key>
 		<string>K_aT_aR_a.dv.glif</string>
+		<key>KaTaRa.or</key>
+		<string>K_aT_aR_a.or.glif</string>
 		<key>KaTaVa.dv</key>
 		<string>K_aT_aV_a.dv.glif</string>
 		<key>KaTaYa.dv</key>
@@ -566,8 +790,12 @@
 		<string>K_aT_ha.dv.glif</string>
 		<key>KaTta.dv</key>
 		<string>K_aT_ta.dv.glif</string>
+		<key>KaTta.or</key>
+		<string>K_aT_ta.or.glif</string>
 		<key>KaVa.dv</key>
 		<string>K_aV_a.dv.glif</string>
+		<key>KaVa.or</key>
+		<string>K_aV_a.or.glif</string>
 		<key>KaVaYa.dv</key>
 		<string>K_aV_aY_a.dv.glif</string>
 		<key>KaYa.dv</key>
@@ -580,10 +808,16 @@
 		<string>K_commaaccent.glif</string>
 		<key>Kha.dv</key>
 		<string>K_ha.dv.glif</string>
+		<key>Kha.or</key>
+		<string>K_ha.or.glif</string>
 		<key>KhaHalant.dv</key>
 		<string>K_haH_alant.dv.glif</string>
+		<key>KhaI.or</key>
+		<string>K_haI_.or.glif</string>
 		<key>KhaKha.dv</key>
 		<string>K_haK_ha.dv.glif</string>
+		<key>KhaLla.or</key>
+		<string>K_haL_la.or.glif</string>
 		<key>KhaMa.dv</key>
 		<string>K_haM_a.dv.glif</string>
 		<key>KhaNa.dv</key>
@@ -608,8 +842,14 @@
 		<string>K_haN_uktaY_a.dv.glif</string>
 		<key>KhaRa.dv</key>
 		<string>K_haR_a.dv.glif</string>
+		<key>KhaRa.or</key>
+		<string>K_haR_a.or.glif</string>
 		<key>KhaSha.dv</key>
 		<string>K_haS_ha.dv.glif</string>
+		<key>KhaSmall.or</key>
+		<string>K_haS_mall.or.glif</string>
+		<key>KhaSmall.or.alt</key>
+		<string>K_haS_mall.or.alt.glif</string>
 		<key>KhaTa.dv</key>
 		<string>K_haT_a.dv.glif</string>
 		<key>KhaVa.dv</key>
@@ -622,6 +862,8 @@
 		<string>L_a.M_A_R_.dv.glif</string>
 		<key>La.dv</key>
 		<string>L_a.dv.glif</string>
+		<key>La.or</key>
+		<string>L_a.or.glif</string>
 		<key>LaBa.dv</key>
 		<string>L_aB_a.dv.glif</string>
 		<key>LaBha.dv</key>
@@ -640,6 +882,8 @@
 		<string>L_aD_dha.dv.glif</string>
 		<key>LaGa.dv</key>
 		<string>L_aG_a.dv.glif</string>
+		<key>LaGa.or</key>
+		<string>L_aG_a.or.glif</string>
 		<key>LaHa.dv</key>
 		<string>L_aH_a.dv.glif</string>
 		<key>LaHaYa.dv</key>
@@ -652,12 +896,16 @@
 		<string>L_aJ_aN_ukta.dv.glif</string>
 		<key>LaKa.dv</key>
 		<string>L_aK_a.dv.glif</string>
+		<key>LaKa.or</key>
+		<string>L_aK_a.or.glif</string>
 		<key>LaKaYa.dv</key>
 		<string>L_aK_aY_a.dv.glif</string>
 		<key>LaKha.dv</key>
 		<string>L_aK_ha.dv.glif</string>
 		<key>LaLa.dv</key>
 		<string>L_aL_a.dv.glif</string>
+		<key>LaLa.or</key>
+		<string>L_aL_a.or.glif</string>
 		<key>LaLaYa.dv</key>
 		<string>L_aL_aY_a.dv.glif</string>
 		<key>LaMa.dv</key>
@@ -668,10 +916,16 @@
 		<string>L_aP_ha.dv.glif</string>
 		<key>LaRa.dv</key>
 		<string>L_aR_a.dv.glif</string>
+		<key>LaRa.or</key>
+		<string>L_aR_a.or.glif</string>
 		<key>LaSa.dv</key>
 		<string>L_aS_a.dv.glif</string>
 		<key>LaSha.dv</key>
 		<string>L_aS_ha.dv.glif</string>
+		<key>LaSmall.or</key>
+		<string>L_aS_mall.or.glif</string>
+		<key>LaSmall.or.alt</key>
+		<string>L_aS_mall.or.alt.glif</string>
 		<key>LaTa.dv</key>
 		<string>L_aT_a.dv.glif</string>
 		<key>LaTha.dv</key>
@@ -696,16 +950,38 @@
 		<string>L_commaaccent.glif</string>
 		<key>Ldot</key>
 		<string>L_dot.glif</string>
+		<key>LengthmarkAi.or</key>
+		<string>L_engthmarkA_i.or.glif</string>
+		<key>LengthmarkAu.or</key>
+		<string>L_engthmarkA_u.or.glif</string>
 		<key>Lla.dv</key>
 		<string>L_la.dv.glif</string>
+		<key>Lla.or</key>
+		<string>L_la.or.glif</string>
+		<key>LlaBha.or</key>
+		<string>L_laB_ha.or.glif</string>
 		<key>LlaHalant.dv</key>
 		<string>L_laH_alant.dv.glif</string>
+		<key>LlaKa.or</key>
+		<string>L_laK_a.or.glif</string>
 		<key>LlaLla.dv</key>
 		<string>L_laL_la.dv.glif</string>
+		<key>LlaLla.or</key>
+		<string>L_laL_la.or.glif</string>
 		<key>LlaNukta.dv</key>
 		<string>L_laN_ukta.dv.glif</string>
 		<key>LlaNuktaHalant.dv</key>
 		<string>L_laN_uktaH_alant.dv.glif</string>
+		<key>LlaPa.or</key>
+		<string>L_laP_a.or.glif</string>
+		<key>LlaPha.or</key>
+		<string>L_laP_ha.or.glif</string>
+		<key>LlaRa.or</key>
+		<string>L_laR_a.or.glif</string>
+		<key>LlaSmall.or</key>
+		<string>L_laS_mall.or.glif</string>
+		<key>LlaSmall.or.alt</key>
+		<string>L_laS_mall.or.alt.glif</string>
 		<key>LlaYa.dv</key>
 		<string>L_laY_a.dv.glif</string>
 		<key>Lslash</key>
@@ -714,18 +990,26 @@
 		<string>M_.glif</string>
 		<key>Ma.dv</key>
 		<string>M_a.dv.glif</string>
+		<key>Ma.or</key>
+		<string>M_a.or.glif</string>
 		<key>MaBa.dv</key>
 		<string>M_aB_a.dv.glif</string>
+		<key>MaBa.or</key>
+		<string>M_aB_a.or.glif</string>
 		<key>MaBaRa.dv</key>
 		<string>M_aB_aR_a.dv.glif</string>
 		<key>MaBaYa.dv</key>
 		<string>M_aB_aY_a.dv.glif</string>
 		<key>MaBha.dv</key>
 		<string>M_aB_ha.dv.glif</string>
+		<key>MaBha.or</key>
+		<string>M_aB_ha.or.glif</string>
 		<key>MaBhaHalant.dv</key>
 		<string>M_aB_haH_alant.dv.glif</string>
 		<key>MaBhaRa.dv</key>
 		<string>M_aB_haR_a.dv.glif</string>
+		<key>MaBhaRa.or</key>
+		<string>M_aB_haR_a.or.glif</string>
 		<key>MaBhaVa.dv</key>
 		<string>M_aB_haV_a.dv.glif</string>
 		<key>MaBhaYa.dv</key>
@@ -738,34 +1022,96 @@
 		<string>M_aH_alant.dv.glif</string>
 		<key>MaLa.dv</key>
 		<string>M_aL_a.dv.glif</string>
+		<key>MaLla.or</key>
+		<string>M_aL_la.or.glif</string>
 		<key>MaMa.dv</key>
 		<string>M_aM_a.dv.glif</string>
+		<key>MaMa.or</key>
+		<string>M_aM_a.or.glif</string>
 		<key>MaNa.dv</key>
 		<string>M_aN_a.dv.glif</string>
 		<key>MaPa.dv</key>
 		<string>M_aP_a.dv.glif</string>
+		<key>MaPa.or</key>
+		<string>M_aP_a.or.glif</string>
 		<key>MaPaRa.dv</key>
 		<string>M_aP_aR_a.dv.glif</string>
+		<key>MaPaRa.or</key>
+		<string>M_aP_aR_a.or.glif</string>
 		<key>MaPha.dv</key>
 		<string>M_aP_ha.dv.glif</string>
+		<key>MaPha.or</key>
+		<string>M_aP_ha.or.glif</string>
 		<key>MaRa.dv</key>
 		<string>M_aR_a.dv.glif</string>
+		<key>MaRa.or</key>
+		<string>M_aR_a.or.glif</string>
 		<key>MaSa.dv</key>
 		<string>M_aS_a.dv.glif</string>
 		<key>MaSha.dv</key>
 		<string>M_aS_ha.dv.glif</string>
+		<key>MaSmall.or</key>
+		<string>M_aS_mall.or.glif</string>
+		<key>MaSmall.or.alt</key>
+		<string>M_aS_mall.or.alt.glif</string>
 		<key>MaTa.dv</key>
 		<string>M_aT_a.dv.glif</string>
 		<key>MaVa.dv</key>
 		<string>M_aV_a.dv.glif</string>
 		<key>MaYa.dv</key>
 		<string>M_aY_a.dv.glif</string>
+		<key>MatraAa.or</key>
+		<string>M_atraA_a.or.glif</string>
+		<key>MatraAi.or</key>
+		<string>M_atraA_i.or.glif</string>
+		<key>MatraAu.or</key>
+		<string>M_atraA_u.or.glif</string>
+		<key>MatraE.or</key>
+		<string>M_atraE_.or.glif</string>
+		<key>MatraI.or</key>
+		<string>M_atraI_.or.glif</string>
+		<key>MatraIi.or</key>
+		<string>M_atraI_i.or.glif</string>
+		<key>MatraO.or</key>
+		<string>M_atraO_.or.glif</string>
+		<key>MatraRu.or.alt</key>
+		<string>M_atraR_u.or.alt.glif</string>
+		<key>MatraU.or</key>
+		<string>M_atraU_.or.glif</string>
+		<key>MatraU.or.alt</key>
+		<string>M_atraU_.or.alt.glif</string>
+		<key>MatraU.or.alt1</key>
+		<string>M_atraU_.or.alt1.glif</string>
+		<key>MatraU.or.alt2</key>
+		<string>M_atraU_.or.alt2.glif</string>
+		<key>MatraU.or.alt3</key>
+		<string>M_atraU_.or.alt3.glif</string>
+		<key>MatraUu.or</key>
+		<string>M_atraU_u.or.glif</string>
+		<key>MatraUu.or.alt</key>
+		<string>M_atraU_u.or.alt.glif</string>
+		<key>MatraUu.or.alt1</key>
+		<string>M_atraU_u.or.alt1.glif</string>
+		<key>MatraUu.or.alt2</key>
+		<string>M_atraU_u.or.alt2.glif</string>
+		<key>MatraUu.or.alt3</key>
+		<string>M_atraU_u.or.alt3.glif</string>
+		<key>MatraVocalicL.or</key>
+		<string>M_atraV_ocalicL_.or.glif</string>
+		<key>MatraVocalicLl.or</key>
+		<string>M_atraV_ocalicL_l.or.glif</string>
+		<key>MatraVocalicR.or</key>
+		<string>M_atraV_ocalicR_.or.glif</string>
+		<key>MatraVocalicRr.or</key>
+		<string>M_atraV_ocalicR_r.or.glif</string>
 		<key>N</key>
 		<string>N_.glif</string>
 		<key>NULL</key>
 		<string>N_U_L_L_.glif</string>
 		<key>Na.dv</key>
 		<string>N_a.dv.glif</string>
+		<key>Na.or</key>
+		<string>N_a.or.glif</string>
 		<key>NaBha.dv</key>
 		<string>N_aB_ha.dv.glif</string>
 		<key>NaBhaHalant.dv</key>
@@ -780,18 +1126,30 @@
 		<string>N_aC_ha.dv.glif</string>
 		<key>NaDa.dv</key>
 		<string>N_aD_a.dv.glif</string>
+		<key>NaDa.or</key>
+		<string>N_aD_a.or.glif</string>
 		<key>NaDaRa.dv</key>
 		<string>N_aD_aR_a.dv.glif</string>
+		<key>NaDaRa.or</key>
+		<string>N_aD_aR_a.or.glif</string>
 		<key>NaDaVa.dv</key>
 		<string>N_aD_aV_a.dv.glif</string>
+		<key>NaDaVa.or</key>
+		<string>N_aD_aV_a.or.glif</string>
 		<key>NaDda.dv</key>
 		<string>N_aD_da.dv.glif</string>
 		<key>NaDha.dv</key>
 		<string>N_aD_ha.dv.glif</string>
+		<key>NaDha.or</key>
+		<string>N_aD_ha.or.glif</string>
 		<key>NaDhaRa.dv</key>
 		<string>N_aD_haR_a.dv.glif</string>
+		<key>NaDhaRa.or</key>
+		<string>N_aD_haR_a.or.glif</string>
 		<key>NaDhaVa.dv</key>
 		<string>N_aD_haV_a.dv.glif</string>
+		<key>NaDhaVa.or</key>
+		<string>N_aD_haV_a.or.glif</string>
 		<key>NaDhaYa.dv</key>
 		<string>N_aD_haY_a.dv.glif</string>
 		<key>NaGa.dv</key>
@@ -814,6 +1172,8 @@
 		<string>N_aM_aY_a.dv.glif</string>
 		<key>NaNa.dv</key>
 		<string>N_aN_a.dv.glif</string>
+		<key>NaNa.or</key>
+		<string>N_aN_a.or.glif</string>
 		<key>NaNaYa.dv</key>
 		<string>N_aN_aY_a.dv.glif</string>
 		<key>NaNukta.dv</key>
@@ -830,6 +1190,8 @@
 		<string>N_aP_haL_aY_a.dv.glif</string>
 		<key>NaRa.dv</key>
 		<string>N_aR_a.dv.glif</string>
+		<key>NaRa.or</key>
+		<string>N_aR_a.or.glif</string>
 		<key>NaSa.dv</key>
 		<string>N_aS_a.dv.glif</string>
 		<key>NaSaHalant.dv</key>
@@ -844,18 +1206,30 @@
 		<string>N_aS_aY_a.dv.glif</string>
 		<key>NaSha.dv</key>
 		<string>N_aS_ha.dv.glif</string>
+		<key>NaSmall.or</key>
+		<string>N_aS_mall.or.glif</string>
+		<key>NaSmall.or.alt</key>
+		<string>N_aS_mall.or.alt.glif</string>
 		<key>NaTa.dv</key>
 		<string>N_aT_a.dv.glif</string>
+		<key>NaTa.or</key>
+		<string>N_aT_a.or.glif</string>
 		<key>NaTaRa.dv</key>
 		<string>N_aT_aR_a.dv.glif</string>
+		<key>NaTaRa.or</key>
+		<string>N_aT_aR_a.or.glif</string>
 		<key>NaTaRaYa.dv</key>
 		<string>N_aT_aR_aY_a.dv.glif</string>
 		<key>NaTaSa.dv</key>
 		<string>N_aT_aS_a.dv.glif</string>
+		<key>NaTaVa.or</key>
+		<string>N_aT_aV_a.or.glif</string>
 		<key>NaTaYa.dv</key>
 		<string>N_aT_aY_a.dv.glif</string>
 		<key>NaTha.dv</key>
 		<string>N_aT_ha.dv.glif</string>
+		<key>NaTha.or</key>
+		<string>N_aT_ha.or.glif</string>
 		<key>NaThaVa.dv</key>
 		<string>N_aT_haV_a.dv.glif</string>
 		<key>NaThaYa.dv</key>
@@ -864,6 +1238,8 @@
 		<string>N_aT_ta.dv.glif</string>
 		<key>NaVa.dv</key>
 		<string>N_aV_a.dv.glif</string>
+		<key>NaVa.or</key>
+		<string>N_aV_a.or.glif</string>
 		<key>NaVaHa.dv</key>
 		<string>N_aV_aH_a.dv.glif</string>
 		<key>NaYa.dv</key>
@@ -878,32 +1254,72 @@
 		<string>N_commaaccent.glif</string>
 		<key>Nga.dv</key>
 		<string>N_ga.dv.glif</string>
+		<key>Nga.or</key>
+		<string>N_ga.or.glif</string>
 		<key>NgaGa.dv</key>
 		<string>N_gaG_a.dv.glif</string>
+		<key>NgaGa.or</key>
+		<string>N_gaG_a.or.glif</string>
+		<key>NgaGha.or</key>
+		<string>N_gaG_ha.or.glif</string>
 		<key>NgaKa.dv</key>
 		<string>N_gaK_a.dv.glif</string>
+		<key>NgaKa.or</key>
+		<string>N_gaK_a.or.glif</string>
+		<key>NgaKaSsa.or</key>
+		<string>N_gaK_aS_sa.or.glif</string>
+		<key>NgaKaTa.or</key>
+		<string>N_gaK_aT_a.or.glif</string>
+		<key>NgaKha.or</key>
+		<string>N_gaK_ha.or.glif</string>
 		<key>NgaMa.dv</key>
 		<string>N_gaM_a.dv.glif</string>
+		<key>NgaRa.or</key>
+		<string>N_gaR_a.or.glif</string>
+		<key>NgaSmall.or</key>
+		<string>N_gaS_mall.or.glif</string>
+		<key>NgaSmall.or.alt</key>
+		<string>N_gaS_mall.or.alt.glif</string>
 		<key>NgaYa.dv</key>
 		<string>N_gaY_a.dv.glif</string>
 		<key>Nna.dv</key>
 		<string>N_na.dv.glif</string>
+		<key>Nna.or</key>
+		<string>N_na.or.glif</string>
 		<key>NnaDda.dv</key>
 		<string>N_naD_da.dv.glif</string>
+		<key>NnaDda.or</key>
+		<string>N_naD_da.or.glif</string>
+		<key>NnaDdaRa.or</key>
+		<string>N_naD_daR_a.or.glif</string>
 		<key>NnaDdha.dv</key>
 		<string>N_naD_dha.dv.glif</string>
+		<key>NnaDdha.or</key>
+		<string>N_naD_dha.or.glif</string>
 		<key>NnaHalant.dv</key>
 		<string>N_naH_alant.dv.glif</string>
 		<key>NnaMa.dv</key>
 		<string>N_naM_a.dv.glif</string>
 		<key>NnaNna.dv</key>
 		<string>N_naN_na.dv.glif</string>
+		<key>NnaNna.or</key>
+		<string>N_naN_na.or.glif</string>
 		<key>NnaRa.dv</key>
 		<string>N_naR_a.dv.glif</string>
+		<key>NnaRa.or</key>
+		<string>N_naR_a.or.glif</string>
+		<key>NnaSmall.or</key>
+		<string>N_naS_mall.or.glif</string>
+		<key>NnaSmall.or.alt</key>
+		<string>N_naS_mall.or.alt.glif</string>
 		<key>NnaTta.dv</key>
 		<string>N_naT_ta.dv.glif</string>
+		<key>NnaTta.or</key>
+		<string>N_naT_ta.or.glif</string>
 		<key>NnaTtha.dv</key>
 		<string>N_naT_tha.dv.glif</string>
+		<key>NnaTtha.or</key>
+		<string>N_naT_tha.or.glif</string>
 		<key>NnaVa.dv</key>
 		<string>N_naV_a.dv.glif</string>
 		<key>NnaYa.dv</key>
@@ -912,14 +1328,28 @@
 		<string>N_tilde.glif</string>
 		<key>Nukta.dv</key>
 		<string>N_ukta.dv.glif</string>
+		<key>Nukta.or</key>
+		<string>N_ukta.or.glif</string>
 		<key>Nya.dv</key>
 		<string>N_ya.dv.glif</string>
+		<key>Nya.or</key>
+		<string>N_ya.or.glif</string>
+		<key>NyaCa.or</key>
+		<string>N_yaC_a.or.glif</string>
 		<key>NyaCha.dv</key>
 		<string>N_yaC_ha.dv.glif</string>
+		<key>NyaCha.or</key>
+		<string>N_yaC_ha.or.glif</string>
 		<key>NyaHalant.dv</key>
 		<string>N_yaH_alant.dv.glif</string>
+		<key>NyaJa.or</key>
+		<string>N_yaJ_a.or.glif</string>
+		<key>NyaJha.or</key>
+		<string>N_yaJ_ha.or.glif</string>
 		<key>NyaRa.dv</key>
 		<string>N_yaR_a.dv.glif</string>
+		<key>NyaRa.or</key>
+		<string>N_yaR_a.or.glif</string>
 		<key>NyaSha.dv</key>
 		<string>N_yaS_ha.dv.glif</string>
 		<key>O</key>
@@ -952,30 +1382,46 @@
 		<string>P_.glif</string>
 		<key>Pa.dv</key>
 		<string>P_a.dv.glif</string>
+		<key>Pa.or</key>
+		<string>P_a.or.glif</string>
 		<key>PaCha.dv</key>
 		<string>P_aC_ha.dv.glif</string>
 		<key>PaHalant.dv</key>
 		<string>P_aH_alant.dv.glif</string>
 		<key>PaLa.dv</key>
 		<string>P_aL_a.dv.glif</string>
+		<key>PaLla.or</key>
+		<string>P_aL_la.or.glif</string>
 		<key>PaMa.dv</key>
 		<string>P_aM_a.dv.glif</string>
 		<key>PaNa.dv</key>
 		<string>P_aN_a.dv.glif</string>
 		<key>PaPa.dv</key>
 		<string>P_aP_a.dv.glif</string>
+		<key>PaPa.or</key>
+		<string>P_aP_a.or.glif</string>
 		<key>PaPha.dv</key>
 		<string>P_aP_ha.dv.glif</string>
 		<key>PaRa.dv</key>
 		<string>P_aR_a.dv.glif</string>
+		<key>PaRa.or</key>
+		<string>P_aR_a.or.glif</string>
 		<key>PaRaHalant.dv</key>
 		<string>P_aR_aH_alant.dv.glif</string>
 		<key>PaSa.dv</key>
 		<string>P_aS_a.dv.glif</string>
+		<key>PaSa.or</key>
+		<string>P_aS_a.or.glif</string>
 		<key>PaSha.dv</key>
 		<string>P_aS_ha.dv.glif</string>
+		<key>PaSmall.or</key>
+		<string>P_aS_mall.or.glif</string>
+		<key>PaSmall.or.alt</key>
+		<string>P_aS_mall.or.alt.glif</string>
 		<key>PaTa.dv</key>
 		<string>P_aT_a.dv.glif</string>
+		<key>PaTa.or</key>
+		<string>P_aT_a.or.glif</string>
 		<key>PaTaYa.dv</key>
 		<string>P_aT_aY_a.dv.glif</string>
 		<key>PaTta.dv</key>
@@ -994,6 +1440,8 @@
 		<string>P_amatraL_ruu.dv.glif</string>
 		<key>Pha.dv</key>
 		<string>P_ha.dv.glif</string>
+		<key>Pha.or</key>
+		<string>P_ha.or.glif</string>
 		<key>PhaHalant.dv</key>
 		<string>P_haH_alant.dv.glif</string>
 		<key>PhaJa.dv</key>
@@ -1020,8 +1468,14 @@
 		<string>P_haP_ha.dv.glif</string>
 		<key>PhaRa.dv</key>
 		<string>P_haR_a.dv.glif</string>
+		<key>PhaRa.or</key>
+		<string>P_haR_a.or.glif</string>
 		<key>PhaSha.dv</key>
 		<string>P_haS_ha.dv.glif</string>
+		<key>PhaSmall.or</key>
+		<string>P_haS_mall.or.glif</string>
+		<key>PhaSmall.or.alt</key>
+		<string>P_haS_mall.or.alt.glif</string>
 		<key>PhaTa.dv</key>
 		<string>P_haT_a.dv.glif</string>
 		<key>PhaTha.dv</key>
@@ -1036,10 +1490,18 @@
 		<string>R_.glif</string>
 		<key>Ra.dv</key>
 		<string>R_a.dv.glif</string>
+		<key>Ra.or</key>
+		<string>R_a.or.glif</string>
 		<key>RaNukta.dv</key>
 		<string>R_aN_ukta.dv.glif</string>
 		<key>RaNuktaHalant.dv</key>
 		<string>R_aN_uktaH_alant.dv.glif</string>
+		<key>RaRa.or</key>
+		<string>R_aR_a.or.glif</string>
+		<key>RaSmall.or</key>
+		<string>R_aS_mall.or.glif</string>
+		<key>RaSmall.or.alt</key>
+		<string>R_aS_mall.or.alt.glif</string>
 		<key>Racute</key>
 		<string>R_acute.glif</string>
 		<key>RamatraU.dv</key>
@@ -1052,14 +1514,36 @@
 		<string>R_commaaccent.glif</string>
 		<key>Reph.dv</key>
 		<string>R_eph.dv.glif</string>
+		<key>RephAilengthmark.or</key>
+		<string>R_ephA_ilengthmark.or.glif</string>
+		<key>RephAilengthmarkChandrabindu.or</key>
+		<string>R_ephA_ilengthmarkC_handrabindu.or.glif</string>
+		<key>RephAulengthmark.or</key>
+		<string>R_ephA_ulengthmark.or.glif</string>
+		<key>RephAulengthmarkChandrabindu.or</key>
+		<string>R_ephA_ulengthmarkC_handrabindu.or.glif</string>
 		<key>RephBindu.dv</key>
 		<string>R_ephB_indu.dv.glif</string>
 		<key>RephChandrabindu.dv</key>
 		<string>R_ephC_handrabindu.dv.glif</string>
+		<key>RephI.or</key>
+		<string>R_ephI_.or.glif</string>
+		<key>RephIChandrabindu.or</key>
+		<string>R_ephI_C_handrabindu.or.glif</string>
+		<key>Rha.or</key>
+		<string>R_ha.or.glif</string>
+		<key>RhaRa.or</key>
+		<string>R_haR_a.or.glif</string>
+		<key>Rra.or</key>
+		<string>R_ra.or.glif</string>
+		<key>RraRa.or</key>
+		<string>R_raR_a.or.glif</string>
 		<key>S</key>
 		<string>S_.glif</string>
 		<key>Sa.dv</key>
 		<string>S_a.dv.glif</string>
+		<key>Sa.or</key>
+		<string>S_a.or.glif</string>
 		<key>SaBa.dv</key>
 		<string>S_aB_a.dv.glif</string>
 		<key>SaDa.dv</key>
@@ -1070,48 +1554,84 @@
 		<string>S_aJ_a.dv.glif</string>
 		<key>SaKa.dv</key>
 		<string>S_aK_a.dv.glif</string>
+		<key>SaKa.or</key>
+		<string>S_aK_a.or.glif</string>
 		<key>SaKaRa.dv</key>
 		<string>S_aK_aR_a.dv.glif</string>
+		<key>SaKaRa.or</key>
+		<string>S_aK_aR_a.or.glif</string>
 		<key>SaKaVa.dv</key>
 		<string>S_aK_aV_a.dv.glif</string>
 		<key>SaKha.dv</key>
 		<string>S_aK_ha.dv.glif</string>
+		<key>SaKha.or</key>
+		<string>S_aK_ha.or.glif</string>
 		<key>SaLa.dv</key>
 		<string>S_aL_a.dv.glif</string>
+		<key>SaLa.or</key>
+		<string>S_aL_a.or.glif</string>
+		<key>SaLla.or</key>
+		<string>S_aL_la.or.glif</string>
 		<key>SaMa.dv</key>
 		<string>S_aM_a.dv.glif</string>
+		<key>SaMa.or</key>
+		<string>S_aM_a.or.glif</string>
 		<key>SaMaYa.dv</key>
 		<string>S_aM_aY_a.dv.glif</string>
 		<key>SaNa.dv</key>
 		<string>S_aN_a.dv.glif</string>
+		<key>SaNa.or</key>
+		<string>S_aN_a.or.glif</string>
 		<key>SaPa.dv</key>
 		<string>S_aP_a.dv.glif</string>
+		<key>SaPa.or</key>
+		<string>S_aP_a.or.glif</string>
 		<key>SaPaRa.dv</key>
 		<string>S_aP_aR_a.dv.glif</string>
 		<key>SaPha.dv</key>
 		<string>S_aP_ha.dv.glif</string>
+		<key>SaPha.or</key>
+		<string>S_aP_ha.or.glif</string>
 		<key>SaRa.dv</key>
 		<string>S_aR_a.dv.glif</string>
+		<key>SaRa.or</key>
+		<string>S_aR_a.or.glif</string>
 		<key>SaRaHalant.dv</key>
 		<string>S_aR_aH_alant.dv.glif</string>
 		<key>SaSa.dv</key>
 		<string>S_aS_a.dv.glif</string>
+		<key>SaSmall.or</key>
+		<string>S_aS_mall.or.glif</string>
+		<key>SaSmall.or.alt</key>
+		<string>S_aS_mall.or.alt.glif</string>
 		<key>SaTa.dv</key>
 		<string>S_aT_a.dv.glif</string>
+		<key>SaTa.or</key>
+		<string>S_aT_a.or.glif</string>
 		<key>SaTaRa.dv</key>
 		<string>S_aT_aR_a.dv.glif</string>
+		<key>SaTaRa.or</key>
+		<string>S_aT_aR_a.or.glif</string>
 		<key>SaTaVa.dv</key>
 		<string>S_aT_aV_a.dv.glif</string>
 		<key>SaTaYa.dv</key>
 		<string>S_aT_aY_a.dv.glif</string>
 		<key>SaTha.dv</key>
 		<string>S_aT_ha.dv.glif</string>
+		<key>SaTha.or</key>
+		<string>S_aT_ha.or.glif</string>
 		<key>SaThaYa.dv</key>
 		<string>S_aT_haY_a.dv.glif</string>
 		<key>SaTta.dv</key>
 		<string>S_aT_ta.dv.glif</string>
+		<key>SaTta.or</key>
+		<string>S_aT_ta.or.glif</string>
+		<key>SaTtaRa.or</key>
+		<string>S_aT_taR_a.or.glif</string>
 		<key>SaVa.dv</key>
 		<string>S_aV_a.dv.glif</string>
+		<key>SaVa.or</key>
+		<string>S_aV_a.or.glif</string>
 		<key>SaYa.dv</key>
 		<string>S_aY_a.dv.glif</string>
 		<key>Saat.dv</key>
@@ -1132,10 +1652,16 @@
 		<string>S_ha.M_A_R_.dv.glif</string>
 		<key>Sha.dv</key>
 		<string>S_ha.dv.glif</string>
+		<key>Sha.or</key>
+		<string>S_ha.or.glif</string>
 		<key>ShaCa.dv</key>
 		<string>S_haC_a.dv.glif</string>
+		<key>ShaCa.or</key>
+		<string>S_haC_a.or.glif</string>
 		<key>ShaCha.dv</key>
 		<string>S_haC_ha.dv.glif</string>
+		<key>ShaCha.or</key>
+		<string>S_haC_ha.or.glif</string>
 		<key>ShaHalant.dv</key>
 		<string>S_haH_alant.dv.glif</string>
 		<key>ShaKa.dv</key>
@@ -1144,24 +1670,42 @@
 		<string>S_haK_aN_ukta.dv.glif</string>
 		<key>ShaLa.dv</key>
 		<string>S_haL_a.dv.glif</string>
+		<key>ShaLa.or</key>
+		<string>S_haL_a.or.glif</string>
+		<key>ShaLla.or</key>
+		<string>S_haL_la.or.glif</string>
 		<key>ShaMa.dv</key>
 		<string>S_haM_a.dv.glif</string>
 		<key>ShaNa.dv</key>
 		<string>S_haN_a.dv.glif</string>
+		<key>ShaNa.or</key>
+		<string>S_haN_a.or.glif</string>
 		<key>ShaRa.dv</key>
 		<string>S_haR_a.dv.glif</string>
+		<key>ShaRa.or</key>
+		<string>S_haR_a.or.glif</string>
 		<key>ShaRaHalant.dv</key>
 		<string>S_haR_aH_alant.dv.glif</string>
 		<key>ShaRaYa.dv</key>
 		<string>S_haR_aY_a.dv.glif</string>
 		<key>ShaSha.dv</key>
 		<string>S_haS_ha.dv.glif</string>
+		<key>ShaSmall.or</key>
+		<string>S_haS_mall.or.glif</string>
+		<key>ShaSmall.or.alt</key>
+		<string>S_haS_mall.or.alt.glif</string>
 		<key>ShaTa.dv</key>
 		<string>S_haT_a.dv.glif</string>
 		<key>ShaTta.dv</key>
 		<string>S_haT_ta.dv.glif</string>
+		<key>ShaTta.or</key>
+		<string>S_haT_ta.or.glif</string>
+		<key>ShaTtaRa.or</key>
+		<string>S_haT_taR_a.or.glif</string>
 		<key>ShaVa.dv</key>
 		<string>S_haV_a.dv.glif</string>
+		<key>ShaVa.or</key>
+		<string>S_haV_a.or.glif</string>
 		<key>ShaYa.dv</key>
 		<string>S_haY_a.dv.glif</string>
 		<key>ShamatraRu.dv</key>
@@ -1170,38 +1714,64 @@
 		<string>S_hunya.dv.glif</string>
 		<key>Ssa.dv</key>
 		<string>S_sa.dv.glif</string>
+		<key>Ssa.or</key>
+		<string>S_sa.or.glif</string>
 		<key>SsaHalant.dv</key>
 		<string>S_saH_alant.dv.glif</string>
 		<key>SsaKa.dv</key>
 		<string>S_saK_a.dv.glif</string>
+		<key>SsaKa.or</key>
+		<string>S_saK_a.or.glif</string>
 		<key>SsaKaRa.dv</key>
 		<string>S_saK_aR_a.dv.glif</string>
+		<key>SsaKaRa.or</key>
+		<string>S_saK_aR_a.or.glif</string>
 		<key>SsaMa.dv</key>
 		<string>S_saM_a.dv.glif</string>
 		<key>SsaMaYa.dv</key>
 		<string>S_saM_aY_a.dv.glif</string>
 		<key>SsaNna.dv</key>
 		<string>S_saN_na.dv.glif</string>
+		<key>SsaNna.or</key>
+		<string>S_saN_na.or.glif</string>
 		<key>SsaNnaYa.dv</key>
 		<string>S_saN_naY_a.dv.glif</string>
 		<key>SsaPa.dv</key>
 		<string>S_saP_a.dv.glif</string>
+		<key>SsaPa.or</key>
+		<string>S_saP_a.or.glif</string>
 		<key>SsaPaRa.dv</key>
 		<string>S_saP_aR_a.dv.glif</string>
+		<key>SsaPaRa.or</key>
+		<string>S_saP_aR_a.or.glif</string>
 		<key>SsaPha.dv</key>
 		<string>S_saP_ha.dv.glif</string>
+		<key>SsaPha.or</key>
+		<string>S_saP_ha.or.glif</string>
 		<key>SsaRa.dv</key>
 		<string>S_saR_a.dv.glif</string>
+		<key>SsaRa.or</key>
+		<string>S_saR_a.or.glif</string>
 		<key>SsaRaHalant.dv</key>
 		<string>S_saR_aH_alant.dv.glif</string>
+		<key>SsaSmall.or</key>
+		<string>S_saS_mall.or.glif</string>
+		<key>SsaSmall.or.alt</key>
+		<string>S_saS_mall.or.alt.glif</string>
 		<key>SsaSsa.dv</key>
 		<string>S_saS_sa.dv.glif</string>
 		<key>SsaTta.dv</key>
 		<string>S_saT_ta.dv.glif</string>
+		<key>SsaTta.or</key>
+		<string>S_saT_ta.or.glif</string>
+		<key>SsaTtaRa.or</key>
+		<string>S_saT_taR_a.or.glif</string>
 		<key>SsaTtaYa.dv</key>
 		<string>S_saT_taY_a.dv.glif</string>
 		<key>SsaTtha.dv</key>
 		<string>S_saT_tha.dv.glif</string>
+		<key>SsaTtha.or</key>
+		<string>S_saT_tha.or.glif</string>
 		<key>SsaTthaYa.dv</key>
 		<string>S_saT_thaY_a.dv.glif</string>
 		<key>SsaVa.dv</key>
@@ -1214,14 +1784,20 @@
 		<string>T_.glif</string>
 		<key>Ta.dv</key>
 		<string>T_a.dv.glif</string>
+		<key>Ta.or</key>
+		<string>T_a.or.glif</string>
 		<key>TaHalant.dv</key>
 		<string>T_aH_alant.dv.glif</string>
 		<key>TaKa.dv</key>
 		<string>T_aK_a.dv.glif</string>
+		<key>TaKa.or</key>
+		<string>T_aK_a.or.glif</string>
 		<key>TaKaRa.dv</key>
 		<string>T_aK_aR_a.dv.glif</string>
 		<key>TaKaSsa.dv</key>
 		<string>T_aK_aS_sa.dv.glif</string>
+		<key>TaKaSsa.or</key>
+		<string>T_aK_aS_sa.or.glif</string>
 		<key>TaKaVa.dv</key>
 		<string>T_aK_aV_a.dv.glif</string>
 		<key>TaKaYa.dv</key>
@@ -1236,14 +1812,20 @@
 		<string>T_aL_a.dv.glif</string>
 		<key>TaMa.dv</key>
 		<string>T_aM_a.dv.glif</string>
+		<key>TaMa.or</key>
+		<string>T_aM_a.or.glif</string>
 		<key>TaMaYa.dv</key>
 		<string>T_aM_aY_a.dv.glif</string>
 		<key>TaNa.dv</key>
 		<string>T_aN_a.dv.glif</string>
+		<key>TaNa.or</key>
+		<string>T_aN_a.or.glif</string>
 		<key>TaNaYa.dv</key>
 		<string>T_aN_aY_a.dv.glif</string>
 		<key>TaPa.dv</key>
 		<string>T_aP_a.dv.glif</string>
+		<key>TaPa.or</key>
+		<string>T_aP_a.or.glif</string>
 		<key>TaPaLa.dv</key>
 		<string>T_aP_aL_a.dv.glif</string>
 		<key>TaPaRa.dv</key>
@@ -1252,14 +1834,20 @@
 		<string>T_aP_ha.dv.glif</string>
 		<key>TaRa.dv</key>
 		<string>T_aR_a.dv.glif</string>
+		<key>TaRa.or</key>
+		<string>T_aR_a.or.glif</string>
 		<key>TaRaHalant.dv</key>
 		<string>T_aR_aH_alant.dv.glif</string>
 		<key>TaRaYa.dv</key>
 		<string>T_aR_aY_a.dv.glif</string>
 		<key>TaSa.dv</key>
 		<string>T_aS_a.dv.glif</string>
+		<key>TaSa.or</key>
+		<string>T_aS_a.or.glif</string>
 		<key>TaSaNa.dv</key>
 		<string>T_aS_aN_a.dv.glif</string>
+		<key>TaSaNa.or</key>
+		<string>T_aS_aN_a.or.glif</string>
 		<key>TaSaNaYa.dv</key>
 		<string>T_aS_aN_aY_a.dv.glif</string>
 		<key>TaSaPha.dv</key>
@@ -1268,18 +1856,32 @@
 		<string>T_aS_aV_a.dv.glif</string>
 		<key>TaSaYa.dv</key>
 		<string>T_aS_aY_a.dv.glif</string>
+		<key>TaSmall.or</key>
+		<string>T_aS_mall.or.glif</string>
+		<key>TaSmall.or.alt</key>
+		<string>T_aS_mall.or.alt.glif</string>
 		<key>TaTa.dv</key>
 		<string>T_aT_a.dv.glif</string>
+		<key>TaTa.or</key>
+		<string>T_aT_a.or.glif</string>
 		<key>TaTaHalant.dv</key>
 		<string>T_aT_aH_alant.dv.glif</string>
+		<key>TaTaRa.or</key>
+		<string>T_aT_aR_a.or.glif</string>
 		<key>TaTaVa.dv</key>
 		<string>T_aT_aV_a.dv.glif</string>
+		<key>TaTaVa.or</key>
+		<string>T_aT_aV_a.or.glif</string>
 		<key>TaTaYa.dv</key>
 		<string>T_aT_aY_a.dv.glif</string>
 		<key>TaTha.dv</key>
 		<string>T_aT_ha.dv.glif</string>
+		<key>TaTha.or</key>
+		<string>T_aT_ha.or.glif</string>
 		<key>TaVa.dv</key>
 		<string>T_aV_a.dv.glif</string>
+		<key>TaVa.or</key>
+		<string>T_aV_a.or.glif</string>
 		<key>TaYa.dv</key>
 		<string>T_aY_a.dv.glif</string>
 		<key>Tcaron</key>
@@ -1290,10 +1892,20 @@
 		<string>T_een.dv.glif</string>
 		<key>Tha.dv</key>
 		<string>T_ha.dv.glif</string>
+		<key>Tha.or</key>
+		<string>T_ha.or.glif</string>
 		<key>ThaHalant.dv</key>
 		<string>T_haH_alant.dv.glif</string>
+		<key>ThaI.or</key>
+		<string>T_haI_.or.glif</string>
 		<key>ThaRa.dv</key>
 		<string>T_haR_a.dv.glif</string>
+		<key>ThaRa.or</key>
+		<string>T_haR_a.or.glif</string>
+		<key>ThaSmall.or</key>
+		<string>T_haS_mall.or.glif</string>
+		<key>ThaSmall.or.alt</key>
+		<string>T_haS_mall.or.alt.glif</string>
 		<key>ThaVa.dv</key>
 		<string>T_haV_a.dv.glif</string>
 		<key>ThaYa.dv</key>
@@ -1302,8 +1914,18 @@
 		<string>T_horn.glif</string>
 		<key>Tta.dv</key>
 		<string>T_ta.dv.glif</string>
+		<key>Tta.or</key>
+		<string>T_ta.or.glif</string>
+		<key>TtaRa.or</key>
+		<string>T_taR_a.or.glif</string>
+		<key>TtaSmall.or</key>
+		<string>T_taS_mall.or.glif</string>
+		<key>TtaSmall.or.alt</key>
+		<string>T_taS_mall.or.alt.glif</string>
 		<key>TtaTta.dv</key>
 		<string>T_taT_ta.dv.glif</string>
+		<key>TtaTta.or</key>
+		<string>T_taT_ta.or.glif</string>
 		<key>TtaTtaYa.dv</key>
 		<string>T_taT_taY_a.dv.glif</string>
 		<key>TtaTtha.dv</key>
@@ -1314,6 +1936,14 @@
 		<string>T_taY_a.dv.glif</string>
 		<key>Ttha.dv</key>
 		<string>T_tha.dv.glif</string>
+		<key>Ttha.or</key>
+		<string>T_tha.or.glif</string>
+		<key>TthaRa.or</key>
+		<string>T_thaR_a.or.glif</string>
+		<key>TthaSmall.or</key>
+		<string>T_thaS_mall.or.glif</string>
+		<key>TthaSmall.or.alt</key>
+		<string>T_thaS_mall.or.alt.glif</string>
 		<key>TthaTtha.dv</key>
 		<string>T_thaT_tha.dv.glif</string>
 		<key>TthaTthaYa.dv</key>
@@ -1350,6 +1980,8 @@
 		<string>V_.glif</string>
 		<key>Va.dv</key>
 		<string>V_a.dv.glif</string>
+		<key>Va.or</key>
+		<string>V_a.or.glif</string>
 		<key>VaDda.dv</key>
 		<string>V_aD_da.dv.glif</string>
 		<key>VaHa.dv</key>
@@ -1360,8 +1992,14 @@
 		<string>V_aL_a.dv.glif</string>
 		<key>VaRa.dv</key>
 		<string>V_aR_a.dv.glif</string>
+		<key>VaRa.or</key>
+		<string>V_aR_a.or.glif</string>
 		<key>VaRaHalant.dv</key>
 		<string>V_aR_aH_alant.dv.glif</string>
+		<key>VaSmall.or</key>
+		<string>V_aS_mall.or.glif</string>
+		<key>VaSmall.or.alt</key>
+		<string>V_aS_mall.or.alt.glif</string>
 		<key>VaVa.dv</key>
 		<string>V_aV_a.dv.glif</string>
 		<key>VaYa.dv</key>
@@ -1372,10 +2010,44 @@
 		<string>V_attumatraU_.dv.glif</string>
 		<key>VattumatraUu.dv</key>
 		<string>V_attumatraU_u.dv.glif</string>
+		<key>Virama.or</key>
+		<string>V_irama.or.glif</string>
+		<key>Virama.or.alt</key>
+		<string>V_irama.or.alt.glif</string>
 		<key>Visarga.dv</key>
 		<string>V_isarga.dv.glif</string>
+		<key>VocalicLl.or</key>
+		<string>V_ocalicL_l.or.glif</string>
+		<key>VocalicRr.or</key>
+		<string>V_ocalicR_r.or.glif</string>
+		<key>VowelA.or</key>
+		<string>V_owelA_.or.glif</string>
+		<key>VowelAa.or</key>
+		<string>V_owelA_a.or.glif</string>
+		<key>VowelAi.or</key>
+		<string>V_owelA_i.or.glif</string>
+		<key>VowelAu.or</key>
+		<string>V_owelA_u.or.glif</string>
+		<key>VowelE.or</key>
+		<string>V_owelE_.or.glif</string>
+		<key>VowelI.or</key>
+		<string>V_owelI_.or.glif</string>
+		<key>VowelIi.or</key>
+		<string>V_owelI_i.or.glif</string>
+		<key>VowelO.or</key>
+		<string>V_owelO_.or.glif</string>
+		<key>VowelU.or</key>
+		<string>V_owelU_.or.glif</string>
+		<key>VowelUu.or</key>
+		<string>V_owelU_u.or.glif</string>
+		<key>VowelVocalicL.or</key>
+		<string>V_owelV_ocalicL_.or.glif</string>
+		<key>VowelVocalicR.or</key>
+		<string>V_owelV_ocalicR_.or.glif</string>
 		<key>W</key>
 		<string>W_.glif</string>
+		<key>Wa.or</key>
+		<string>W_a.or.glif</string>
 		<key>Wacute</key>
 		<string>W_acute.glif</string>
 		<key>Wcircumflex</key>
@@ -1390,6 +2062,8 @@
 		<string>Y_.glif</string>
 		<key>Ya.dv</key>
 		<string>Y_a.dv.glif</string>
+		<key>Ya.or</key>
+		<string>Y_a.or.glif</string>
 		<key>YaHalant.dv</key>
 		<string>Y_aH_alant.dv.glif</string>
 		<key>YaNukta.dv</key>
@@ -1400,6 +2074,12 @@
 		<string>Y_aN_uktaR_a.dv.glif</string>
 		<key>YaRa.dv</key>
 		<string>Y_aR_a.dv.glif</string>
+		<key>YaRa.or</key>
+		<string>Y_aR_a.or.glif</string>
+		<key>YaSmall.or</key>
+		<string>Y_aS_mall.or.glif</string>
+		<key>YaSmall.or.alt</key>
+		<string>Y_aS_mall.or.alt.glif</string>
 		<key>YaYa.dv</key>
 		<string>Y_aY_a.dv.glif</string>
 		<key>Yacute</key>
@@ -1410,6 +2090,12 @@
 		<string>Y_dieresis.glif</string>
 		<key>Ygrave</key>
 		<string>Y_grave.glif</string>
+		<key>Yya.or</key>
+		<string>Y_ya.or.glif</string>
+		<key>YyaRa.or</key>
+		<string>Y_yaR_a.or.glif</string>
+		<key>YyaSmall.or</key>
+		<string>Y_yaS_mall.or.glif</string>
 		<key>Z</key>
 		<string>Z_.glif</string>
 		<key>ZWJ</key>
@@ -1446,6 +2132,8 @@
 		<string>amacron.glif</string>
 		<key>ampersand</key>
 		<string>ampersand.glif</string>
+		<key>anusvara.or</key>
+		<string>anusvara.or.glif</string>
 		<key>aogonek</key>
 		<string>aogonek.glif</string>
 		<key>approxequal</key>
@@ -1516,6 +2204,8 @@
 		<string>cedilla.glif</string>
 		<key>cent</key>
 		<string>cent.glif</string>
+		<key>chandrabindu.or</key>
+		<string>chandrabindu.or.glif</string>
 		<key>circumflex</key>
 		<string>circumflex.glif</string>
 		<key>colon</key>
@@ -1582,6 +2272,8 @@
 		<string>eight.glif</string>
 		<key>eight.inferior</key>
 		<string>eight.inferior.glif</string>
+		<key>eight.or</key>
+		<string>eight.or.glif</string>
 		<key>eight.superior</key>
 		<string>eight.superior.glif</string>
 		<key>ellipsis</key>
@@ -1614,6 +2306,8 @@
 		<string>five.glif</string>
 		<key>five.inferior</key>
 		<string>five.inferior.glif</string>
+		<key>five.or</key>
+		<string>five.or.glif</string>
 		<key>five.superior</key>
 		<string>five.superior.glif</string>
 		<key>fiveeighths</key>
@@ -1626,6 +2320,8 @@
 		<string>four.glif</string>
 		<key>four.inferior</key>
 		<string>four.inferior.glif</string>
+		<key>four.or</key>
+		<string>four.or.glif</string>
 		<key>four.superior</key>
 		<string>four.superior.glif</string>
 		<key>fraction</key>
@@ -2060,6 +2756,8 @@
 		<string>nine.glif</string>
 		<key>nine.inferior</key>
 		<string>nine.inferior.glif</string>
+		<key>nine.or</key>
+		<string>nine.or.glif</string>
 		<key>nine.superior</key>
 		<string>nine.superior.glif</string>
 		<key>notequal</key>
@@ -2092,12 +2790,22 @@
 		<string>one.glif</string>
 		<key>one.inferior</key>
 		<string>one.inferior.glif</string>
+		<key>one.or</key>
+		<string>one.or.glif</string>
 		<key>oneeighth</key>
 		<string>oneeighth.glif</string>
+		<key>oneeigth.or</key>
+		<string>oneeigth.or.glif</string>
 		<key>onehalf</key>
 		<string>onehalf.glif</string>
+		<key>onehalf.or</key>
+		<string>onehalf.or.glif</string>
 		<key>onequarter</key>
 		<string>onequarter.glif</string>
+		<key>onequarter.or</key>
+		<string>onequarter.or.glif</string>
+		<key>onesixteenth.or</key>
+		<string>onesixteenth.or.glif</string>
 		<key>onesuperior</key>
 		<string>onesuperior.glif</string>
 		<key>onethird</key>
@@ -2180,6 +2888,10 @@
 		<string>rcommaaccent.glif</string>
 		<key>registered</key>
 		<string>registered.glif</string>
+		<key>reph.or</key>
+		<string>reph.or.glif</string>
+		<key>reph.or.alt</key>
+		<string>reph.or.alt.glif</string>
 		<key>ring</key>
 		<string>ring.glif</string>
 		<key>s</key>
@@ -2202,6 +2914,8 @@
 		<string>seven.glif</string>
 		<key>seven.inferior</key>
 		<string>seven.inferior.glif</string>
+		<key>seven.or</key>
+		<string>seven.or.glif</string>
 		<key>seven.superior</key>
 		<string>seven.superior.glif</string>
 		<key>seveneighths</key>
@@ -2210,6 +2924,8 @@
 		<string>six.glif</string>
 		<key>six.inferior</key>
 		<string>six.inferior.glif</string>
+		<key>six.or</key>
+		<string>six.or.glif</string>
 		<key>six.superior</key>
 		<string>six.superior.glif</string>
 		<key>slash</key>
@@ -2232,10 +2948,16 @@
 		<string>three.glif</string>
 		<key>three.inferior</key>
 		<string>three.inferior.glif</string>
+		<key>three.or</key>
+		<string>three.or.glif</string>
 		<key>threeeighths</key>
 		<string>threeeighths.glif</string>
+		<key>threequarter.or</key>
+		<string>threequarter.or.glif</string>
 		<key>threequarters</key>
 		<string>threequarters.glif</string>
+		<key>threesixteenth.or</key>
+		<string>threesixteenth.or.glif</string>
 		<key>threesuperior</key>
 		<string>threesuperior.glif</string>
 		<key>tilde</key>
@@ -2252,6 +2974,8 @@
 		<string>two.glif</string>
 		<key>two.inferior</key>
 		<string>two.inferior.glif</string>
+		<key>two.or</key>
+		<string>two.or.glif</string>
 		<key>twosuperior</key>
 		<string>twosuperior.glif</string>
 		<key>twothirds</key>
@@ -2746,6 +3470,8 @@
 		<string>utilde.glif</string>
 		<key>v</key>
 		<string>v.glif</string>
+		<key>visarga.or</key>
+		<string>visarga.or.glif</string>
 		<key>vowelA.dv</key>
 		<string>vowelA_.dv.glif</string>
 		<key>vowelAa.dv</key>
@@ -2824,6 +3550,8 @@
 		<string>zero.glif</string>
 		<key>zero.inferior</key>
 		<string>zero.inferior.glif</string>
+		<key>zero.or</key>
+		<string>zero.or.glif</string>
 		<key>zero.superior</key>
 		<string>zero.superior.glif</string>
 	</dict>

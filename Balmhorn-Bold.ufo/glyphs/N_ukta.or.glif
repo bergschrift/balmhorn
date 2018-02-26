@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Nukta.or" format="1">
+	<unicode hex="0B3C"/>
+	<outline>
+		<contour>
+			<point x="-508" y="-122" type="curve" smooth="yes"/>
+			<point x="-508" y="-164"/>
+			<point x="-477" y="-190"/>
+			<point x="-438" y="-190" type="curve" smooth="yes"/>
+			<point x="-396" y="-190"/>
+			<point x="-367" y="-164"/>
+			<point x="-367" y="-122" type="curve" smooth="yes"/>
+			<point x="-367" y="-78"/>
+			<point x="-396" y="-53"/>
+			<point x="-438" y="-53" type="curve" smooth="yes"/>
+			<point x="-477" y="-53"/>
+			<point x="-508" y="-79"/>
+		</contour>
+	</outline>
+</glyph>

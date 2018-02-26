@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="MatraAa.or" format="1">
+	<unicode hex="0B3E"/>
+	<advance width="282"/>
+	<outline>
+		<contour>
+			<point x="222" y="617" type="line"/>
+			<point x="222" y="681"/>
+			<point x="189" y="693"/>
+			<point x="132" y="693" type="curve" smooth="yes"/>
+			<point x="105" y="693"/>
+			<point x="73" y="688"/>
+			<point x="60" y="685" type="curve"/>
+			<point x="60" y="68" type="line" smooth="yes"/>
+			<point x="60" y="4"/>
+			<point x="93" y="-8"/>
+			<point x="149" y="-8" type="curve" smooth="yes"/>
+			<point x="177" y="-8"/>
+			<point x="209" y="-3"/>
+			<point x="222" y="0" type="curve"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="anusvara.or" format="1">
+	<unicode hex="0B02"/>
+	<advance width="439"/>
+	<outline>
+		<contour>
+			<point x="35" y="528" type="curve" smooth="yes"/>
+			<point x="35" y="419"/>
+			<point x="115" y="351"/>
+			<point x="222" y="351" type="curve" smooth="yes"/>
+			<point x="329" y="351"/>
+			<point x="409" y="419"/>
+			<point x="409" y="528" type="curve" smooth="yes"/>
+			<point x="409" y="637"/>
+			<point x="329" y="705"/>
+			<point x="222" y="705" type="curve" smooth="yes"/>
+			<point x="115" y="705"/>
+			<point x="35" y="637"/>
+		</contour>
+		<contour>
+			<point x="175" y="528" type="curve" smooth="yes"/>
+			<point x="175" y="567"/>
+			<point x="194" y="591"/>
+			<point x="222" y="591" type="curve" smooth="yes"/>
+			<point x="250" y="591"/>
+			<point x="269" y="567"/>
+			<point x="269" y="528" type="curve" smooth="yes"/>
+			<point x="269" y="489"/>
+			<point x="250" y="465"/>
+			<point x="222" y="465" type="curve" smooth="yes"/>
+			<point x="194" y="465"/>
+			<point x="175" y="489"/>
+		</contour>
+	</outline>
+</glyph>
