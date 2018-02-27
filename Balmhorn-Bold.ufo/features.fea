@@ -293,6 +293,9 @@ markClass [@bottom4_Devanagari] <anchor 0 0> @bottom4;
     SaLa.Mlym SaSa.Mlym BaJa.Mlym
 ];
 
+markClass [uni0D62 uni0D63] <anchor 0 0> @matraLru_Mlym;
+markClass [Virama.Mlym] <anchor 0 0> @Virama_Mlym;
+
 @ViramaVa1_Mlym = [
     Ja.Mlym JaJa.Mlym NyaJa.Mlym KaTta.Mlym KaLa.Mlym KaSa.Mlym
     KaSsaMa.Mlym GhaNa.Mlym GaGa.Mlym GaLa.Mlym CaCa.Mlym
@@ -5707,6 +5710,17 @@ lookup blwm_Deva_5 {
 } blwm_Deva_5;
 
 
+lookup blwm_Mlym_1 {
+    pos base Ka.Mlym <anchor 1000 -20> mark @Virama_Mlym;
+    # pos base NaRra.Mlym <anchor 1260 0> mark @Virama_Mlym;
+} blwm_Mlym_1;
+
+
+lookup blwm_Mlym_2 {
+    pos base Ka.Mlym <anchor 1000 0> mark @matraLru_Mlym;
+} blwm_Mlym_2;
+
+
 feature blwm {
     script deva; language dflt;
     lookup blwm_Deva_1; lookup blwm_Deva_2; lookup blwm_Deva_3;
@@ -5731,6 +5745,11 @@ feature blwm {
     script dev2; language HIN;
     lookup blwm_Deva_1; lookup blwm_Deva_2; lookup blwm_Deva_3;
     lookup blwm_Deva_4; lookup blwm_Deva_5;
+
+    script mlym; language dflt; lookup blwm_Mlym_1; lookup blwm_Mlym_2;
+    script mlym; language MAL;  lookup blwm_Mlym_1; lookup blwm_Mlym_2;
+    script mlm2; language dflt; lookup blwm_Mlym_1; lookup blwm_Mlym_2;
+    script mlm2; language MAL;  lookup blwm_Mlym_1; lookup blwm_Mlym_2;
 } blwm;
 
 
