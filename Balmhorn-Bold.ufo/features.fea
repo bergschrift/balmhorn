@@ -2277,6 +2277,7 @@ feature ss02 { #short matra replacement
     sub [matraE.dv matraEBindu.dv matraEReph.dv matraERephBindu.dv matraAi.dv matraAiBindu.dv] by [matraEone.dv matraEoneBindu.dv matraEoneReph.dv matraEoneRephBindu.dv matraAione.dv matraAioneBindu.dv];
 } ss02;
 
+
 #--------------------------------------------------------------------
 # salt - Stylistic Alternates
 #--------------------------------------------------------------------
@@ -5379,20 +5380,11 @@ pos base vowelShortA.dv <anchor 990 0> mark @top2;
 
 
 
-#-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------
+# blwm - Below-base Mark Positioning
+#--------------------------------------------------------------------
 
-#*****  B E L O W B A S E   M A R K   P O S I T I O N I N G  ******#
-
-#-----------------------------------------------------------------------------------------
-
-
-
-
-feature blwm {
-
-
-lookup blwm1 {
-
+lookup blwm_Deva_1 {
 pos base Ka.dv <anchor 571 0> mark @bottom1;
 pos base Nga.dv <anchor 448 0> mark @bottom1;
 pos base Cha.dv <anchor 553 0> mark @bottom1;
@@ -5513,15 +5505,10 @@ pos base KaNuktaKaNukta.dv <anchor 1161 0> mark @bottom1;
 pos base KaNuktaPhaNukta.dv <anchor 1186 0> mark @bottom1;
 pos base PhaNuktaPhaNukta.dv <anchor 1213 0> mark @bottom1;
 pos base BaSaTta.dv <anchor 1235 0> mark @bottom1;
-
-} blwm1;
-
+} blwm_Deva_1;
 
 
-
-
-lookup blwm2 { # small ukar rukar 
-
+lookup blwm_Deva_2 { # small ukar rukar
 pos base ChaVa.dv <anchor 631 -258> mark @bottom2;
 pos base NgaKa.dv <anchor 405 -278> mark @bottom2;
 pos base NgaGa.dv <anchor 535 -227> mark @bottom2;
@@ -5534,14 +5521,11 @@ pos base DdaDda.dv <anchor 403 -284> mark @bottom2;
 pos base DdaDdha.dv <anchor 403 -255> mark @bottom2;
 pos base DdhaDdha.dv <anchor 413 -255> mark @bottom2;
 pos base CaChaVa.dv <anchor 1049 -260> mark @bottom2;
-
-} blwm2;
-
+} blwm_Deva_2;
 
 
-lookup blwm3 { # halant
 
-
+lookup blwm_Deva_3 { # halant
 pos base LaVaDda.dv <anchor 1321 0> mark @bottom3;
 pos base BaSaTta.dv <anchor 1235 0> mark @bottom3;
 pos base DaDa.dv <anchor 454 -172> mark @bottom3;
@@ -5673,16 +5657,10 @@ pos base KaNuktaKaNukta.dv <anchor 1161 0> mark @bottom3;
 pos base KaNuktaPhaNukta.dv <anchor 1186 0> mark @bottom3;
 pos base PhaNuktaPhaNukta.dv <anchor 1213 0> mark @bottom3;
 pos base KaSaTta.dv <anchor 1497 0> mark @bottom3;
-
-} blwm3;
-
+} blwm_Deva_3;
 
 
-
-
-lookup blwm4 { # vattu
-
-
+lookup blwm_Deva_4 { # vattu
 pos base [Tta.dv Ttha.dv Ddha.dv] <anchor 446 0> mark @bottom4;
 pos base [Dda.dv Nga.dv] <anchor 414 0> mark @bottom4;
 pos base Lla.dv <anchor 695 0> mark @bottom4;
@@ -5721,18 +5699,39 @@ pos base ShaTta.dv <anchor 904 0> mark @bottom4;
 pos base SsaTta.dv <anchor 724 0> mark @bottom4;
 pos base SsaTtha.dv <anchor 744 0> mark @bottom4;
 pos base SaTta.dv <anchor 845 0> mark @bottom4;
-
-} blwm4;
-
+} blwm_Deva_4;
 
 
-lookup blwm5 {
+lookup blwm_Deva_5 {
     pos mark Vattu.dv <anchor 60 -140> mark @bottom3;
-} blwm5;
+} blwm_Deva_5;
 
 
+feature blwm {
+    script deva; language dflt;
+    lookup blwm_Deva_1; lookup blwm_Deva_2; lookup blwm_Deva_3;
+    lookup blwm_Deva_4; lookup blwm_Deva_5;
+
+    script deva; language MAR;
+    lookup blwm_Deva_1; lookup blwm_Deva_2; lookup blwm_Deva_3;
+    lookup blwm_Deva_4; lookup blwm_Deva_5;
+
+    script deva; language HIN;
+    lookup blwm_Deva_1; lookup blwm_Deva_2; lookup blwm_Deva_3;
+    lookup blwm_Deva_4; lookup blwm_Deva_5;
+
+    script dev2; language dflt;
+    lookup blwm_Deva_1; lookup blwm_Deva_2; lookup blwm_Deva_3;
+    lookup blwm_Deva_4; lookup blwm_Deva_5;
+
+    script dev2; language MAR;
+    lookup blwm_Deva_1; lookup blwm_Deva_2; lookup blwm_Deva_3;
+    lookup blwm_Deva_4; lookup blwm_Deva_5;
+
+    script dev2; language HIN;
+    lookup blwm_Deva_1; lookup blwm_Deva_2; lookup blwm_Deva_3;
+    lookup blwm_Deva_4; lookup blwm_Deva_5;
 } blwm;
-
 
 
 #####################################################################
