@@ -213,8 +213,6 @@ languagesystem mlm2 MAL;
 @matraItwentythree = [KaSaPaLa.dv NaPhaLaYa.dv];
 
 
-
-
 #----------------------------------
 #-------postbase_Iikar_matra--------
 #----------------------------------
@@ -274,6 +272,110 @@ markClass [@bottom3_Devanagari] <anchor 0 0> @bottom3;
 
 @bottom4_Devanagari = [Vattu.dv VattumatraU.dv VattumatraUu.dv];
 markClass [@bottom4_Devanagari] <anchor 0 0> @bottom4;
+
+
+@matraI_Mlym = [
+    La.Mlym Kha.Mlym Gha.Mlym Ca.Mlym Tha.Mlym Pa.Mlym Pha.Mlym
+    Ba.Mlym Va.Mlym Ssa.Mlym KaSsa.Mlym NaTha.Mlym MaPa.Mlym
+    ShaCa.Mlym SaTha.Mlym GhaNa.Mlym KaSsaMa.Mlym CaCa.Mlym CaCha.Mlym
+    PaPa.Mlym PaNa.Mlym PaLa.Mlym PaSa.Mlym PaTa.Mlym BaBa.Mlym
+    BaLa.Mlym BaDa.Mlym BaDha.Mlym BaKa.Mlym PhaLa.Mlym PhaKa.Mlym
+    PhaTa.Mlym LaLa.Mlym LaPa.Mlym LaKa.Mlym LaMa.Mlym VaVa.Mlym
+    VaLa.Mlym SsaPa.Mlym SsaKa.Mlym SsaNna.Mlym SsaTta.Mlym SsaMa.Mlym
+    SsaRraRra.Mlym SsaPha.Mlym SsaTtha.Mlym SsaTa.Mlym ViramaVa.Mlym
+    uni0D6E uni0D67 Ya.Mlym YaYa.Mlym YaMa.Mlym YaPa.Mlym YaKa.Mlym
+    YaKaKa.Mlym YaTa.Mlym YaTaTa.Mlym Zha.Mlym ZhaKa.Mlym ZhaCa.Mlym
+    ZhaTa.Mlym ZhaTaTa.Mlym ZhaNaNa.Mlym ZhaMa.Mlym Tta.Mlym
+    TtaTta.Mlym NyaCa.Mlym Jha.Mlym Dda.Mlym Ddha.Mlym Dha.Mlym
+    Sa.Mlym Virama.Mlym uni0D4E GaDaDha.Mlym NnaDda.Mlym NnaDdha.Mlym
+    TaSa.Mlym DaDha.Mlym NaDha.Mlym DdaDda.Mlym DdaDdha.Mlym SaKa.Mlym
+    SaTa.Mlym SaNa.Mlym SaPa.Mlym SaPha.Mlym SaMa.Mlym SaRraRra.Mlym
+    SaLa.Mlym SaSa.Mlym BaJa.Mlym
+];
+
+@ViramaVa1_Mlym = [
+    Ja.Mlym JaJa.Mlym NyaJa.Mlym KaTta.Mlym KaLa.Mlym KaSa.Mlym
+    KaSsaMa.Mlym GhaNa.Mlym GaGa.Mlym GaLa.Mlym CaCa.Mlym
+    CaCha.Mlym TtaTta.Mlym DdaDda.Mlym DdaDdha.Mlym NnaNna.Mlym
+    NnaTtha.Mlym TaLa.Mlym DaDa.Mlym PaTa.Mlym PaNa.Mlym
+    PaLa.Mlym PaSa.Mlym BaKa.Mlym BaJa.Mlym BaDa.Mlym BaDha.Mlym
+    BaBa.Mlym BaLa.Mlym PhaKa.Mlym PhaTa.Mlym PhaLa.Mlym
+    MaNa.Mlym MaLa.Mlym YaKa.Mlym YaKaKa.Mlym YaTa.Mlym
+    YaTaTa.Mlym YaPa.Mlym YaMa.Mlym YaYa.Mlym RraRra.Mlym
+    LaKa.Mlym LaPa.Mlym LaMa.Mlym LaLa.Mlym VaLa.Mlym VaVa.Mlym
+    SsaKa.Mlym SsaTta.Mlym SsaTtha.Mlym SsaNna.Mlym SsaTa.Mlym
+    ShaNa.Mlym SsaPa.Mlym SsaPha.Mlym SsaMa.Mlym SsaRraRra.Mlym
+    ShaMa.Mlym ShaLa.Mlym ShaSha.Mlym SaKa.Mlym SaTa.Mlym
+    SaNa.Mlym SaPa.Mlym SaPha.Mlym SaMa.Mlym SaRraRra.Mlym
+    SaLa.Mlym SaSa.Mlym HaLa.Mlym ZhaKa.Mlym ZhaCa.Mlym
+    ZhaTa.Mlym ZhaTaTa.Mlym ZhaNaNa.Mlym ZhaMa.Mlym NaRra.Mlym
+];
+
+@ViramaRa1_Mlym = [
+    Ja.Mlym JaJa.Mlym JaNya.Mlym CaCha.Mlym TtaTta.Mlym PaSa.Mlym
+    MaNa.Mlym MaLa.Mlym ZhaKa.Mlym ZhaCa.Mlym ZhaTa.Mlym
+    ZhaTaTa.Mlym ZhaNaNa.Mlym
+];
+
+@ViramaYa1_Mlym = [
+    Ja.Mlym JaJa.Mlym NyaJa.Mlym KaLa.Mlym KaSa.Mlym KaSsaMa.Mlym
+    GhaNa.Mlym GaGa.Mlym GaLa.Mlym CaCa.Mlym CaCha.Mlym
+    TtaTta.Mlym DdaDda.Mlym DdaDdha.Mlym NnaNna.Mlym NnaTtha.Mlym
+    TaLa.Mlym DaDa.Mlym PaTa.Mlym PaNa.Mlym PaLa.Mlym PaSa.Mlym
+    BaKa.Mlym BaJa.Mlym BaDa.Mlym BaDha.Mlym BaBa.Mlym BaLa.Mlym
+    PhaKa.Mlym PhaTa.Mlym PhaLa.Mlym MaNa.Mlym MaLa.Mlym
+    YaKaKa.Mlym YaTaTa.Mlym YaPa.Mlym YaYa.Mlym LaKa.Mlym
+    LaPa.Mlym LaLa.Mlym VaLa.Mlym VaVa.Mlym SsaKa.Mlym
+    SsaTta.Mlym SsaTtha.Mlym SsaNna.Mlym SsaTa.Mlym SsaPa.Mlym
+    SsaPha.Mlym SsaMa.Mlym SsaRraRra.Mlym ShaMa.Mlym ShaLa.Mlym
+    ShaSha.Mlym SaKa.Mlym SaTa.Mlym SaNa.Mlym SaPa.Mlym
+    SaPha.Mlym SaMa.Mlym SaRraRra.Mlym SaLa.Mlym SaSa.Mlym
+    HaLa.Mlym ZhaKa.Mlym ZhaCa.Mlym ZhaTa.Mlym ZhaTaTa.Mlym
+    ZhaNaNa.Mlym ZhaMa.Mlym NaRra.Mlym
+];
+
+@matraU1_Mlym = [
+    Ka.Mlym Kha.Mlym Gha.Mlym Ca.Mlym Tha.Mlym Pa.Mlym Pha.Mlym
+    Ba.Mlym Ma.Mlym La.Mlym Lla.Mlym Va.Mlym Ssa.Mlym KaSsa.Mlym
+    GaMa.Mlym NyaCa.Mlym NnaMa.Mlym TaTha.Mlym TaMa.Mlym
+    NaMa.Mlym NaTha.Mlym MaMa.Mlym MaPa.Mlym ShaCa.Mlym HaMa.Mlym
+    LlaLla.Mlym KaTta.Mlym KaLa.Mlym KaSsaMa.Mlym GhaNa.Mlym
+    GaGa.Mlym GaLa.Mlym NgaKa.Mlym DdaDda.Mlym NnaNna.Mlym
+    NnaTtha.Mlym TaLa.Mlym PaPa.Mlym BaDa.Mlym PhaKa.Mlym
+    PhaTa.Mlym PhaLa.Mlym YaKaKa.Mlym YaPa.Mlym YaYa.Mlym
+    LaMa.Mlym LaLa.Mlym SsaKa.Mlym SsaTtha.Mlym SaPa.Mlym
+    SaPha.Mlym SaMa.Mlym SaRraRra.Mlym SaLa.Mlym HaLa.Mlym
+];
+
+@matraU2_Mlym = [
+    Ja.Mlym JaJa.Mlym NyaJa.Mlym KaSa.Mlym NgaKa.Mlym CaCa.Mlym
+    CaCha.Mlym TtaTta.Mlym DdaDdha.Mlym DaDa.Mlym PaTa.Mlym
+    PaNa.Mlym PaLa.Mlym PaSa.Mlym BaJa.Mlym BaDha.Mlym BaBa.Mlym
+    BaLa.Mlym MaNa.Mlym MaLa.Mlym YaTaTa.Mlym LaPa.Mlym VaLa.Mlym
+    VaVa.Mlym SsaNna.Mlym SsaTa.Mlym SsaPa.Mlym SsaPha.Mlym
+    SsaMa.Mlym SsaRraRra.Mlym SaTa.Mlym SaNa.Mlym ZhaKa.Mlym
+    ZhaTa.Mlym ZhaNaNa.Mlym NaRra.Mlym ZhaTaTa.Mlym BaKa.Mlym
+];
+
+@matraRu1_Mlym = [
+    KaLa.Mlym KaSa.Mlym KaSsaMa.Mlym GhaNa.Mlym GaGa.Mlym
+    GaLa.Mlym DdaDda.Mlym NnaNna.Mlym NnaTtha.Mlym TaLa.Mlym
+    BaJa.Mlym BaDa.Mlym BaDha.Mlym BaLa.Mlym PhaKa.Mlym
+    PhaTa.Mlym PhaLa.Mlym YaKaKa.Mlym YaPa.Mlym YaYa.Mlym
+    RraRra.Mlym LaKa.Mlym LaLa.Mlym SsaKa.Mlym SsaTta.Mlym
+    SsaTtha.Mlym SsaTa.Mlym SsaPha.Mlym SsaMa.Mlym ShaMa.Mlym
+    SaPa.Mlym SaPha.Mlym SaMa.Mlym SaSa.Mlym HaLa.Mlym
+];
+
+@matraRu2_Mlym = [
+    CaCa.Mlym CaCha.Mlym TtaTta.Mlym DdaDdha.Mlym DaDa.Mlym
+    PaTa.Mlym PaNa.Mlym PaLa.Mlym PaSa.Mlym BaKa.Mlym BaBa.Mlym
+    MaNa.Mlym MaLa.Mlym YaTaTa.Mlym LaPa.Mlym VaLa.Mlym VaVa.Mlym
+    SsaNna.Mlym SsaPa.Mlym SsaRraRra.Mlym SaKa.Mlym SaTa.Mlym
+    SaNa.Mlym SaRraRra.Mlym SaLa.Mlym ZhaKa.Mlym ZhaTa.Mlym
+    ZhaTaTa.Mlym ZhaNaNa.Mlym NaRra.Mlym Ja.Mlym NyaJa.Mlym
+    JaJa.Mlym
+];
 
 
 #####################################################################
@@ -1945,6 +2047,22 @@ lookup blws_Deva_VertConjuncts {
 } blws_Deva_VertConjuncts;
 
 
+lookup blws_Mlym {
+    sub @matraU1_Mlym matraU.Mlym' by matraU1.Mlym;
+    sub @matraU1_Mlym matraUu.Mlym' by matraUu1.Mlym;
+    sub @matraRu1_Mlym matraRu.Mlym' by matraRu1.Mlym;
+
+    sub @matraU2_Mlym matraU.Mlym' by matraU2.Mlym;
+    sub @matraU2_Mlym matraUu.Mlym' by matraUu2.Mlym;
+    sub @matraRu2_Mlym matraRu.Mlym' by matraRu2.Mlym;
+
+    sub [ViramaYa.Mlym ViramaYa1.Mlym] matraU.Mlym' by matraU2.Mlym;
+    sub [ViramaVa.Mlym ViramaVa1.Mlym] matraU.Mlym' by matraU2.Mlym;
+    sub [ViramaYa.Mlym ViramaYa1.Mlym] matraRu.Mlym' by matraRu2.Mlym;
+    sub [ViramaVa.Mlym ViramaVa1.Mlym] matraRu.Mlym' by matraRu2.Mlym;
+} blws_Mlym;
+
+
 feature blws {
     script deva; language dflt;
     lookup blws_Deva_1;
@@ -1975,8 +2093,12 @@ feature blws {
     lookup blws_Deva_1;
     lookup blws_Deva_Vattumatra;
     lookup blws_Deva_VertConjuncts;
-} blws;
 
+    script mlym; language dflt; lookup blws_Mlym;
+    script mlym; language MAL;  lookup blws_Mlym;
+    script mlm2; language dflt; lookup blws_Mlym;
+    script mlm2; language MAL;  lookup blws_Mlym;
+} blws;
 
 
 #--------------------------------------------------------------------
@@ -2067,6 +2189,25 @@ lookup psts_Deva_6 { # Postbase matra substitutions with vattu
 } psts_Deva_6;
 
 
+lookup psts_Mlym_1 {
+    sub Ya.Mlym ViramaYa.Mlym by YaYa.Mlym;
+    sub Va.Mlym ViramaVa.Mlym by VaVa.Mlym;
+} psts_Mlym_1;
+
+
+lookup psts_Mlym_2 {
+    sub @matraI_Mlym matraI.Mlym' by matraI1.Mlym;
+    sub @matraI_Mlym matraIi.Mlym' by matraIi1.Mlym;
+} psts_Mlym_2;
+
+
+lookup psts_Mlym_3 {
+    sub @ViramaVa1_Mlym ViramaVa.Mlym' by ViramaVa1.Mlym;
+    sub @ViramaYa1_Mlym ViramaYa.Mlym' by ViramaYa1.Mlym;
+    sub ViramaRa1.Mlym' @ViramaRa1_Mlym by ViramaRa1.Mlym;
+} psts_Mlym_3;
+
+
 feature psts {
     script deva; language dflt;
     lookup psts_Deva_1; lookup psts_Deva_2; lookup psts_Deva_3;
@@ -2091,6 +2232,18 @@ feature psts {
     script dev2; language MAR;
     lookup psts_Deva_1; lookup psts_Deva_2; lookup psts_Deva_3;
     lookup psts_Deva_4; lookup psts_Deva_5; lookup psts_Deva_6;
+
+    script mlym; language dflt;
+    lookup psts_Mlym_1; lookup psts_Mlym_2; lookup psts_Mlym_3;
+
+    script mlym; language MAL;
+    lookup psts_Mlym_1; lookup psts_Mlym_2; lookup psts_Mlym_3;
+
+    script mlm2; language dflt;
+    lookup psts_Mlym_1; lookup psts_Mlym_2; lookup psts_Mlym_3;
+
+    script mlm2; language MAL;
+    lookup psts_Mlym_1; lookup psts_Mlym_2; lookup psts_Mlym_3;
 } psts;
 
 
