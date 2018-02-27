@@ -149,6 +149,181 @@ languagesystem mlm2 MAL;
 @_paach=[Paach.dv  Paanch.dv];
 
 
+#----------------------------------
+# Kerning classes for Malayalam
+#----------------------------------
+
+@_RaTaLeft_Mlym = [
+    Ra.Mlym vowelA.Mlym vowelAa.Mlym vowelLru.Mlym vowelshortO.Mlym
+    vowelO.Mlym vowelAu.Mlym Kha.Mlym Nga.Mlym Jha.Mlym Nya.Mlym
+    Nna.Mlym Ta.Mlym Ba.Mlym uni0D6D uni0D74 uni0D75 chilluNn.Mlym
+    chilluRr.Mlym chilluL.Mlym NgaNga.Mlym NyaJa.Mlym NyaNya.Mlym
+    NyaCa.Mlym NyaCha.Mlym NnaMa.Mlym NnaDda.Mlym NnaTta.Mlym
+    TaTa.Mlym TaSa.Mlym TaTha.Mlym TaMa.Mlym TaBha.Mlym TaNa.Mlym
+    NnaNna.Mlym NnaTtha.Mlym TaLa.Mlym BaBa.Mlym BaLa.Mlym BaDa.Mlym
+    BaDha.Mlym BaKa.Mlym matrashortE.Mlym matraAi.Mlym
+    matrashortO.Mlym matraAu.Mlym vowelLruu.Mlym vowelAi.Mlym uni0D29
+    uni0D6A
+];
+
+@_DhaLeft_Mlym = [
+    Dha.Mlym Ga.Mlym GaDa.Mlym GaMa.Mlym GaDaDha.Mlym GaNa.Mlym
+    ShaCa.Mlym ShaCha.Mlym GaGa.Mlym GaLa.Mlym ShaLa.Mlym ShaNa.Mlym
+    ShaMa.Mlym Sha.Mlym
+];
+
+@_NaLeft_Mlym = [
+    Na.Mlym Sa.Mlym uni0D69 uni0D6C uni0D6F uni0D71 uni0D72 uni0D79
+    chilluN.Mlym NaNa.Mlym NaDa.Mlym NaTa.Mlym NaDha.Mlym NnaDdha.Mlym
+    NaMa.Mlym NaTha.Mlym MaPa.Mlym SaTha.Mlym DdaDda.Mlym DdaDdha.Mlym
+    SaSa.Mlym SaLa.Mlym SaRraRra.Mlym SaPa.Mlym SaTa.Mlym SaKa.Mlym
+    SaNa.Mlym SaMa.Mlym NaRra.Mlym Ddha.Mlym Dda.Mlym NaRraVirama.Mlym
+];
+
+@_PaLeft_Mlym = [
+    Pa.Mlym vowelshortE.Mlym vowelE.Mlym Pha.Mlym Ssa.Mlym Ha.Mlym
+    PaPa.Mlym PaNa.Mlym PaLa.Mlym PaSa.Mlym PaTa.Mlym SsaPa.Mlym
+    SsaKa.Mlym SsaNna.Mlym SsaTta.Mlym SsaMa.Mlym SsaRraRra.Mlym
+    SsaPha.Mlym SsaTtha.Mlym SsaTa.Mlym HaLa.Mlym PhaLa.Mlym
+    PhaKa.Mlym PhaTa.Mlym
+];
+
+@_KaLeft_Mlym = [
+    Ka.Mlym chilluK.Mlym KaSsa.Mlym KaKa.Mlym KaLa.Mlym KaSa.Mlym
+    KaTta.Mlym KaSsaMa.Mlym
+];
+
+@_RraLeft_Mlym = [
+    Rra.Mlym Va.Mlym uni0D68 uni0D6E VaVa.Mlym VaLa.Mlym RraRra.Mlym
+];
+
+@_CaLeft_Mlym = [Ca.Mlym Cha.Mlym CaCa.Mlym CaCha.Mlym];
+@_GhaLeft_Mlym = [Gha.Mlym GhaNa.Mlym];
+
+@_VowelULeft_Mlym = [
+    vowelU.Mlym vowelI.Mlym vowelIi.Mlym vowelUu.Mlym Ja.Mlym
+    JaJa.Mlym JaNya.Mlym Lla.Mlym LlaLla.Mlym
+];
+
+@_NaRight_Mlym = [
+    Na.Mlym Ga.Mlym Nna.Mlym GaNa.Mlym TaNa.Mlym NaNa.Mlym HaNa.Mlym
+    GaGa.Mlym GaLa.Mlym NnaNna.Mlym NnaTtha.Mlym uni0D29
+];
+
+@_DhaRight_Mlym = [
+    Dha.Mlym Jha.Mlym Dda.Mlym Sa.Mlym GaDaDha.Mlym NnaDda.Mlym
+    TaSa.Mlym NaDha.Mlym DdaDda.Mlym DdaDdha.Mlym SaSa.Mlym SaLa.Mlym
+    SaRraRra.Mlym SaPa.Mlym SaTa.Mlym SaKa.Mlym SaNa.Mlym SaMa.Mlym
+];
+
+@_RaTaRight_Mlym = [
+    Ra.Mlym vowelA.Mlym vowelLru.Mlym Cha.Mlym Nya.Mlym Ta.Mlym
+    Sha.Mlym matrashortE.Mlym uni0D74 uni0D75 chilluNn.Mlym
+    chilluN.Mlym chilluRr.Mlym chilluL.Mlym chilluLl.Mlym KaKa.Mlym
+    KaTa.Mlym NyaNya.Mlym NyaCha.Mlym TaTa.Mlym NaTa.Mlym ShaCha.Mlym
+    TaLa.Mlym NaRra.Mlym matraAi.Mlym matrashortO.Mlym matraAu.Mlym
+    JaNya.Mlym uni0D6A uni0D6F NaRraVirama.Mlym
+];
+
+@_KaRight_Mlym = [
+    Ka.Mlym chilluK.Mlym NgaKa.Mlym KaLa.Mlym KaSa.Mlym KaTta.Mlym
+];
+
+@_RraRight_Mlym = [Rra.Mlym Ha.Mlym HaLa.Mlym RraRra.Mlym];
+@_AumatraRight_Mlym = [lengthAu.Mlym vowelIi.Mlym vowelUu.Mlym vowelAu.Mlym];
+@_VowelRuBoth_Mlym = [vowelRu.Mlym vowelRuu.Mlym];
+
+@_MaRight_Mlym = [
+    Ma.Mlym GaMa.Mlym NnaMa.Mlym TaMa.Mlym NaMa.Mlym MaMa.Mlym
+    HaMa.Mlym MaLa.Mlym MaNa.Mlym
+];
+
+@_VowelAaRight_Mlym = [vowelAa.Mlym vowelLruu.Mlym];
+
+@_ZhaBoth_Mlym = [
+    Zha.Mlym  ZhaCa.Mlym ZhaTa.Mlym ZhaKa.Mlym ZhaTaTa.Mlym ZhaMa.Mlym
+];
+
+@_DaRight_Mlym = [
+    Da.Mlym Nga.Mlym Bha.Mlym DaDa.Mlym NgaNga.Mlym GaDa.Mlym
+    NnaTta.Mlym TaBha.Mlym NaDa.Mlym vowelshortO.Mlym
+];
+
+@_YaBoth_Mlym = [
+    Ya.Mlym YaYa.Mlym YaMa.Mlym YaPa.Mlym YaKa.Mlym YaKaKa.Mlym
+    YaTa.Mlym YaTaTa.Mlym
+];
+
+@_DdhaRight_Mlym = [Ddha.Mlym NnaDdha.Mlym];
+@_TtaBoth_Mlym = [Tta.Mlym TtaTta.Mlym];
+@_VowelshortERight_Mlym = [vowelshortE.Mlym vowelAi.Mlym];
+@_TthaRight_Mlym = [Ttha.Mlym matraA.Mlym vowelO.Mlym];
+@_LlaRight_Mlym = [Lla.Mlym LlaLla.Mlym];
+@_JaRight_Mlym = [Ja.Mlym NyaJa.Mlym JaJa.Mlym];
+
+@_DaLeft_Mlym = [
+    Da.Mlym Bha.Mlym La.Mlym DaDa.Mlym LaLa.Mlym LaPa.Mlym LaKa.Mlym
+    LaMa.Mlym
+];
+
+@_ThaRight_Mlym = [
+    Tha.Mlym Pha.Mlym uni0D67 NaTha.Mlym PhaLa.Mlym PhaKa.Mlym
+    PhaTa.Mlym
+];
+
+@_matraURight_Mlym = [
+    matraU.Mlym matraU1.Mlym matraU2.Mlym matraUu.Mlym matraUu1.Mlym
+    matraUu2.Mlym
+];
+
+@_matraRuRight_Mlym = [
+    matraRu.Mlym uni0D44 ViramaYa.Mlym matraRu1.Mlym matraRu2.Mlym
+    ViramaYa1.Mlym
+];
+
+@_ViramaRaLeft_Mlym = [ViramaRa.Mlym ViramaRa1.Mlym];
+
+@_space_Mlym = [  # class to kern Malayalam characters with space
+    matraI.Mlym Anuswara.Mlym Visarga.Mlym vowelA.Mlym vowelAa.Mlym
+    vowelI.Mlym vowelIi.Mlym vowelU.Mlym vowelUu.Mlym vowelRu.Mlym
+    vowelLru.Mlym vowelshortE.Mlym vowelE.Mlym vowelAi.Mlym
+    vowelshortO.Mlym vowelO.Mlym vowelAu.Mlym Ka.Mlym Kha.Mlym Ga.Mlym
+    Gha.Mlym Nga.Mlym Ca.Mlym Cha.Mlym Ja.Mlym Jha.Mlym Nya.Mlym
+    Tta.Mlym Ttha.Mlym Dda.Mlym Ddha.Mlym Nna.Mlym Ta.Mlym Tha.Mlym
+    Da.Mlym Dha.Mlym Na.Mlym uni0D29 Pa.Mlym Pha.Mlym Ba.Mlym Bha.Mlym
+    Ma.Mlym Ya.Mlym Ra.Mlym Rra.Mlym La.Mlym Lla.Mlym Zha.Mlym Va.Mlym
+    Sha.Mlym Ssa.Mlym Sa.Mlym Ha.Mlym uni0D3A uni0D3D matraA.Mlym
+    matraIi.Mlym matraU.Mlym matraUu.Mlym matraRu.Mlym uni0D44
+    matrashortO.Mlym matraO.Mlym matraAu.Mlym lengthAu.Mlym
+    vowelRuu.Mlym vowelLruu.Mlym uni0D66 uni0D67 uni0D68 uni0D69
+    uni0D6A uni0D6B uni0D6C uni0D6D uni0D6E uni0D6F uni0D70 uni0D71
+    uni0D72 uni0D73 uni0D74 uni0D75 uni0D79 chilluNn.Mlym chilluN.Mlym
+    chilluRr.Mlym chilluL.Mlym chilluLl.Mlym chilluK.Mlym KaSsa.Mlym
+    JaNya.Mlym KaKa.Mlym KaTa.Mlym NgaKa.Mlym NgaNga.Mlym GaDa.Mlym
+    GaMa.Mlym GaDaDha.Mlym GaNa.Mlym JaJa.Mlym NyaJa.Mlym NyaNya.Mlym
+    NyaCa.Mlym NyaCha.Mlym NnaMa.Mlym NnaDda.Mlym NnaDdha.Mlym
+    NnaTta.Mlym TaTa.Mlym TaSa.Mlym TaTha.Mlym TaMa.Mlym TaBha.Mlym
+    TaNa.Mlym DaDha.Mlym NaNa.Mlym NaDa.Mlym NaTa.Mlym NaDha.Mlym
+    NaMa.Mlym NaTha.Mlym MaMa.Mlym MaPa.Mlym ShaCa.Mlym ShaCha.Mlym
+    SaTha.Mlym HaNa.Mlym HaMa.Mlym LlaLla.Mlym KaTta.Mlym KaLa.Mlym
+    KaSa.Mlym KaSsaMa.Mlym GhaNa.Mlym GaGa.Mlym GaLa.Mlym CaCa.Mlym
+    CaCha.Mlym TtaTta.Mlym DdaDda.Mlym DdaDdha.Mlym NnaNna.Mlym
+    NnaTtha.Mlym TaLa.Mlym DaDa.Mlym PaTa.Mlym PaNa.Mlym PaPa.Mlym
+    PaLa.Mlym PaSa.Mlym BaKa.Mlym BaJa.Mlym BaDa.Mlym BaDha.Mlym
+    BaBa.Mlym BaLa.Mlym PhaKa.Mlym PhaTa.Mlym PhaLa.Mlym MaNa.Mlym
+    MaLa.Mlym YaKa.Mlym YaKaKa.Mlym YaTa.Mlym YaTaTa.Mlym YaPa.Mlym
+    YaMa.Mlym YaYa.Mlym RraRra.Mlym LaKa.Mlym LaPa.Mlym LaMa.Mlym
+    LaLa.Mlym VaLa.Mlym VaVa.Mlym SsaKa.Mlym SsaTta.Mlym SsaTtha.Mlym
+    SsaNna.Mlym SsaTa.Mlym ShaNa.Mlym SsaPa.Mlym SsaPha.Mlym
+    SsaMa.Mlym SsaRraRra.Mlym ShaMa.Mlym ShaLa.Mlym ShaSha.Mlym
+    SaKa.Mlym SaTa.Mlym SaNa.Mlym SaPa.Mlym SaPha.Mlym SaMa.Mlym
+    SaRraRra.Mlym SaLa.Mlym SaSa.Mlym HaLa.Mlym ZhaKa.Mlym ZhaCa.Mlym
+    ZhaTa.Mlym ZhaTaTa.Mlym ZhaNaNa.Mlym ZhaMa.Mlym NaRra.Mlym
+    ViramaYa.Mlym ViramaVa.Mlym ViramaYa1.Mlym ViramaVa1.Mlym
+    matraU1.Mlym matraUu1.Mlym matraRu1.Mlym matraU2.Mlym
+    matraUu2.Mlym matraRu2.Mlym matraI1.Mlym matraIi1.Mlym
+];
+
 
 #----------------------------------
 
@@ -2347,6 +2522,10 @@ lookupflag IgnoreMarks;
    pos slash Aath.dv -20;
    pos slash Nau.dv 10;
    pos slash Aanth.dv 10;
+   pos slash Ttha.Mlym -10;
+   pos slash Ma.Mlym -20;
+   pos slash matraU.Mlym 5;
+   pos slash matraE.Mlym -15;
    pos zero four 5;
    pos zero seven -12;
    pos zero two -15;
@@ -2488,6 +2667,8 @@ lookupflag IgnoreMarks;
    pos question seven 30;
    pos question V 10;
    pos question X 15;
+   pos question Ma.Mlym -10;
+   pos question matraE.Mlym -20;
    pos at two 3;
    pos at four 5;
    pos at seven -4;
@@ -2799,6 +2980,135 @@ lookupflag IgnoreMarks;
    pos KaSsamatraU.dv comma 55;
    pos JaNyamatraU.dv comma 55;
    pos DdhaDdha.dv Nya.dv 10;
+   pos Anuswara.Mlym Ma.Mlym -10;
+   pos Anuswara.Mlym Ja.Mlym -15;
+   pos Anuswara.Mlym TtaTta.Mlym -27;
+   pos vowelU.Mlym question -20;
+   pos vowelU.Mlym four 20;
+   pos vowelE.Mlym Anuswara.Mlym -5;
+   pos vowelE.Mlym Ttha.Mlym -4;
+   pos matraE.Mlym Ttha.Mlym -5;
+   pos KaLa.Mlym ViramaVa1.Mlym 35;
+   pos KaLa.Mlym ViramaYa1.Mlym 10;
+   pos KaSa.Mlym ViramaVa1.Mlym 45;
+   pos KaSa.Mlym ViramaYa1.Mlym 20;
+   pos KaSsaMa.Mlym ViramaVa1.Mlym 20;
+   pos GhaNa.Mlym ViramaYa1.Mlym -20;
+   pos GaGa.Mlym ViramaVa1.Mlym 30;
+   pos GaGa.Mlym ViramaYa1.Mlym 10;
+   pos GaLa.Mlym ViramaYa1.Mlym -25;
+   pos CaCa.Mlym ViramaVa1.Mlym 65;
+   pos CaCa.Mlym ViramaYa1.Mlym 40;
+   pos CaCha.Mlym ViramaVa1.Mlym 60;
+   pos CaCha.Mlym ViramaYa1.Mlym 45;
+   pos TtaTta.Mlym ViramaVa1.Mlym 50;
+   pos TtaTta.Mlym ViramaYa1.Mlym 50;
+   pos DdaDda.Mlym ViramaVa1.Mlym 20;
+   pos DdaDdha.Mlym ViramaVa1.Mlym 65;
+   pos DdaDdha.Mlym ViramaYa1.Mlym 50;
+   pos NnaNna.Mlym ViramaVa1.Mlym 20;
+   pos NnaTtha.Mlym ViramaVa1.Mlym 10;
+   pos TaLa.Mlym ViramaVa1.Mlym 30;
+   pos TaLa.Mlym ViramaYa1.Mlym 20;
+   pos DaDa.Mlym ViramaVa1.Mlym 60;
+   pos DaDa.Mlym ViramaYa1.Mlym 55;
+   pos PaTa.Mlym ViramaVa1.Mlym 50;
+   pos PaTa.Mlym ViramaYa1.Mlym 40;
+   pos PaNa.Mlym ViramaVa1.Mlym 50;
+   pos PaNa.Mlym ViramaYa1.Mlym 20;
+   pos PaLa.Mlym ViramaVa1.Mlym 50;
+   pos PaLa.Mlym ViramaYa1.Mlym 20;
+   pos PaSa.Mlym ViramaVa1.Mlym 50;
+   pos PaSa.Mlym ViramaYa1.Mlym 25;
+   pos BaKa.Mlym ViramaVa1.Mlym 60;
+   pos BaKa.Mlym ViramaYa1.Mlym 35;
+   pos BaJa.Mlym ViramaVa1.Mlym 20;
+   pos BaDa.Mlym ViramaVa1.Mlym 30;
+   pos BaDha.Mlym ViramaVa1.Mlym 50;
+   pos BaDha.Mlym ViramaYa1.Mlym 25;
+   pos BaBa.Mlym ViramaVa1.Mlym 65;
+   pos BaBa.Mlym ViramaYa1.Mlym 40;
+   pos BaLa.Mlym ViramaVa1.Mlym 45;
+   pos BaLa.Mlym ViramaYa1.Mlym 20;
+   pos PhaKa.Mlym ViramaVa1.Mlym 30;
+   pos MaNa.Mlym ViramaVa1.Mlym 50;
+   pos MaNa.Mlym ViramaYa1.Mlym 40;
+   pos MaLa.Mlym ViramaVa1.Mlym 50;
+   pos MaLa.Mlym ViramaYa1.Mlym 40;
+   pos YaKaKa.Mlym ViramaVa1.Mlym 20;
+   pos YaTaTa.Mlym ViramaVa1.Mlym 70;
+   pos YaTaTa.Mlym ViramaYa1.Mlym 40;
+   pos YaPa.Mlym ViramaVa1.Mlym 45;
+   pos YaPa.Mlym ViramaYa1.Mlym 30;
+   pos YaYa.Mlym ViramaVa1.Mlym 40;
+   pos YaYa.Mlym ViramaYa1.Mlym 20;
+   pos LaKa.Mlym ViramaVa1.Mlym 20;
+   pos LaKa.Mlym ViramaYa1.Mlym 10;
+   pos LaPa.Mlym ViramaVa1.Mlym 65;
+   pos LaPa.Mlym ViramaYa1.Mlym 40;
+   pos LaLa.Mlym ViramaVa1.Mlym 30;
+   pos VaLa.Mlym ViramaVa1.Mlym 40;
+   pos VaLa.Mlym ViramaYa1.Mlym 30;
+   pos VaVa.Mlym ViramaVa1.Mlym 65;
+   pos VaVa.Mlym ViramaYa1.Mlym 40;
+   pos SsaKa.Mlym ViramaVa1.Mlym 15;
+   pos SsaTta.Mlym ViramaVa1.Mlym 10;
+   pos SsaTtha.Mlym ViramaVa1.Mlym 20;
+   pos SsaNna.Mlym ViramaVa1.Mlym 40;
+   pos SsaNna.Mlym ViramaYa1.Mlym 35;
+   pos SsaTa.Mlym ViramaVa1.Mlym 20;
+   pos SsaPa.Mlym ViramaVa1.Mlym 65;
+   pos SsaPa.Mlym ViramaYa1.Mlym 30;
+   pos SsaPha.Mlym ViramaVa1.Mlym 20;
+   pos SsaMa.Mlym ViramaVa1.Mlym 10;
+   pos SsaRraRra.Mlym ViramaVa1.Mlym 60;
+   pos SsaRraRra.Mlym ViramaYa1.Mlym 30;
+   pos ShaMa.Mlym ViramaVa1.Mlym 10;
+   pos ShaMa.Mlym ViramaYa1.Mlym -20;
+   pos ShaLa.Mlym ViramaYa1.Mlym -40;
+   pos ShaSha.Mlym ViramaYa1.Mlym -30;
+   pos SaKa.Mlym ViramaVa1.Mlym 50;
+   pos SaKa.Mlym ViramaYa1.Mlym 20;
+   pos SaTa.Mlym ViramaVa1.Mlym 70;
+   pos SaTa.Mlym ViramaYa1.Mlym 55;
+   pos SaNa.Mlym ViramaVa1.Mlym 60;
+   pos SaNa.Mlym ViramaYa1.Mlym 45;
+   pos SaPa.Mlym ViramaVa1.Mlym 40;
+   pos SaPha.Mlym ViramaVa1.Mlym 50;
+   pos SaMa.Mlym ViramaVa1.Mlym 40;
+   pos SaRraRra.Mlym ViramaVa1.Mlym 50;
+   pos SaRraRra.Mlym ViramaYa1.Mlym 20;
+   pos SaLa.Mlym ViramaVa1.Mlym 50;
+   pos SaLa.Mlym ViramaYa1.Mlym 40;
+   pos SaSa.Mlym ViramaYa1.Mlym -15;
+   pos HaLa.Mlym ViramaVa1.Mlym 25;
+   pos HaLa.Mlym ViramaYa1.Mlym 20;
+   pos ZhaKa.Mlym ViramaVa1.Mlym 80;
+   pos ZhaKa.Mlym ViramaYa1.Mlym 60;
+   pos ZhaCa.Mlym ViramaYa1.Mlym -20;
+   pos ZhaTa.Mlym ViramaVa1.Mlym 90;
+   pos ZhaTa.Mlym ViramaYa1.Mlym 60;
+   pos ZhaTaTa.Mlym ViramaVa1.Mlym 120;
+   pos ZhaTaTa.Mlym ViramaYa1.Mlym 100;
+   pos ZhaNaNa.Mlym ViramaVa1.Mlym 60;
+   pos ZhaNaNa.Mlym ViramaYa1.Mlym 50;
+   pos ZhaMa.Mlym ViramaYa1.Mlym -30;
+   pos NaRra.Mlym ViramaVa1.Mlym 70;
+   pos NaRra.Mlym ViramaYa1.Mlym 30;
+   pos ViramaRa.Mlym Tha.Mlym 20;
+   pos ViramaYa1.Mlym ZhaTaTa.Mlym 50;
+   pos ViramaYa1.Mlym ZhaNaNa.Mlym 40;
+   pos ViramaRa1.Mlym CaCha.Mlym 65;
+   pos ViramaRa1.Mlym TtaTta.Mlym 60;
+   pos ViramaRa1.Mlym PaSa.Mlym 40;
+   pos ViramaRa1.Mlym MaNa.Mlym 40;
+   pos ViramaRa1.Mlym MaLa.Mlym 45;
+   pos ViramaRa1.Mlym ZhaKa.Mlym 60;
+   pos ViramaRa1.Mlym ZhaCa.Mlym 40;
+   pos ViramaRa1.Mlym ZhaTa.Mlym 70;
+   pos ViramaRa1.Mlym ZhaTaTa.Mlym 100;
+   pos ViramaRa1.Mlym ZhaNaNa.Mlym 70;
+   pos ViramaVa1.Mlym ViramaYa.Mlym 130;
    enum pos @_A_Left_Right V -40;
    enum pos @_A_Left_Right asterisk -70;
    enum pos @_A_Left_Right slash 25;
@@ -3084,6 +3394,7 @@ lookupflag IgnoreMarks;
    enum pos @_period_comma Chaar.dv -15;
    enum pos @_period_comma Saha.dv 5;
    enum pos @_period_comma Nau.dv -70;
+   enum pos @_period_comma Visarga.Mlym 10;
    enum pos @_brackets_Right three -4;
    enum pos @_brackets_Right seven 12;
    enum pos @_brackets_Right eight -4;
@@ -3100,6 +3411,8 @@ lookupflag IgnoreMarks;
    enum pos @_brackets_Right Sha.MAR.dv 40;
    enum pos @_brackets_Right NgaKa.dv 55;
    enum pos @_brackets_Right Aath.dv -10;
+   enum pos @_brackets_Right Ttha.Mlym -5;
+   enum pos @_brackets_Right lengthAu.Mlym -10;
    enum pos @_dashes one -20;
    enum pos @_dashes three -20;
    enum pos @_dashes four 20;
@@ -3115,10 +3428,13 @@ lookupflag IgnoreMarks;
    enum pos @_dashes Aath.dv 20;
    enum pos @_dashes Nau.dv -5;
    enum pos @_dashes Ek.dv -5;
+   enum pos @_dashes Ttha.Mlym 5;
    enum pos @_colon eight 5;
    enum pos @_colon two 5;
    enum pos @_colon V -10;
    enum pos @_colon X 10;
+   enum pos @_colon Ma.Mlym 10;
+   enum pos @_colon matraU.Mlym 40;
    enum pos @_greater seven -10;
    enum pos @_greater two -10;
    enum pos @_greater three -10;
@@ -3129,6 +3445,8 @@ lookupflag IgnoreMarks;
    enum pos @_bar five 8;
    enum pos @_bar vowelU.dv 20;
    enum pos @_bar Sha.MAR.dv 20;
+   enum pos @_bar matraU.Mlym 40;
+   enum pos @_bar matraRu.Mlym 100;
    enum pos @_fractions4 one -15;
    enum pos @_fractions4 four 6;
    enum pos @_fractions4 eight 6;
@@ -3158,6 +3476,8 @@ lookupflag IgnoreMarks;
    enum pos @_quoteleft Aath.dv -30;
    enum pos @_quoteleft Nau.dv 20;
    enum pos @_quoteleft Aanth.dv 20;
+   enum pos @_quoteleft Ttha.Mlym -10;
+   enum pos @_quoteleft matraE.Mlym -5;
    enum pos @_quoteright_Right one 5;
    enum pos @_quoteright_Right four -40;
    enum pos @_quoteright_Right seven 25;
@@ -3174,6 +3494,7 @@ lookupflag IgnoreMarks;
    enum pos @_quoteright_Right vowelUu.dv 40;
    enum pos @_quoteright_Right Nya.dv 50;
    enum pos @_quoteright_Right NgaKa.dv 50;
+   enum pos @_quoteright_Right Ttha.Mlym -15;
    enum pos @_quote four -40;
    enum pos @_quote seven 15;
    enum pos @_quote one 12;
@@ -3195,6 +3516,9 @@ lookupflag IgnoreMarks;
    enum pos @_quote Chaar.dv 20;
    enum pos @_quote Aath.dv -30;
    enum pos @_quote Nau.dv 15;
+   enum pos @_quote Ttha.Mlym -8;
+   enum pos @_quote Ma.Mlym -10;
+   enum pos @_quote matraE.Mlym -5;
    enum pos @_g_Right V -35;
    enum pos @_g_Right one -20;
    enum pos @_g_Right seven -10;
@@ -4151,7 +4475,107 @@ lookupflag IgnoreMarks;
    enum pos HaNa.dv @_Ha2 15;
    enum pos HaVa.dv @_Ha2 20;
    enum pos RaNuktaHalant.dv @_Ha2 -15;
+
+   enum pos @_NaRight_Mlym matraA.Mlym -14;
+   enum pos @_DhaRight_Mlym lengthAu.Mlym 8;
+   enum pos @_DhaRight_Mlym matraA.Mlym -14;
+   enum pos @_RaTaRight_Mlym matraA.Mlym -12;
+   enum pos @_RaTaRight_Mlym TtaTta.Mlym -10;
+   enum pos @_KaRight_Mlym Ja.Mlym -5;
+   enum pos @_KaRight_Mlym Ma.Mlym -5;
+   enum pos @_KaRight_Mlym lengthAu.Mlym -25;
+   enum pos @_KaRight_Mlym Anuswara.Mlym 5;
+   enum pos @_KaRight_Mlym TtaTta.Mlym -15;
+   enum pos @_RraRight_Mlym matraA.Mlym -20;
+   enum pos @_VowelRuBoth_Mlym Anuswara.Mlym -18;
+   enum pos @_VowelRuBoth_Mlym NgaKa.Mlym -8;
+   enum pos @_MaRight_Mlym lengthAu.Mlym -5;
+   enum pos @_MaRight_Mlym matraA.Mlym -10;
+   enum pos @_VowelAaRight_Mlym Anuswara.Mlym -5;
+   enum pos @_VowelAaRight_Mlym Ttha.Mlym -4;
+   enum pos @_ZhaBoth_Mlym lengthAu.Mlym 15;
+   enum pos @_ZhaBoth_Mlym Anuswara.Mlym -15;
+   enum pos @_DaRight_Mlym lengthAu.Mlym -9;
+   enum pos @_DaRight_Mlym matraA.Mlym -5;
+   enum pos @_DaRight_Mlym Anuswara.Mlym -5;
+   enum pos @_DaRight_Mlym Ma.Mlym -3;
+   enum pos @_DaRight_Mlym Ttha.Mlym -5;
+   enum pos @_YaBoth_Mlym Anuswara.Mlym -5;
+   enum pos @_YaBoth_Mlym matraA.Mlym -8;
+   enum pos @_YaBoth_Mlym lengthAu.Mlym 10;
+   enum pos @_DdhaRight_Mlym matraA.Mlym -13;
+   enum pos @_TtaBoth_Mlym lengthAu.Mlym -20;
+   enum pos @_TtaBoth_Mlym matraE.Mlym -5;
+   enum pos @_TtaBoth_Mlym Ttha.Mlym -7;
+   enum pos @_TtaBoth_Mlym matraA.Mlym -10;
+   enum pos @_VowelshortERight_Mlym NgaKa.Mlym 7;
+   enum pos @_TthaRight_Mlym matraA.Mlym -12;
+   enum pos @_LlaRight_Mlym lengthAu.Mlym -15;
+   enum pos @_LlaRight_Mlym Anuswara.Mlym 2;
+   enum pos @_LlaRight_Mlym matraA.Mlym -8;
+   enum pos @_JaRight_Mlym lengthAu.Mlym 2;
+   enum pos @_JaRight_Mlym matraA.Mlym -8;
+   enum pos @_JaRight_Mlym Anuswara.Mlym -5;
+   enum pos @_JaRight_Mlym ViramaVa1.Mlym 50;
+   enum pos @_JaRight_Mlym ViramaYa1.Mlym 30;
+   enum pos @_matraURight_Mlym CaCha.Mlym 35;
+   enum pos @_matraURight_Mlym TtaTta.Mlym 25;
+   enum pos @_matraURight_Mlym MaNa.Mlym 25;
+   enum pos @_matraURight_Mlym MaLa.Mlym 25;
+   enum pos @_matraURight_Mlym ZhaKa.Mlym 15;
+   enum pos @_matraURight_Mlym ZhaTa.Mlym 25;
+   enum pos @_matraURight_Mlym ZhaTaTa.Mlym 35;
+   enum pos @_matraURight_Mlym ZhaNaNa.Mlym 35;
+   enum pos @_matraURight_Mlym Ma.Mlym 5;
+   enum pos @_matraRuRight_Mlym CaCha.Mlym 35;
+   enum pos @_matraRuRight_Mlym PaSa.Mlym 20;
+   enum pos @_matraRuRight_Mlym MaNa.Mlym 25;
+   enum pos @_matraRuRight_Mlym MaLa.Mlym 25;
+   enum pos @_matraRuRight_Mlym ZhaKa.Mlym 25;
+   enum pos @_matraRuRight_Mlym ZhaTa.Mlym 15;
+   enum pos [matraRu.Mlym uni0D44 ViramaYa.Mlym matraRu1.Mlym matraRu2.Mlym] ZhaTaTa.Mlym 35;
+   enum pos [matraRu.Mlym uni0D44 ViramaYa.Mlym matraRu1.Mlym matraRu2.Mlym] ZhaNaNa.Mlym 10;
+   enum pos Anuswara.Mlym @_VowelRuBoth_Mlym -18;
+   enum pos Anuswara.Mlym @_GhaLeft_Mlym -15;
+   pos Anuswara.Mlym Tta.Mlym -8;
+   enum pos Anuswara.Mlym @_YaBoth_Mlym -5;
+   enum pos Anuswara.Mlym @_ZhaBoth_Mlym -20;
+   enum pos Anuswara.Mlym @_PaLeft_Mlym 3;
+   enum pos Anuswara.Mlym [vowelU.Mlym vowelI.Mlym vowelIi.Mlym vowelUu.Mlym JaJa.Mlym JaNya.Mlym Lla.Mlym LlaLla.Mlym] -15;
+   enum pos Anuswara.Mlym @_CaLeft_Mlym -5;
+   enum pos Anuswara.Mlym @_period_comma 5;
+   enum pos Anuswara.Mlym @_KaLeft_Mlym 5;
+   enum pos Visarga.Mlym @_period_comma 10;
+   enum pos vowelI.Mlym @_period_comma -5;
+   enum pos vowelU.Mlym @_CaLeft_Mlym -15;
+   enum pos vowelU.Mlym @_period_comma -5;
+   enum pos vowelU.Mlym @_dashes 5;
+   enum pos vowelU.Mlym @_TM -30;
+   enum pos vowelU.Mlym @_fractions1 -10;
+   enum pos vowelU.Mlym @_VowelULeft_Mlym 3;
+   enum pos vowelE.Mlym @_GhaLeft_Mlym -5;
+   enum pos vowelE.Mlym @_VowelULeft_Mlym 7;
+   enum pos vowelE.Mlym @_period_comma 10;
+   enum pos vowelE.Mlym @_RaTaLeft_Mlym 3;
+   enum pos vowelE.Mlym @_RraLeft_Mlym 4;
+   enum pos vowelE.Mlym @_TtaBoth_Mlym -5;
+   enum pos vowelE.Mlym @_DhaLeft_Mlym 3;
+   enum pos vowelE.Mlym @_NaLeft_Mlym 3;
+   enum pos vowelE.Mlym @_KaLeft_Mlym -3;
+   enum pos vowelE.Mlym @_PaLeft_Mlym -5;
+   enum pos matraE.Mlym @_KaLeft_Mlym -5;
+   enum pos matraE.Mlym @_DaLeft_Mlym -10;
+   enum pos matraE.Mlym @_DhaLeft_Mlym -5;
+   enum pos matraE.Mlym @_NaLeft_Mlym -5;
+   enum pos matraE.Mlym @_YaBoth_Mlym -5;
+   enum pos matraE.Mlym @_PaLeft_Mlym -5;
+   enum pos matraE.Mlym @_RraLeft_Mlym -4;
+   enum pos matraE.Mlym @_GhaLeft_Mlym -9;
+   enum pos TtaTta.Mlym @_VowelULeft_Mlym 3;
+   enum pos DaDa.Mlym @_VowelULeft_Mlym 10;
+   enum pos ViramaRa.Mlym @_ZhaBoth_Mlym 25;
    subtable;
+
    pos @_A_Left_Right @_J_Left 13;
    pos @_A_Left_Right @_O_Left -10;
    pos @_A_Left_Right @_T_Left_Right -35;
