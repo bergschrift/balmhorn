@@ -6243,5 +6243,7 @@ table BASE {
     HorizAxis.BaseScriptList
         # script defaultBaseline coord[hasc, hdsc, romn]
         dev2 romn 1050 -524 0,
-        deva romn 1050 -524 0;
+        deva romn 1050 -524 0,
+        mlm2 romn 1050 -390 0,
+        mylm romn 1050 -390 0;
 } BASE;
