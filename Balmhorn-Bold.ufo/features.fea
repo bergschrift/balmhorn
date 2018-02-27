@@ -5602,10 +5602,13 @@ lookupflag IgnoreMarks;
    pos @_paach @_dashes 20;
    pos @_paach @_colon 20;
    pos @_paach @_quoteright_Left 10;
-} kern1;
+    } kern1;
+
+    lookup kern2 {
+        lookupflag IgnoreMarks;
+        pos space @_space_Mlym 40;
+    } kern2;
 } kern;
-
-
 
 
 
