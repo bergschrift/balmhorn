@@ -1946,8 +1946,34 @@ lookup blws_Deva_VertConjuncts {
 
 
 feature blws {
-    # TODO: Do this only for Devanagari.
-    lookup blws_Deva_1; lookup blws_Deva_Vattumatra;
+    script deva; language dflt;
+    lookup blws_Deva_1;
+    lookup blws_Deva_Vattumatra;
+    lookup blws_Deva_VertConjuncts;
+
+    script deva; language MAR;
+    lookup blws_Deva_1;
+    lookup blws_Deva_Vattumatra;
+    lookup blws_Deva_VertConjuncts;
+
+    script deva; language HIN;
+    lookup blws_Deva_1;
+    lookup blws_Deva_Vattumatra;
+    lookup blws_Deva_VertConjuncts;
+
+    script dev2; language dflt;
+    lookup blws_Deva_1;
+    lookup blws_Deva_Vattumatra;
+    lookup blws_Deva_VertConjuncts;
+
+    script dev2; language MAR;
+    lookup blws_Deva_1;
+    lookup blws_Deva_Vattumatra;
+    lookup blws_Deva_VertConjuncts;
+
+    script dev2; language HIN;
+    lookup blws_Deva_1;
+    lookup blws_Deva_Vattumatra;
     lookup blws_Deva_VertConjuncts;
 } blws;
 
