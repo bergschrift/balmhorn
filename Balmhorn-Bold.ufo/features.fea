@@ -1980,12 +1980,10 @@ feature blws {
 
 
 #--------------------------------------------------------------------
-# psts
+# psts - Post-base substitutions
 #--------------------------------------------------------------------
 
-feature psts { 
-
-lookup psts5 {
+lookup psts_Deva_5 {
      sub matraA.dv Chandrabindu.dv by matraAChandrabindu.dv;
      sub matraIi.dv Chandrabindu.dv by matraIiChandrabindu.dv;
      sub matraShortE.dv Chandrabindu.dv by matraShortEChandrabindu.dv;
@@ -2000,18 +1998,18 @@ lookup psts5 {
      sub matraShortE.dv Bindu.dv by matraShortEBindu.dv;
      sub matraE.dv Bindu.dv by matraEBindu.dv;
      sub matraAi.dv Bindu.dv by matraAiBindu.dv;
-} psts5;
+} psts_Deva_5;
 
 
-lookup psts4 {
+lookup psts_Deva_4 {
      sub matraA.dv Reph.dv by matraAReph.dv;
      sub matraShortE.dv Reph.dv by matraShortEReph.dv;
      sub matraE.dv Reph.dv by matraEReph.dv;
      sub matraAi.dv Reph.dv by matraAiReph.dv;
-} psts4;
+} psts_Deva_4;
 
 
-lookup psts3 {
+lookup psts_Deva_3 {
      sub matraEReph.dv Bindu.dv by matraERephBindu.dv;
      sub matraAiReph.dv Bindu.dv by matraAiRephBindu.dv;
      sub matraAReph.dv Bindu.dv by matraARephBindu.dv;
@@ -2021,10 +2019,10 @@ lookup psts3 {
      sub matraEReph.dv Chandrabindu.dv by matraERephChandrabindu.dv;
      sub matraAiReph.dv Chandrabindu.dv by matraAiRephChandrabindu.dv;
      sub matraShortEReph.dv Chandrabindu.dv by matraShortERephChandrabindu.dv;
-} psts3;
+} psts_Deva_3;
 
 
-lookup psts2 {
+lookup psts_Deva_2 {
      sub matraIi.dv RephChandrabindu.dv by matraIiRephChandrabindu.dv;
      sub matraO.dv RephChandrabindu.dv by matraORephChandrabindu.dv;
      sub matraAu.dv RephChandrabindu.dv by matraAuRephChandrabindu.dv;
@@ -2052,21 +2050,47 @@ lookup psts2 {
      sub matraShortO.dv Reph.dv by matraShortOReph.dv;
      sub matraO.dv Reph.dv by matraOReph.dv;
      sub matraAu.dv Reph.dv by matraAuReph.dv;
-} psts2;
+} psts_Deva_2;
 
 
-lookup psts1 { # Postbase matra substitutions
+lookup psts_Deva_1 { # Postbase matra substitutions
     sub @Width_matraIione @matraIidefault' by @matraIione;
     sub @Width_matraIitwo @matraIidefault' by @matraIitwo;
     sub @Width_matraIithree @matraIidefault' by @matraIithree;
-} psts1;
+} psts_Deva_1;
 
-lookup psts6 { # Postbase matra substitutions with vattu
+
+lookup psts_Deva_6 { # Postbase matra substitutions with vattu
     sub @Width_matraIione Vattu.dv @matraIidefault' by @matraIione;
     sub @Width_matraIitwo Vattu.dv @matraIidefault' by @matraIitwo;
     sub @Width_matraIithree Vattu.dv @matraIidefault' by @matraIithree;
-} psts6;
+} psts_Deva_6;
 
+
+feature psts {
+    script deva; language dflt;
+    lookup psts_Deva_5; lookup psts_Deva_4; lookup psts_Deva_3;
+    lookup psts_Deva_2; lookup psts_Deva_1; lookup psts_Deva_6;
+
+    script deva; language HIN;
+    lookup psts_Deva_5; lookup psts_Deva_4; lookup psts_Deva_3;
+    lookup psts_Deva_2; lookup psts_Deva_1; lookup psts_Deva_6;
+
+    script deva; language MAR;
+    lookup psts_Deva_5; lookup psts_Deva_4; lookup psts_Deva_3;
+    lookup psts_Deva_2; lookup psts_Deva_1; lookup psts_Deva_6;
+
+    script dev2; language dflt;
+    lookup psts_Deva_5; lookup psts_Deva_4; lookup psts_Deva_3;
+    lookup psts_Deva_2; lookup psts_Deva_1; lookup psts_Deva_6;
+
+    script dev2; language HIN;
+    lookup psts_Deva_5; lookup psts_Deva_4; lookup psts_Deva_3;
+    lookup psts_Deva_2; lookup psts_Deva_1; lookup psts_Deva_6;
+
+    script dev2; language MAR;
+    lookup psts_Deva_5; lookup psts_Deva_4; lookup psts_Deva_3;
+    lookup psts_Deva_2; lookup psts_Deva_1; lookup psts_Deva_6;
 } psts;
 
 
