@@ -904,9 +904,66 @@ markClass [
 ];
 
 
+@GDEF_simple_Orya = [
+    VowelA.or VowelAa.or VowelI.or VowelIi.or VowelU.or VowelUu.or
+    VowelVocalicR.or VowelVocalicL.or VowelE.or VowelAi.or VowelO.or
+    VowelAu.or Ka.or Kha.or Ga.or Gha.or Nga.or Ca.or Cha.or Ja.or
+    Jha.or Nya.or Tta.or Ttha.or Dda.or Ddha.or Nna.or Ta.or Tha.or
+    Da.or Dha.or Na.or Pa.or Pha.or Ba.or Bha.or Ma.or Ya.or Ra.or
+    La.or Lla.or Va.or Sha.or Ssa.or Sa.or Ha.or Rra.or Rha.or Yya.or
+    VocalicRr.or VocalicLl.or zero.or one.or two.or three.or four.or
+    five.or six.or seven.or eight.or nine.or Isshar.or Wa.or
+    onequarter.or onehalf.or threequarter.or onesixteenth.or
+    oneeigth.or threesixteenth.or KaKa.or KaCa.or KaTa.or KaTaRa.or
+    KaVa.or KaLla.or KaSsa.or KaSsaNna.or KaSsaMa.or KaSsaRa.or
+    KaSa.or GaDa.or GaDha.or GaNa.or GaLla.or GhaNa.or NgaKa.or
+    NgaKaTa.or NgaKaSsa.or NgaKha.or NgaGa.or NgaGha.or CaCa.or
+    CaCha.or JaJa.or JaJaVa.or JaJha.or JaNya.or JaVa.or NyaCa.or
+    NyaCha.or NyaJa.or NyaJha.or TtaTta.or DdaGa.or DdaDda.or
+    NnaTta.or NnaTtha.or NnaDda.or NnaDdaRa.or NnaDdha.or NnaNna.or
+    TaKa.or TaTa.or TaTaRa.or TaTha.or TaNa.or TaPa.or TaVa.or TaMa.or
+    TaSa.or TaSaNa.or DaGa.or DaGha.or DaDa.or DaDha.or DaDhaVa.or
+    DaVa.or DaBha.or DhaVa.or DhaYya.or NaTa.or NaTaRa.or NaTaVa.or
+    NaTha.or NaDa.or NaDaRa.or NaDaVa.or NaDha.or NaDhaVa.or
+    NaDhaRa.or NaNa.or PaTa.or PaPa.or PaLla.or PaSa.or BaJa.or
+    BaDa.or BaDha.or BaBa.or MaPa.or MaPaRa.or MaPha.or MaBa.or
+    MaBha.or MaBhaRa.or MaMa.or LlaKa.or LlaLla.or LlaBha.or LlaPa.or
+    LlaPha.or LaKa.or LaLa.or LaGa.or ShaCa.or ShaCha.or ShaVa.or
+    ShaLla.or SsaKa.or SsaKaRa.or SsaTta.or SsaNna.or SsaPa.or
+    SsaPha.or SaKa.or SaKha.or SaTa.or SaTaRa.or SaTha.or SaNa.or
+    SaPa.or SaPha.or SaVa.or SaMa.or HaNa.or HaMa.or HaLa.or KaRa.or
+    KhaRa.or GaRa.or GhaRa.or NgaRa.or CaRa.or ChaRa.or JaRa.or
+    JhaRa.or NyaRa.or TtaRa.or TthaRa.or DdaRa.or DdhaRa.or NnaRa.or
+    TaRa.or ThaRa.or DaRa.or DhaRa.or NaRa.or PaRa.or PhaRa.or BaRa.or
+    BhaRa.or MaRa.or YaRa.or RaRa.or LaRa.or LlaRa.or VaRa.or ShaRa.or
+    SsaRa.or SaRa.or HaRa.or RraRa.or RhaRa.or YyaRa.or TaTaVa.or
+    SsaTtaRa.or SsaTtha.or SsaPaRa.or KhaI.or ThaI.or DhaI.or DaBa.or
+    DaYa.or KhaLla.or MaLla.or KaSmall.or KhaSmall.or GaSmall.or
+    GhaSmall.or NgaSmall.or CaSmall.or ChaSmall.or JaSmall.or
+    JhaSmall.or TtaSmall.or TthaSmall.or DdaSmall.or DdhaSmall.or
+    NnaSmall.or TaSmall.or ThaSmall.or DaSmall.or DhaSmall.or
+    NaSmall.or PaSmall.or PhaSmall.or BaSmall.or BhaSmall.or
+    MaSmall.or YaSmall.or LaSmall.or LlaSmall.or ShaSmall.or
+    SsaSmall.or SaSmall.or HaSmall.or VaSmall.or YyaSmall.or
+    KaSsaSmall.or KaSmall.or.alt KhaSmall.or.alt GaSmall.or.alt
+    GhaSmall.or.alt NgaSmall.or.alt CaSmall.or.alt ChaSmall.or.alt
+    JaSmall.or.alt JhaSmall.or.alt TtaSmall.or.alt TthaSmall.or.alt
+    DdaSmall.or.alt DdhaSmall.or.alt NnaSmall.or.alt TaSmall.or.alt
+    ThaSmall.or.alt DaSmall.or.alt DhaSmall.or.alt NaSmall.or.alt
+    PaSmall.or.alt PhaSmall.or.alt BaSmall.or.alt BhaSmall.or.alt
+    MaSmall.or.alt YaSmall.or.alt LaSmall.or.alt LlaSmall.or.alt
+    VaSmall.or.alt ShaSmall.or.alt SsaSmall.or.alt SaSmall.or.alt
+    HaSmall.or.alt RephAulengthmark.or AulengthmarkChandrabindu.or
+    RephAulengthmarkChandrabindu.or SaTtaRa.or SaTta.or TaKaSsa.or
+    SaLla.or SaLa.or
+];
+
+
 @GDEF_simple = [
     @GDEF_simple_Deva
     @GDEF_simple_Latn
+    # TODO: @GDEF_simple_Mlym
+    @GDEF_simple_Orya
 ];
 
 
@@ -955,7 +1012,25 @@ markClass [
 ];
 
 
-@GDEF_mark = [@GDEF_mark_Deva];
+@GDEF_mark_Orya = [
+    IChandrabindu.or RephI.or RephAilengthmark.or RephIChandrabindu.or
+    AilengthmarkChandrabindu.or RephAilengthmarkChandrabindu.or
+    MatraU.or.alt MatraUu.or.alt MatraRu.or.alt Chandrabindu.or.alt
+    reph.or reph.or.alt MatraU.or.alt1 MatraU.or.alt2 MatraU.or.alt3
+    MatraUu.or.alt1 MatraUu.or.alt2 MatraUu.or.alt3 MatraI.or
+    chandrabindu.or MatraU.or MatraUu.or MatraVocalicR.or
+    MatraVocalicRr.or MatraVocalicL.or MatraVocalicLl.or Virama.or
+    Virama.or.alt Nukta.or LengthmarkAi.or RaSmall.or RaSmall.or.alt
+];
+
+
+@GDEF_mark = [
+    @GDEF_mark_Deva
+    # TODO: @GDEF_mark_Mlym
+    @GDEF_mark_Orya
+];
+
+
 @GDEF_ligatures = [fi fl];
 
 
