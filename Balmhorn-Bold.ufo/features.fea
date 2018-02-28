@@ -6239,11 +6239,11 @@ table name {
 
 
 table BASE {
-    HorizAxis.BaseTagList hasc hdsc romn;
+    HorizAxis.BaseTagList hang hasc hdsc romn;
     HorizAxis.BaseScriptList
-        # script defaultBaseline coord[hasc, hdsc, romn]
-        dev2 romn 1050 -524 0,
-        deva romn 1050 -524 0,
-        mlm2 romn 1050 -390 0,
-        mylm romn 1050 -390 0;
+        # script defaultBaseline coord[hang, hasc, hdsc, romn]
+        dev2 romn 620 1050 -524 0,
+        deva romn 620 1050 -524 0,
+        mlm2 romn 620 1050 -390 0,
+        mylm romn 620 1050 -390 0;
 } BASE;
