@@ -701,7 +701,7 @@ markClass [
 ## GDEF
 #####################################################################
 
-@GDEF_simple = [
+@GDEF_simple_Latn = [
     space exclam quotedbl numbersign dollar percent
     ampersand quotesingle parenleft parenright asterisk plus comma
     hyphen period slash
@@ -784,7 +784,11 @@ markClass [
     radical infinity integral approxequal notequal lessequal
     greaterequal uni25A0 triagup uni25B3 uni25B6 uni25B7 triagdn
     uni25BD uni25C0 uni25C1 uni25C6 lozenge DiaComma capgrave capacute
-    caphungarumlaut capring capcircumflex capcaron
+    caphungarumlaut capring capcircumflex capcaron Swastik
+];
+
+
+@GDEF_simple_Deva = [
     Visarga.dv vowelShortA.dv vowelA.dv vowelAa.dv vowelI.dv
     vowelIi.dv vowelU.dv vowelUu.dv vowelRu.dv vowelLru.dv
     vowelChandraE.dv vowelShortE.dv vowelE.dv vowelAi.dv
@@ -896,13 +900,17 @@ markClass [
     matraIiBindutwo.dv matraIiChandrabindutwo.dv matraIiRephtwo.dv
     matraIiRephBindutwo.dv matraIiRephChandrabindutwo.dv matraIi3.dv
     matraIiBindu3.dv matraIiChandrabindu3.dv matraIiReph3.dv
-    matraIiRephBindu3.dv matraIiRephChandrabindu3.dv Swastik
+    matraIiRephBindu3.dv matraIiRephChandrabindu3.dv
 ];
 
 
+@GDEF_simple = [
+    @GDEF_simple_Deva
+    @GDEF_simple_Latn
+];
 
 
-@GDEF_mark_Devanagari = [
+@GDEF_mark_Deva = [
     uni0900 Chandrabindu.dv Bindu.dv uni093A Nukta.dv matraU.dv
     matraUu.dv matraRu.dv matraRuu.dv Chandra.dv matraShortE.dv
     matraE.dv matraAi.dv Halant.dv Udatta.dv Anudatta.dv uni0953
@@ -946,9 +954,10 @@ markClass [
     matraIRephBindutwentytwo.dv matraIRephBindutwentythree.dv
 ];
 
-@GDEF_mark = [@GDEF_mark_Devanagari];
 
+@GDEF_mark = [@GDEF_mark_Deva];
 @GDEF_ligatures = [fi fl];
+
 
 table GDEF {
     GlyphClassDef @GDEF_simple , , @GDEF_mark, @GDEF_ligatures ;
