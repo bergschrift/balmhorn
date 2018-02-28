@@ -2431,26 +2431,26 @@ feature cjct {
 # abvs - Above-base matra substitutions
 #--------------------------------------------------------------------
 
-feature abvs {
-
 # The next two lookup operations are to get the right output
 # for Ra.dv + matraRu.dv = vowelRu.dv Reph.dv, etc. 
 
-lookup abvs8{ 
+lookup abvs_Deva_1 {
     sub Ra.dv matraRu.dv by dummy1;
     sub Ra.dv matraRuu.dv by dummy2;
     sub Ra.dv matraLru.dv by dummy3;
     sub Ra.dv matraLruu.dv by dummy4;
-}abvs8;
+} abvs_Deva_1;
 
-lookup abvs7{
+
+lookup abvs_Deva_2 {
     sub dummy1 by vowelRu.dv Reph.dv;
     sub dummy2 by vowelRuu.dv Reph.dv;
     sub dummy3 by vowelLru.dv Reph.dv;
     sub dummy4 by vowelLruu.dv Reph.dv;
-}abvs7;
+} abvs_Deva_2;
 
-lookup abvs6 {
+
+lookup abvs_Deva_3 {
     sub matraI.dv @matraIdefault Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
     sub matraIone.dv @matraIone Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
     sub matraItwo.dv @matraItwo Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
@@ -2475,10 +2475,10 @@ lookup abvs6 {
     sub matraItwentyone.dv @matraItwenty Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
     sub matraItwentytwo.dv @matraItwentytwo Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
     sub matraItwentythree.dv @matraItwentythree Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
-} abvs6;
+} abvs_Deva_3;
 
 
-lookup abvs5 {
+lookup abvs_Deva_4 {
     sub vowelAi.dv Chandrabindu.dv' by Chandrabinduone.dv;
     sub vowelO.dv Chandrabindu.dv' by Chandrabinduone.dv;
     sub vowelAu.dv Chandrabindu.dv' by Chandrabinduone.dv;
@@ -2508,10 +2508,10 @@ lookup abvs5 {
     sub matraItwentyone.dv @matraItwenty Chandrabindu.dv' by Chandrabinduone.dv;
     sub matraItwentytwo.dv @matraItwentytwo Chandrabindu.dv' by Chandrabinduone.dv;
     sub matraItwentythree.dv @matraItwentythree Chandrabindu.dv' by Chandrabinduone.dv;
-} abvs5;
+} abvs_Deva_4;
 
 
-lookup abvs4 {
+lookup abvs_Deva_5 {
     sub matraI.dv @matraIdefault Vattu.dv Bindu.dv' by Binduone.dv;
     sub matraIone.dv @matraIone Vattu.dv Bindu.dv' by Binduone.dv;
     sub matraItwo.dv @matraItwo Vattu.dv Bindu.dv' by Binduone.dv;
@@ -2536,10 +2536,10 @@ lookup abvs4 {
     sub matraItwentyone.dv @matraItwenty Vattu.dv Bindu.dv' by Binduone.dv;
     sub matraItwentytwo.dv @matraItwentytwo Vattu.dv Bindu.dv' by Binduone.dv;
     sub matraItwentythree.dv @matraItwentythree Vattu.dv Bindu.dv' by Binduone.dv;
-} abvs4;
+} abvs_Deva_5;
 
 
-lookup abvs3 {
+lookup abvs_Deva_6 {
     sub vowelAi.dv Bindu.dv' by Binduone.dv;
     sub vowelO.dv Bindu.dv' by Binduone.dv;
     sub vowelAu.dv Bindu.dv' by Binduone.dv;
@@ -2569,11 +2569,12 @@ lookup abvs3 {
     sub matraItwentyone.dv @matraItwenty Bindu.dv' by Binduone.dv;
     sub matraItwentytwo.dv @matraItwentytwo Bindu.dv' by Binduone.dv;
     sub matraItwentythree.dv @matraItwentythree Bindu.dv' by Binduone.dv;
-} abvs3;
+} abvs_Deva_6;
 
 
-lookup abvs2 { 
-lookupflag MarkAttachmentType @allmatraI_Reph_Bindu IgnoreBaseGlyphs ;
+lookup abvs_Deva_7 { 
+    lookupflag MarkAttachmentType @allmatraI_Reph_Bindu IgnoreBaseGlyphs;
+
     sub matraI.dv Reph.dv by matraIReph.dv;
     sub matraIone.dv Reph.dv by matraIRephone.dv;
     sub matraItwo.dv Reph.dv by matraIRephtwo.dv;
@@ -2598,11 +2599,12 @@ lookupflag MarkAttachmentType @allmatraI_Reph_Bindu IgnoreBaseGlyphs ;
     sub matraItwentyone.dv Reph.dv by matraIRephtwentyone.dv;
     sub matraItwentytwo.dv Reph.dv by matraIRephtwentytwo.dv;
     sub matraItwentythree.dv Reph.dv by matraIRephtwentythree.dv;
-} abvs2;
+} abvs_Deva_7;
 
 
-lookup abvs1 { 
-lookupflag MarkAttachmentType @allmatraI_Reph_Bindu IgnoreBaseGlyphs;
+lookup abvs_Deva_8 {
+    lookupflag MarkAttachmentType @allmatraI_Reph_Bindu IgnoreBaseGlyphs;
+
     sub matraIReph.dv Bindu.dv by matraIRephBindu.dv;
     sub matraIRephone.dv Bindu.dv by matraIRephBinduone.dv;
     sub matraIRephtwo.dv Bindu.dv by matraIRephBindutwo.dv;
@@ -2627,9 +2629,38 @@ lookupflag MarkAttachmentType @allmatraI_Reph_Bindu IgnoreBaseGlyphs;
     sub matraIRephtwentyone.dv Bindu.dv by matraIRephBindutwentyone.dv;
     sub matraIRephtwentytwo.dv Bindu.dv by matraIRephBindutwentytwo.dv;
     sub matraIRephtwentythree.dv Bindu.dv by matraIRephBindutwentythree.dv;
-} abvs1;
+} abvs_Deva_8;
 
+feature abvs {
+    script deva; language dflt;
+    lookup abvs_Deva_1; lookup abvs_Deva_2; lookup abvs_Deva_3;
+    lookup abvs_Deva_4; lookup abvs_Deva_5; lookup abvs_Deva_6;
+    lookup abvs_Deva_7; lookup abvs_Deva_8;
 
+    script deva; language MAR;
+    lookup abvs_Deva_1; lookup abvs_Deva_2; lookup abvs_Deva_3;
+    lookup abvs_Deva_4; lookup abvs_Deva_5; lookup abvs_Deva_6;
+    lookup abvs_Deva_7; lookup abvs_Deva_8;
+
+    script deva; language HIN;
+    lookup abvs_Deva_1; lookup abvs_Deva_2; lookup abvs_Deva_3;
+    lookup abvs_Deva_4; lookup abvs_Deva_5; lookup abvs_Deva_6;
+    lookup abvs_Deva_7; lookup abvs_Deva_8;
+
+    script dev2; language dflt;
+    lookup abvs_Deva_1; lookup abvs_Deva_2; lookup abvs_Deva_3;
+    lookup abvs_Deva_4; lookup abvs_Deva_5; lookup abvs_Deva_6;
+    lookup abvs_Deva_7; lookup abvs_Deva_8;
+
+    script dev2; language MAR;
+    lookup abvs_Deva_1; lookup abvs_Deva_2; lookup abvs_Deva_3;
+    lookup abvs_Deva_4; lookup abvs_Deva_5; lookup abvs_Deva_6;
+    lookup abvs_Deva_7; lookup abvs_Deva_8;
+
+    script dev2; language HIN;
+    lookup abvs_Deva_1; lookup abvs_Deva_2; lookup abvs_Deva_3;
+    lookup abvs_Deva_4; lookup abvs_Deva_5; lookup abvs_Deva_6;
+    lookup abvs_Deva_7; lookup abvs_Deva_8;
 } abvs;
 
 
