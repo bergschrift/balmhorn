@@ -1302,9 +1302,91 @@ lookup blwf_Deva_1 {
     sub Ra.dv Halant.dv by Vattu.dv;
 } blwf_Deva_1;
 
+
 lookup blwf_Deva_2 {
     sub Halant.dv Ra.dv by Vattu.dv;
 } blwf_Deva_2;
+
+
+lookup blwf_Orya_1 {
+    sub Ka.or Virama.or by KaSmall.or;
+    sub Kha.or Virama.or by KhaSmall.or;
+    sub Ga.or Virama.or by GaSmall.or;
+    sub Gha.or Virama.or by GhaSmall.or;
+    sub Nga.or Virama.or by NgaSmall.or;
+    sub Ca.or Virama.or by CaSmall.or;
+    sub Cha.or Virama.or by ChaSmall.or;
+    sub Ja.or Virama.or by JaSmall.or;
+    sub Jha.or Virama.or by JhaSmall.or;
+    sub Tta.or Virama.or by TtaSmall.or;
+    sub Ttha.or Virama.or by TthaSmall.or;
+    sub Dda.or Virama.or by DdaSmall.or;
+    sub Ddha.or Virama.or by DdhaSmall.or;
+    sub Nna.or Virama.or by NnaSmall.or;
+    sub Ta.or Virama.or by TaSmall.or;
+    sub Tha.or Virama.or by ThaSmall.or;
+    sub Da.or Virama.or by DaSmall.or;
+    sub Dha.or Virama.or by DhaSmall.or;
+    sub Na.or Virama.or by NaSmall.or;
+    sub Pa.or Virama.or by PaSmall.or;
+    sub Pha.or Virama.or by PhaSmall.or;
+    sub Ba.or Virama.or by BaSmall.or;
+    sub Bha.or Virama.or by BhaSmall.or;
+    sub Ma.or Virama.or by MaSmall.or;
+    sub Ya.or Virama.or by YaSmall.or;
+    sub Yya.or Virama.or by YyaSmall.or;
+    sub Ra.or Virama.or by RaSmall.or;
+    sub La.or Virama.or by LaSmall.or;
+    sub Lla.or Virama.or by LlaSmall.or;
+    sub Va.or Virama.or by VaSmall.or;
+    sub Wa.or Virama.or by VaSmall.or;
+    sub Sha.or Virama.or by ShaSmall.or;
+    sub Ssa.or Virama.or by SsaSmall.or;
+    sub Sa.or Virama.or by SaSmall.or;
+    sub Ha.or Virama.or by HaSmall.or;
+    sub Ka.or Virama.or Ssa.or Virama.or by KaSsaSmall.or;
+} blwf_Orya_1;
+
+
+lookup blwf_Orya_2 {
+    sub Virama.or Ka.or by KaSmall.or;
+    sub Virama.or Kha.or by KhaSmall.or;
+    sub Virama.or Ga.or by GaSmall.or;
+    sub Virama.or Gha.or by GhaSmall.or;
+    sub Virama.or Nga.or by NgaSmall.or;
+    sub Virama.or Ca.or by CaSmall.or;
+    sub Virama.or Cha.or by ChaSmall.or;
+    sub Virama.or Ja.or by JaSmall.or;
+    sub Virama.or Jha.or by JhaSmall.or;
+    sub Virama.or Tta.or by TtaSmall.or;
+    sub Virama.or Ttha.or by TthaSmall.or;
+    sub Virama.or Dda.or by DdaSmall.or;
+    sub Virama.or Ddha.or by DdhaSmall.or;
+    sub Virama.or Nna.or by NnaSmall.or;
+    sub Virama.or Ta.or by TaSmall.or;
+    sub Virama.or Tha.or by ThaSmall.or;
+    sub Virama.or Da.or by DaSmall.or;
+    sub Virama.or Dha.or by DhaSmall.or;
+    sub Virama.or Na.or by NaSmall.or;
+    sub Virama.or Pa.or by PaSmall.or;
+    sub Virama.or Pha.or by PhaSmall.or;
+    sub Virama.or Ba.or by BaSmall.or;
+    sub Virama.or Bha.or by BhaSmall.or;
+    sub Virama.or Ma.or by MaSmall.or;
+    sub Virama.or Ya.or by YaSmall.or;
+    sub Virama.or Yya.or by YyaSmall.or;
+    sub Virama.or Ra.or by RaSmall.or;
+    sub Virama.or La.or by LaSmall.or;
+    sub Virama.or Lla.or by LlaSmall.or;
+    sub Virama.or Va.or by VaSmall.or;
+    sub Virama.or Wa.or by VaSmall.or;
+    sub Virama.or Sha.or by ShaSmall.or;
+    sub Virama.or Ssa.or by SsaSmall.or;
+    sub Virama.or Sa.or by SaSmall.or;
+    sub Virama.or Ha.or by HaSmall.or;
+    sub Virama.or Ka.or Virama.or Ssa.or by KaSsaSmall.or;
+} blwf_Orya_2;
+
 
 feature blwf {
     script deva; language dflt; lookup blwf_Deva_1;
@@ -1314,6 +1396,9 @@ feature blwf {
     script dev2; language dflt; lookup blwf_Deva_2;
     script dev2; language HIN;  lookup blwf_Deva_2;
     script dev2; language MAR;  lookup blwf_Deva_2;
+
+    script orya; language dflt; lookup blwf_Orya_1;
+    script ory2; language dflt; lookup blwf_Orya_2;
 } blwf;
 
 
@@ -2631,6 +2716,23 @@ lookup abvs_Deva_8 {
     sub matraIRephtwentythree.dv Bindu.dv by matraIRephBindutwentythree.dv;
 } abvs_Deva_8;
 
+
+lookup abvs_Orya_1{
+    sub Kha.or MatraI.or by KhaI.or;
+    sub Tha.or MatraI.or by ThaI.or;
+    sub Dha.or MatraI.or by DhaI.or;
+} abvs_Orya_1;
+
+lookup abvs_Orya_2 {
+    sub MatraI.or reph.or chandrabindu.or by RephIChandrabindu.or;
+    sub MatraI.or reph.or by RephI.or;
+    sub MatraI.or chandrabindu.or by IChandrabindu.or;
+    sub LengthmarkAi.or reph.or chandrabindu.or by RephAilengthmarkChandrabindu.or;
+    sub LengthmarkAi.or reph.or by RephAilengthmark.or;
+    sub reph.or chandrabindu.or by Chandrabindu.or.alt;
+} abvs_Orya_2;
+
+
 feature abvs {
     script deva; language dflt;
     lookup abvs_Deva_1; lookup abvs_Deva_2; lookup abvs_Deva_3;
@@ -2661,6 +2763,9 @@ feature abvs {
     lookup abvs_Deva_1; lookup abvs_Deva_2; lookup abvs_Deva_3;
     lookup abvs_Deva_4; lookup abvs_Deva_5; lookup abvs_Deva_6;
     lookup abvs_Deva_7; lookup abvs_Deva_8;
+
+    script orya; language dflt; lookup abvs_Orya_1; lookup abvs_Orya_2;
+    script ory2; language dflt; lookup abvs_Orya_1; lookup abvs_Orya_2;
 } abvs;
 
 
