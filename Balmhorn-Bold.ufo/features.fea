@@ -747,7 +747,7 @@ markClass [
     uni021B uni0237 uni0251 uni0259 uni0261 uni02BB uni02BC uni02BE
     uni02BF circumflex caron uni02C8 uni02C9 uni02CA uni02CB uni02CC
     breve dotaccent ring ogonek tilde hungarumlaut gravecomb acutecomb
-    uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 hookabovecomb
+    uni0302 uni0304 uni0306 uni0307 uni0308 hookabovecomb
     uni030A uni030B uni030C uni031B dotbelowcomb uni0324 uni0326
     uni0327 uni0328 uni032E uni0331 pi uni1E0C uni1E0D uni1E0E uni1E0F
     uni1E20 uni1E21 uni1E24 uni1E25 uni1E2A uni1E2B uni1E36 uni1E37
@@ -904,6 +904,50 @@ markClass [
 ];
 
 
+@GDEF_simple_Mlym = [
+    uni0D01 Anuswara.Mlym Visarga.Mlym vowelA.Mlym vowelAa.Mlym
+    vowelI.Mlym vowelIi.Mlym vowelU.Mlym vowelUu.Mlym vowelRu.Mlym
+    vowelLru.Mlym vowelshortE.Mlym vowelE.Mlym vowelAi.Mlym
+    vowelshortO.Mlym vowelO.Mlym vowelAu.Mlym Ka.Mlym Kha.Mlym Ga.Mlym
+    Gha.Mlym Nga.Mlym Ca.Mlym Cha.Mlym Ja.Mlym Jha.Mlym Nya.Mlym
+    Tta.Mlym Ttha.Mlym Dda.Mlym Ddha.Mlym Nna.Mlym Ta.Mlym Tha.Mlym
+    Da.Mlym Dha.Mlym Na.Mlym uni0D29 Pa.Mlym Pha.Mlym Ba.Mlym Bha.Mlym
+    Ma.Mlym Ya.Mlym Ra.Mlym Rra.Mlym La.Mlym Lla.Mlym Zha.Mlym Va.Mlym
+    Sha.Mlym Ssa.Mlym Sa.Mlym Ha.Mlym uni0D3A uni0D3D matraA.Mlym
+    matraI.Mlym matraIi.Mlym matraU.Mlym matraUu.Mlym matraRu.Mlym
+    uni0D44 matrashortE.Mlym matraE.Mlym matraAi.Mlym matrashortO.Mlym
+    matraO.Mlym matraAu.Mlym uni0D4E lengthAu.Mlym vowelRuu.Mlym
+    uni0D5F vowelLruu.Mlym uni0D66 uni0D67 uni0D68 uni0D69 uni0D6A
+    uni0D6B uni0D6C uni0D6D uni0D6E uni0D6F uni0D70 uni0D71 uni0D72
+    uni0D73 uni0D74 uni0D75 uni0D79 chilluNn.Mlym chilluN.Mlym
+    chilluRr.Mlym chilluL.Mlym chilluLl.Mlym chilluK.Mlym KaSsa.Mlym
+    JaNya.Mlym KaKa.Mlym KaTa.Mlym NgaKa.Mlym NgaNga.Mlym GaDa.Mlym
+    GaMa.Mlym GaDaDha.Mlym GaNa.Mlym JaJa.Mlym NyaJa.Mlym NyaNya.Mlym
+    NyaCa.Mlym NyaCha.Mlym NnaMa.Mlym NnaDda.Mlym NnaDdha.Mlym
+    NnaTta.Mlym TaTa.Mlym TaSa.Mlym TaTha.Mlym TaMa.Mlym TaBha.Mlym
+    TaNa.Mlym DaDha.Mlym NaNa.Mlym NaDa.Mlym NaTa.Mlym NaDha.Mlym
+    NaMa.Mlym NaTha.Mlym MaMa.Mlym MaPa.Mlym ShaCa.Mlym ShaCha.Mlym
+    SaTha.Mlym HaNa.Mlym HaMa.Mlym LlaLla.Mlym KaTta.Mlym KaLa.Mlym
+    KaSa.Mlym KaSsaMa.Mlym GhaNa.Mlym GaGa.Mlym GaLa.Mlym CaCa.Mlym
+    CaCha.Mlym TtaTta.Mlym DdaDda.Mlym DdaDdha.Mlym NnaNna.Mlym
+    NnaTtha.Mlym TaLa.Mlym DaDa.Mlym PaTa.Mlym PaNa.Mlym PaPa.Mlym
+    PaLa.Mlym PaSa.Mlym BaKa.Mlym BaJa.Mlym BaDa.Mlym BaDha.Mlym
+    BaBa.Mlym BaLa.Mlym PhaKa.Mlym PhaTa.Mlym PhaLa.Mlym MaNa.Mlym
+    MaLa.Mlym YaKa.Mlym YaKaKa.Mlym YaTa.Mlym YaTaTa.Mlym YaPa.Mlym
+    YaMa.Mlym YaYa.Mlym RraRra.Mlym LaKa.Mlym LaPa.Mlym LaMa.Mlym
+    LaLa.Mlym VaLa.Mlym VaVa.Mlym SsaKa.Mlym SsaTta.Mlym SsaTtha.Mlym
+    SsaNna.Mlym SsaTa.Mlym ShaNa.Mlym SsaPa.Mlym SsaPha.Mlym
+    SsaMa.Mlym SsaRraRra.Mlym ShaMa.Mlym ShaLa.Mlym ShaSha.Mlym
+    SaKa.Mlym SaTa.Mlym SaNa.Mlym SaPa.Mlym SaPha.Mlym SaMa.Mlym
+    SaRraRra.Mlym SaLa.Mlym SaSa.Mlym HaLa.Mlym ZhaKa.Mlym ZhaCa.Mlym
+    ZhaTa.Mlym ZhaTaTa.Mlym ZhaNaNa.Mlym ZhaMa.Mlym NaRra.Mlym
+    NaRraVirama.Mlym ViramaYa.Mlym ViramaRa.Mlym ViramaVa.Mlym
+    ViramaYa1.Mlym ViramaRa1.Mlym ViramaVa1.Mlym matraU1.Mlym
+    matraUu1.Mlym matraRu1.Mlym matraU2.Mlym matraUu2.Mlym
+    matraRu2.Mlym matraI1.Mlym matraIi1.Mlym
+];
+
+
 @GDEF_simple_Orya = [
     VowelA.or VowelAa.or VowelI.or VowelIi.or VowelU.or VowelUu.or
     VowelVocalicR.or VowelVocalicL.or VowelE.or VowelAi.or VowelO.or
@@ -962,7 +1006,7 @@ markClass [
 @GDEF_simple = [
     @GDEF_simple_Deva
     @GDEF_simple_Latn
-    # TODO: @GDEF_simple_Mlym
+    @GDEF_simple_Mlym
     @GDEF_simple_Orya
 ];
 
@@ -1012,6 +1056,17 @@ markClass [
 ];
 
 
+@GDEF_mark_Latn = [
+    # TODO: Move various combining accents to here
+    tildecomb
+];
+
+
+@GDEF_mark_Mlym = [
+    Virama.Mlym uni0D62 uni0D63
+];
+
+
 @GDEF_mark_Orya = [
     IChandrabindu.or RephI.or RephAilengthmark.or RephIChandrabindu.or
     AilengthmarkChandrabindu.or RephAilengthmarkChandrabindu.or
@@ -1026,7 +1081,8 @@ markClass [
 
 @GDEF_mark = [
     @GDEF_mark_Deva
-    # TODO: @GDEF_mark_Mlym
+    @GDEF_mark_Latn
+    @GDEF_mark_Mlym
     @GDEF_mark_Orya
 ];
 
