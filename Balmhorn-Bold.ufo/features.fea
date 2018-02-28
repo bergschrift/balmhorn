@@ -559,13 +559,142 @@ markClass [Virama.Mlym] <anchor 0 0> @Virama_Mlym;
 ];
 
 
+#----------------------------------
+# Glyph/Mark Classes for Odiya
+#----------------------------------
+
+@all_Orya = [
+    KaSmall.or KhaSmall.or GaSmall.or GhaSmall.or NgaSmall.or
+    CaSmall.or ChaSmall.or JaSmall.or JhaSmall.or TtaSmall.or
+    TthaSmall.or DdaSmall.or DdhaSmall.or NnaSmall.or TaSmall.or
+    ThaSmall.or DaSmall.or DhaSmall.or NaSmall.or PaSmall.or
+    PhaSmall.or BaSmall.or BhaSmall.or MaSmall.or YaSmall.or
+    RaSmall.or LaSmall.or LlaSmall.or VaSmall.or ShaSmall.or
+    SsaSmall.or SaSmall.or HaSmall.or KaSmall.or.alt KhaSmall.or.alt
+    GaSmall.or.alt GhaSmall.or.alt NgaSmall.or.alt CaSmall.or.alt
+    ChaSmall.or.alt JaSmall.or.alt JhaSmall.or.alt TtaSmall.or.alt
+    TthaSmall.or.alt DdaSmall.or.alt DdhaSmall.or.alt NnaSmall.or.alt
+    TaSmall.or.alt ThaSmall.or.alt DaSmall.or.alt DhaSmall.or.alt
+    NaSmall.or.alt PaSmall.or.alt PhaSmall.or.alt BaSmall.or.alt
+    BhaSmall.or.alt MaSmall.or.alt YaSmall.or.alt RaSmall.or.alt
+    LaSmall.or.alt LlaSmall.or.alt VaSmall.or.alt ShaSmall.or.alt
+    SsaSmall.or.alt SaSmall.or.alt HaSmall.or.alt KaKa.or KaCa.or
+    KaTa.or KaTaRa.or KaVa.or KaLla.or KaSsaNna.or KaSsaMa.or
+    KaSsaRa.or KaSa.or KhaLla.or GaDa.or GaDha.or GaNa.or GaLla.or
+    GhaNa.or NgaKaTa.or NgaKaSsa.or CaCha.or JaJa.or JaJaVa.or
+    JaJha.or JaVa.or NyaCha.or DaBa.or DaYa.or DdaGa.or DdaDda.or
+    NnaTta.or NnaTtha.or NnaDda.or NnaDdaRa.or NnaDdha.or NnaNna.or
+    TaTaRa.or TaTha.or TaNa.or TaPa.or TaVa.or TaMa.or TaSa.or
+    TaSaNa.or DaGa.or DaGha.or DaDhaVa.or DaVa.or DhaVa.or NaTa.or
+    NaTaRa.or NaTaVa.or NaTha.or NaDaRa.or NaDaVa.or NaDhaVa.or
+    NaDhaRa.or NaNa.or PaTa.or PaPa.or PaLla.or PaSa.or BaJa.or
+    BaDa.or BaDha.or MaPaRa.or MaBa.or MaBha.or MaBhaRa.or MaMa.or
+    MaLla.or LlaKa.or LlaLla.or LlaBha.or LlaPa.or LlaPha.or LaKa.or
+    LaLa.or LaGa.or ShaCa.or ShaCha.or ShaVa.or ShaLla.or SsaKa.or
+    SsaKaRa.or SsaTta.or SsaNna.or SsaPa.or SsaPha.or SaKa.or SaKha.or
+    SaTa.or SaTaRa.or SaTha.or SaNa.or SaPa.or SaPha.or SaVa.or
+    SaMa.or HaNa.or HaMa.or HaLa.or KaRa.or KhaRa.or GaRa.or GhaRa.or
+    NgaRa.or CaRa.or ChaRa.or JaRa.or JhaRa.or NyaRa.or TtaRa.or
+    TthaRa.or DdaRa.or DdhaRa.or NnaRa.or TaRa.or ThaRa.or DaRa.or
+    DhaRa.or NaRa.or PaRa.or PhaRa.or BaRa.or BhaRa.or MaRa.or YaRa.or
+    RaRa.or LaRa.or LlaRa.or VaRa.or ShaRa.or SsaRa.or SaRa.or HaRa.or
+    RraRa.or RhaRa.or YyaRa.or TaTaVa.or SsaTtaRa.or SsaTtha.or
+    SsaPaRa.or SaTta.or SaLa.or SaLla.or KaMa.or SaKaRa.or ShaNa.or
+    BaLa.or BaLla.or ShaLa.or ShaTta.or GaLa.or KaTta.or NaVa.or
+    ShaTta.or
+];
+
+
 markClass [
     MatraU.or.alt MatraUu.or.alt MatraRu.or.alt MatraU.or.alt1
     MatraU.or.alt2 MatraU.or.alt3 MatraUu.or.alt1 MatraUu.or.alt2
     MatraUu.or.alt3 MatraU.or MatraUu.or MatraVocalicR.or
     MatraVocalicRr.or MatraVocalicL.or MatraVocalicLl.or Virama.or
     Virama.or.alt Nukta.or RaSmall.or RaSmall.or.alt KaSmall.or
-] <anchor 0 0> @top_Orya;
+] <anchor 0 0> @topMarks_Orya;
+
+
+@small_Orya = [
+    KaSmall.or KhaSmall.or GaSmall.or GhaSmall.or NgaSmall.or
+    CaSmall.or ChaSmall.or JaSmall.or JhaSmall.or TtaSmall.or
+    TthaSmall.or DdaSmall.or DdhaSmall.or NnaSmall.or TaSmall.or
+    ThaSmall.or DaSmall.or DhaSmall.or NaSmall.or PaSmall.or
+    PhaSmall.or BaSmall.or BhaSmall.or MaSmall.or YaSmall.or
+    RaSmall.or LaSmall.or LlaSmall.or VaSmall.or ShaSmall.or
+    SsaSmall.or SaSmall.or HaSmall.or
+];
+
+
+@altsmall_Orya = [
+    KaSmall.or.alt KhaSmall.or.alt GaSmall.or.alt GhaSmall.or.alt
+    NgaSmall.or.alt CaSmall.or.alt ChaSmall.or.alt JaSmall.or.alt
+    JhaSmall.or.alt TtaSmall.or.alt TthaSmall.or.alt DdaSmall.or.alt
+    DdhaSmall.or.alt NnaSmall.or.alt TaSmall.or.alt ThaSmall.or.alt
+    DaSmall.or.alt DhaSmall.or.alt NaSmall.or.alt PaSmall.or.alt
+    PhaSmall.or.alt BaSmall.or.alt BhaSmall.or.alt MaSmall.or.alt
+    YaSmall.or.alt RaSmall.or.alt LaSmall.or.alt LlaSmall.or.alt
+    VaSmall.or.alt ShaSmall.or.alt SsaSmall.or.alt SaSmall.or.alt
+    HaSmall.or.alt
+];
+
+
+@small2_alt_Orya = [
+    KaSmall.or.alt KhaSmall.or.alt GaSmall.or.alt GhaSmall.or.alt
+    NgaSmall.or.alt CaSmall.or.alt ChaSmall.or.alt JaSmall.or.alt
+    JhaSmall.or.alt TtaSmall.or.alt TthaSmall.or.alt DdaSmall.or.alt
+    DdhaSmall.or.alt NnaSmall.or.alt TaSmall.or.alt ThaSmall.or.alt
+    DaSmall.or.alt DhaSmall.or.alt NaSmall.or.alt PaSmall.or.alt
+    PhaSmall.or.alt BaSmall.or.alt BhaSmall.or.alt MaSmall.or.alt
+    YaSmall.or.alt LaSmall.or.alt LlaSmall.or.alt VaSmall.or.alt
+    ShaSmall.or.alt SsaSmall.or.alt SaSmall.or.alt HaSmall.or.alt
+];
+
+
+@Ukaralt_Orya = [
+    Ka.or Nga.or Ca.or Cha.or Ja.or Jha.or Nya.or Tta.or Ttha.or
+    Dda.or Ddha.or Ta.or Dda.or Ddha.or Ta.or Da.or Na.or Ba.or Bha.or
+    Ra.or La.or Lla.or Ha.or Va.or NgaKa.or CaCa.or NyaCa.or NyaCha.or
+    NaDa.or NyaJha.or TtaTta.or DaDa.or DaDha.or NaDha.or BaBa.or
+    BaDa.or
+];
+
+
+@Ukaralt1_Orya = [
+    PaSa.or BaJa.or PaPa.or PaLla.or DaGha.or DhaVa.or NaDaRa.or
+    NaTaRa.or NaNa.or NaTaVa.or NaDhaVa.or DaVa.or NaTa.or NaDaVa.or
+    NaTha.or DaDhaVa.or PaTa.or NaDhaRa.or TaNa.or KaKa.or KaCa.or
+    KaTa.or KaVa.or BaDha.or TaPa.or KaLla.or KaSsaNna.or KaSsaMa.or
+    MaBa.or TaVa.or KaSa.or KhaLla.or GaDha.or GaNa.or TaMa.or
+    GaLla.or GhaNa.or NgaKaSsa.or JaNya.or NyaJa.or TaTha.or TaSa.or
+    CaCha.or JaJa.or JaJaVa.or JaJha.or JaVa.or DaYa.or DaBa.or
+    TaSaNa.or DdaGa.or DdaDda.or NnaTtha.or NnaTta.or NnaDda.or
+    DaGa.or MaPaRa.or NnaDdha.or NnaNna.or KaSsaRa.or TaKa.or
+    TaTaRa.or SaPha.or SaVa.or MaBha.or MaBhaRa.or SaNa.or MaLla.or
+    LlaKa.or LlaLla.or LlaBha.or ShaCa.or MaMa.or SaPa.or LlaPa.or
+    LlaPha.or LaKa.or LaLa.or LaGa.or ShaCha.or SaTa.or ShaVa.or
+    ShaLla.or SsaKa.or SsaKaRa.or SsaTta.or SsaNna.or SsaTta.or
+    HaLa.or SsaPa.or SaMa.or SsaPha.or SaKa.or SaKha.or SaTaRa.or
+    HaNa.or HaMa.or KaRa.or KhaRa.or GaRa.or GhaRa.or NgaRa.or CaRa.or
+    ChaRa.or JaRa.or JhaRa.or NyaRa.or TtaRa.or TthaRa.or DdaRa.or
+    DdhaRa.or NnaRa.or TaRa.or ThaRa.or DaRa.or DhaRa.or NaRa.or
+    PaRa.or PhaRa.or BaRa.or BhaRa.or MaRa.or YaRa.or RaRa.or LaRa.or
+    LlaRa.or VaRa.or ShaRa.or SsaRa.or SaRa.or HaRa.or RraRa.or
+    RhaRa.or YyaRa.or TaTaVa.or SsaTtha.or KaSmall.or KhaSmall.or
+    GaSmall.or GhaSmall.or NgaSmall.or CaSmall.or ChaSmall.or
+    JaSmall.or JhaSmall.or TtaSmall.or TthaSmall.or DdaSmall.or
+    DdhaSmall.or NnaSmall.or TaSmall.or ThaSmall.or DhaSmall.or
+    NaSmall.or PaSmall.or PhaSmall.or BhaSmall.or MaSmall.or
+    YaSmall.or RaSmall.or LaSmall.or LlaSmall.or ShaSmall.or
+    SsaSmall.or SaSmall.or HaSmall.or VaSmall.or KaSsaSmall.or
+    SaTta.or TaKaSsa.or SaLla.or SaLa.or KaMa.or KaTta.or ShaLa.or
+    BaLa.or BaLla.or GaLa.or NaVa.or ShaNa.or
+];
+
+@Ukaralt2_Orya = [
+    GaDa.or NgaKaTa.or SsaTtaRa.or SsaPaRa.or DaSmall.or BaSmall.or
+    SaTtaRa.or ShaTtaRa.or SaKaRa.or RaSmall.or.alt KaTaRa.or
+    NnaDdaRa.or
+];
 
 
 #####################################################################
@@ -1105,7 +1234,7 @@ lookup akhn_Orya_1 {
 
 
 lookup akhn_Orya_2 {
-    lookupflag MarkAttachmentType @top_Orya;
+    lookupflag MarkAttachmentType @topMarks_Orya;
 
     sub Ja.or Virama.or Ja.or Virama.or Va.or by JaJaVa.or;
     sub Da.or Virama.or Dha.or Virama.or Va.or by DaDhaVa.or;
@@ -1124,7 +1253,7 @@ lookup akhn_Orya_2 {
 
 
 lookup akhn_Orya_3 {
-    lookupflag MarkAttachmentType @top_Orya;
+    lookupflag MarkAttachmentType @topMarks_Orya;
 
     sub Ka.or Virama.or Ssa.or Virama.or Nna.or by KaSsaNna.or;
     sub Ka.or Virama.or Ssa.or Virama.or Ma.or by KaSsaMa.or;
@@ -1135,7 +1264,7 @@ lookup akhn_Orya_3 {
 
 
 lookup akhn_Orya_4 {
-    lookupflag MarkAttachmentType @top_Orya;
+    lookupflag MarkAttachmentType @topMarks_Orya;
 
     sub Ka.or Virama.or Ta.or Virama.or Ra.or by KaTaRa.or;
     sub Nna.or Virama.or Dda.or Virama.or Ra.or by NnaDdaRa.or;
@@ -2121,7 +2250,7 @@ lookup pres_Orya_1b {
 
 
 lookup pres_Orya_2 {
-    lookupflag UseMarkFilteringSet @top_Orya;
+    lookupflag UseMarkFilteringSet @topMarks_Orya;
     sub JaJa.or VaSmall.or by JaJaVa.or;
     sub DaDha.or VaSmall.or by DaDhaVa.or;
     sub NaTa.or VaSmall.or by NaTaVa.or;
@@ -2131,7 +2260,7 @@ lookup pres_Orya_2 {
 
 
 lookup pres_Orya_3 {
-    lookupflag UseMarkFilteringSet @top_Orya;
+    lookupflag UseMarkFilteringSet @topMarks_Orya;
     sub KaSsa.or NnaSmall.or by KaSsaNna.or;
     sub KaSsa.or MaSmall.or by KaSsaMa.or;
     sub NgaKa.or TaSmall.or by NgaKaTa.or;
@@ -2141,7 +2270,7 @@ lookup pres_Orya_3 {
 
 
 lookup pres_Orya_4 {
-    lookupflag UseMarkFilteringSet @top_Orya;
+    lookupflag UseMarkFilteringSet @topMarks_Orya;
     sub Ka.or RaSmall.or by KaRa.or;
     sub Ka.or KaSmall.or by KaKa.or;
     sub Ka.or TaSmall.or by KaTa.or;
@@ -2817,6 +2946,28 @@ lookup blws_Mlym {
 } blws_Mlym;
 
 
+lookup blws_Orya_1 {
+    lookupflag UseMarkFilteringSet @topMarks_Orya;
+    sub @all_Orya @small_Orya' by @altsmall_Orya;
+    sub @all_Orya Virama.or' by Virama.or.alt;
+} blws_Orya_1;
+
+
+lookup blws_Orya_2 {
+    sub @Ukaralt_Orya MatraU.or' by MatraU.or.alt;
+    sub @Ukaralt1_Orya MatraU.or' by MatraU.or.alt1;
+    sub @Ukaralt2_Orya MatraU.or' by MatraU.or.alt2;
+    sub @small2_alt_Orya MatraU.or' by MatraU.or.alt3;
+    sub @Ukaralt_Orya MatraUu.or' by MatraUu.or.alt;
+    sub @Ukaralt1_Orya MatraUu.or' by MatraUu.or.alt1;
+    sub @Ukaralt2_Orya MatraUu.or' by MatraUu.or.alt2;
+    sub @small2_alt_Orya MatraUu.or' by MatraUu.or.alt3;      
+    sub @Ukaralt1_Orya MatraVocalicR.or' by MatraRu.or.alt;
+    sub @Ukaralt2_Orya MatraVocalicR.or' by MatraRu.or.alt;
+    sub @small2_alt_Orya MatraVocalicR.or' by MatraRu.or.alt;
+} blws_Orya_2;
+
+
 feature blws {
     script deva; language dflt;
     lookup blws_Deva_1;
@@ -2852,6 +3003,9 @@ feature blws {
     script mlym; language MAL;  lookup blws_Mlym;
     script mlm2; language dflt; lookup blws_Mlym;
     script mlm2; language MAL;  lookup blws_Mlym;
+
+    script orya; language dflt; lookup blws_Orya_1; lookup blws_Orya_2;
+    script ory2; language dflt; lookup blws_Orya_1; lookup blws_Orya_2;
 } blws;
 
 
@@ -2962,6 +3116,14 @@ lookup psts_Mlym_3 {
 } psts_Mlym_3;
 
 
+lookup psts_Orya {
+    sub chandrabindu.or LengthmarkAu.or by AulengthmarkChandrabindu.or;
+    sub reph.or chandrabindu.or LengthmarkAu.or by RephAulengthmarkChandrabindu.or;
+    sub reph.or LengthmarkAu.or by RephAulengthmark.or;
+    sub reph.or chandrabindu.or by Chandrabindu.or.alt;
+} psts_Orya;
+
+
 feature psts {
     script deva; language dflt;
     lookup psts_Deva_1; lookup psts_Deva_2; lookup psts_Deva_3;
@@ -2998,6 +3160,9 @@ feature psts {
 
     script mlm2; language MAL;
     lookup psts_Mlym_1; lookup psts_Mlym_2; lookup psts_Mlym_3;
+
+    script orya; language dflt; lookup psts_Orya;
+    script ory2; language dflt; lookup psts_Orya;
 } psts;
 
 
