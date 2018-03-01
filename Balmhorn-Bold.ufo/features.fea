@@ -2703,7 +2703,7 @@ feature pstf {
 # cjct - Conjuncts forms
 #--------------------------------------------------------------------
 
-feature cjct {
+lookup cjct_Deva {
     sub Tta.dv Halant.dv Tta.dv Halant.dv Ya.dv by TtaTtaYa.dv;
     sub SsaHalant.dv Tta.dv Halant.dv Ya.dv by SsaTtaYa.dv;
     sub Ssa.dv Halant.dv Tta.dv Halant.dv Ya.dv by SsaTtaYa.dv;
@@ -2778,6 +2778,17 @@ feature cjct {
     sub Ha.dv Halant.dv Ya.dv by HaYa.dv;
     sub Ha.dv Halant.dv La.dv by HaLa.dv;
     sub Ha.dv Halant.dv Va.dv by HaVa.dv;
+} cjct_Deva;
+
+
+feature cjct {
+    script deva; language dflt; lookup cjct_Deva;
+    script deva; language HIN;  lookup cjct_Deva;
+    script deva; language MAR;  lookup cjct_Deva;
+
+    script dev2; language dflt; lookup cjct_Deva;
+    script dev2; language HIN;  lookup cjct_Deva;
+    script dev2; language MAR;  lookup cjct_Deva;
 } cjct;
 
 
