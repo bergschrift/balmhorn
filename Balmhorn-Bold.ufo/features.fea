@@ -193,7 +193,7 @@ languagesystem orya dflt;
 
 @_KaLeft_Mlym = [
     Ka.Mlym chilluK.Mlym KaSsa.Mlym KaKa.Mlym KaLa.Mlym KaSa.Mlym
-    KaTta.Mlym KaSsaMa.Mlym
+    KaTta.Mlym KaSsaMa.Mlym Ku.Mlym
 ];
 
 @_RraLeft_Mlym = [
@@ -230,6 +230,7 @@ languagesystem orya dflt;
 
 @_KaRight_Mlym = [
     Ka.Mlym chilluK.Mlym NgaKa.Mlym KaLa.Mlym KaSa.Mlym KaTta.Mlym
+    Ku.Mlym
 ];
 
 @_RraRight_Mlym = [Rra.Mlym Ha.Mlym HaLa.Mlym RraRra.Mlym];
@@ -290,7 +291,7 @@ languagesystem orya dflt;
     matraI.Mlym Anuswara.Mlym Visarga.Mlym vowelA.Mlym vowelAa.Mlym
     vowelI.Mlym vowelIi.Mlym vowelU.Mlym vowelUu.Mlym vowelRu.Mlym
     vowelLru.Mlym vowelshortE.Mlym vowelE.Mlym vowelAi.Mlym
-    vowelshortO.Mlym vowelO.Mlym vowelAu.Mlym Ka.Mlym Kha.Mlym Ga.Mlym
+    vowelshortO.Mlym vowelO.Mlym vowelAu.Mlym Ka.Mlym Ku.Mlym Kha.Mlym Ga.Mlym
     Gha.Mlym Nga.Mlym Ca.Mlym Cha.Mlym Ja.Mlym Jha.Mlym Nya.Mlym
     Tta.Mlym Ttha.Mlym Dda.Mlym Ddha.Mlym Nna.Mlym Ta.Mlym Tha.Mlym
     Da.Mlym Dha.Mlym Na.Mlym uni0D29 Pa.Mlym Pha.Mlym Ba.Mlym Bha.Mlym
@@ -1168,6 +1169,12 @@ feature locl {
     script deva; language MAR;
     sub Sha.dv by Sha.MAR.dv;
     sub La.dv by La.MAR.dv;
+
+    script mlym; language MAL;
+    sub Ka.Mlym matraU.Mlym by Ku.Mlym;
+
+    script mlm2; language MAL;
+    sub Ka.Mlym matraU.Mlym by Ku.Mlym;
 } locl;
 
 
@@ -2781,6 +2788,11 @@ lookup cjct_Deva {
 } cjct_Deva;
 
 
+lookup cjct_Mlym {
+    sub Ka.Mlym ZWJ matraU.Mlym by Ku.Mlym;
+} cjct_Mlym;
+
+
 feature cjct {
     script deva; language dflt; lookup cjct_Deva;
     script deva; language HIN;  lookup cjct_Deva;
@@ -2789,6 +2801,11 @@ feature cjct {
     script dev2; language dflt; lookup cjct_Deva;
     script dev2; language HIN;  lookup cjct_Deva;
     script dev2; language MAR;  lookup cjct_Deva;
+
+    script mlm2; language dflt; lookup cjct_Mlym;
+    script mlm2; language MAL;  lookup cjct_Mlym;
+    script mlym; language dflt; lookup cjct_Mlym;
+    script mlym; language MAL;  lookup cjct_Mlym;
 } cjct;
 
 
