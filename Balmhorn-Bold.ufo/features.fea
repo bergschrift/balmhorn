@@ -329,6 +329,97 @@ languagesystem orya dflt;
 
 
 #----------------------------------
+# Classes for Odiya
+#----------------------------------
+
+markClass [chandrabindu.or reph.or] <anchor 0 0> @TopMark_Orya;
+
+markClass [
+    MatraI.or IChandrabindu.or RephI.or RephIChandrabindu.or
+] <anchor 0 0> @MatraI.or;
+
+@KaMatraI_Orya = [
+    Ka.or KaKa.or KaCa.or KaTa.or KaTaRa.or KaVa.or KaLla.or
+    KaSa.or KaRa.or TaKa.or KaMa.or KaTta.or
+];
+
+@KaSsaMatraI_Orya = [KaSsa.or KaSsaNna.or KaSsaMa.or KaSsaRa.or];
+@KhaMatraI_Orya = [Kha.or KhaLla.or KhaRa.or];
+@GaMatraI_Orya = [Ga.or GaDa.or GaDha.or GaNa.or GaLla.or GaRa.or GaLa.or];
+@GhaMatraI_Orya = [Gha.or GhaNa.or GhaRa.or NgaGha.or];
+@NgaMatraI_Orya = [Nga.or NgaKaTa.or NgaKaSsa.or NgaRa.or];
+@CaMatraI_Orya = [Ca.or CaRa.or];
+@CaCaMatraI_Orya = [CaCa.or CaCha.or];
+@ChaMatraI_Orya = [Cha.or ChaRa.or];
+@JaMatraI_Orya = [Ja.or JaJa.or JaJaVa.or JaJha.or JaVa.or JaRa.or];
+@JhaMatraI_Orya = [Jha.or JhaRa.or];
+@NyaChaMatraI_Orya = [NyaCa.or NyaCha.or NyaJa.or NyaJha.or];
+@NyaMatraI_Orya = [Nya.or NyaRa.or];
+@TtaMatraI_Orya = [Tta.or TtaRa.or];
+@TthaMatraI_Orya = [Ttha.or TthaRa.or];
+@DdaMatraI_Orya = [Dda.or DdaGa.or DdaDda.or DdaRa.or Rra.or RraRa.or];
+@DdhaMatraI_Orya = [Ddha.or DdhaRa.or Rha.or RhaRa.or];
+
+@NnaMatraI_Orya = [
+    Nna.or NnaTta.or NnaTtha.or NnaDda.or NnaDdaRa.or NnaDdha.or
+    NnaNna.or NnaRa.or
+];
+
+@TaMatraI_Orya = [Ta.or TaTha.or TaNa.or TaVa.or TaRa.or];
+@TaTaMatraI_Orya = [TaTa.or TaTaRa.or TaTaVa.or TaKaSsa.or];
+@ThaMatraI_Orya = [Tha.or ThaRa.or];
+@DaMatraI_Orya = [Da.or DaBa.or DaYa.or DaGa.or DaGha.or DaRa.or];
+@DhaMatraI_Orya = [Dha.or DhaVa.or DhaRa.or];
+@DaDaMatraI_Orya = [DaDa.or DaDha.or DaDhaVa.or];
+
+@NaMatraI_Orya = [
+    Na.or NaTa.or NaTaRa.or NaTaVa.or NaTha.or NaNa.or NaRa.or NaVa.or
+];
+
+@NaDaMatraI_Orya = [
+    NaDa.or NaDaRa.or NaDaVa.or NaDha.or NaDhaVa.or NaDhaRa.or
+];
+
+@PaMatraI_Orya = [Pa.or TaPa.or PaTa.or PaPa.or PaLla.or PaSa.or PaRa.or];
+@PhaMatraI_Orya = [Pha.or PhaRa.or];
+@BaMatraI_Orya = [Ba.or BaJa.or BaDha.or BaRa.or BaLa.or BaLla.or];
+@BhaMatraI_Orya = [Bha.or BhaRa.or];
+
+@MaMatraI_Orya = [
+    Ma.or TaMa.or MaBa.or MaBha.or MaBhaRa.or MaMa.or MaLla.or MaRa.or
+];
+
+@MaPaMatraI_Orya = [MaPa.or MaPaRa.or MaPha.or];
+@YaMatraI_Orya = [Ya.or YaRa.or Yya.or YyaRa.or];
+@RaMatraI_Orya = [Ra.or RaRa.or];
+@LaMatraI_Orya = [La.or LaKa.or LaLa.or LaGa.or LaRa.or];
+
+@LlaMatraI_Orya = [
+    Lla.or LlaKa.or LlaLla.or LlaBha.or LlaPa.or LlaPha.or LlaRa.or
+];
+
+@ShaMatraI_Orya = [
+    Sha.or ShaCa.or ShaCha.or ShaVa.or ShaLla.or ShaRa.or
+    ShaNa.or ShaLa.or ShaTta.or ShaTtaRa.or
+];
+
+@SsaMatraI_Orya = [
+    Ssa.or SsaKa.or SsaKaRa.or SsaTta.or SsaNna.or SsaPa.or
+    SsaPha.or SsaRa.or SsaTtaRa.or SsaTtha.or SsaPaRa.or
+];
+
+@SaMatraI_Orya = [
+    Sa.or TaSa.or TaSaNa.or SaKa.or SaKha.or SaTa.or SaTaRa.or
+    SaTha.or SaNa.or SaPa.or SaPha.or SaVa.or SaMa.or SaRa.or
+    SaLla.or SaLa.or SaTta.or SaTtaRa.or SaKaRa.or
+];
+
+@HaMatraI_Orya = [Ha.or HaNa.or HaMa.or HaLa.or HaRa.or];
+@VaMatraI_Orya = [Va.or VaRa.or];
+
+
+
+#----------------------------------
 
 
 @Vertical_Conjuncts = [NgaKa.dv NgaGa.dv NgaMa.dv CaChaVa.dv ChaVa.dv TtaTta.dv TtaTtha.dv TtaVa.dv TthaTtha.dv DdaDda.dv DdaDdha.dv DdhaDdha.dv];
@@ -6681,6 +6772,103 @@ pos base vowelShortA.dv <anchor 990 0> mark @top2;
 } abvm_Deva_2;
 
 
+lookup abvm_Orya_1 {
+    pos base Ka.or <anchor 936 0> mark @TopMark_Orya;
+    pos base Nga.or <anchor 784 0> mark @TopMark_Orya;
+    pos base Ca.or <anchor 784 0> mark @TopMark_Orya;
+    pos base Cha.or <anchor 804 0> mark @TopMark_Orya;
+    pos base Ja.or <anchor 844 0> mark @TopMark_Orya;
+    pos base Jha.or <anchor 704 0> mark @TopMark_Orya;
+    pos base Nya.or <anchor 844 0> mark @TopMark_Orya;
+    pos base Tta.or <anchor 684 0> mark @TopMark_Orya;
+    pos base Ttha.or <anchor 774 0> mark @TopMark_Orya;
+    pos base Dda.or <anchor 854 0> mark @TopMark_Orya;
+    pos base Ddha.or <anchor 914 0> mark @TopMark_Orya;
+    pos base Ta.or <anchor 894 0> mark @TopMark_Orya;
+    pos base Da.or <anchor 924 0> mark @TopMark_Orya;
+    pos base Na.or <anchor 926 0> mark @TopMark_Orya;
+    pos base Pha.or <anchor 800 0> mark @TopMark_Orya;
+    pos base Ba.or <anchor 904 0> mark @TopMark_Orya;
+    pos base Bha.or <anchor 954 0> mark @TopMark_Orya;
+    pos base Ra.or <anchor 914 0> mark @TopMark_Orya;
+    pos base La.or <anchor 984 0> mark @TopMark_Orya;
+    pos base Lla.or <anchor 994 0> mark @TopMark_Orya;
+    pos base Ha.or <anchor 954 0> mark @TopMark_Orya;
+    pos base Va.or <anchor 934 0> mark @TopMark_Orya;
+    pos base Wa.or <anchor 686 0> mark @TopMark_Orya;
+    pos base NgaKa.or <anchor 936 0> mark @TopMark_Orya;
+    pos base NgaKha.or <anchor 1046 0> mark @TopMark_Orya;
+    pos base NgaGa.or <anchor 1026 0> mark @TopMark_Orya;
+    pos base NgaGha.or <anchor 916 0> mark @TopMark_Orya;
+    pos base CaCa.or <anchor 996 0> mark @TopMark_Orya;
+    pos base JaNya.or <anchor 916 0> mark @TopMark_Orya;
+    pos base NyaCa.or <anchor 936 0> mark @TopMark_Orya;
+    pos base NyaCha.or <anchor 936 0> mark @TopMark_Orya;
+    pos base TtaTta.or <anchor 876 0> mark @TopMark_Orya;
+    pos base TaTa.or <anchor 976 0> mark @TopMark_Orya;
+    pos base DaDa.or <anchor 976 0> mark @TopMark_Orya;
+    pos base DaBha.or <anchor 996 0> mark @TopMark_Orya;
+    pos base NaDa.or <anchor 956 0> mark @TopMark_Orya;
+    pos base BaDa.or <anchor 986 0> mark @TopMark_Orya;
+    pos base BaBa.or <anchor 986 0> mark @TopMark_Orya;
+} abvm_Orya_1;
+
+
+lookup abvm_Orya_2 {
+    pos base @KaMatraI_Orya <anchor 884 0> mark @MatraI.or;
+    pos base @KhaMatraI_Orya <anchor 862 0> mark @MatraI.or;
+    pos base @GaMatraI_Orya <anchor 837 0> mark @MatraI.or;
+    pos base @GhaMatraI_Orya <anchor 860 0> mark @MatraI.or;
+    pos base @NgaMatraI_Orya <anchor 840 0> mark @MatraI.or;
+    pos base @CaMatraI_Orya <anchor 844 0> mark @MatraI.or;
+    pos base @ChaMatraI_Orya <anchor 844 0> mark @MatraI.or;
+    pos base @JaMatraI_Orya <anchor 870 0> mark @MatraI.or;
+    pos base @JhaMatraI_Orya <anchor 830 0> mark @MatraI.or;
+    pos base @NyaMatraI_Orya <anchor 862 0> mark @MatraI.or;
+    pos base @TtaMatraI_Orya <anchor 821 0> mark @MatraI.or;
+    pos base @TthaMatraI_Orya <anchor 819 0> mark @MatraI.or;
+    pos base @DdaMatraI_Orya <anchor 844 0> mark @MatraI.or;
+    pos base @DdhaMatraI_Orya <anchor 860 0> mark @MatraI.or;
+    pos base @NnaMatraI_Orya <anchor 850 0> mark @MatraI.or;
+    pos base @TaMatraI_Orya <anchor 843 0> mark @MatraI.or;
+    pos base @ThaMatraI_Orya <anchor 870 0> mark @MatraI.or;
+    pos base @DaMatraI_Orya <anchor 844 0> mark @MatraI.or;
+    pos base @DhaMatraI_Orya <anchor 807 0> mark @MatraI.or;
+    pos base @NaMatraI_Orya <anchor 850 0> mark @MatraI.or;
+    pos base @PaMatraI_Orya <anchor 812 0> mark @MatraI.or;
+    pos base @PhaMatraI_Orya <anchor 810 0> mark @MatraI.or;
+    pos base @BaMatraI_Orya <anchor 832 0> mark @MatraI.or;
+    pos base @BhaMatraI_Orya <anchor 873 0> mark @MatraI.or;
+    pos base @MaMatraI_Orya <anchor 808 0> mark @MatraI.or;
+    pos base @YaMatraI_Orya <anchor 877 0> mark @MatraI.or;
+    pos base @RaMatraI_Orya <anchor 840 0> mark @MatraI.or;
+    pos base @LaMatraI_Orya <anchor 899 0> mark @MatraI.or;
+    pos base @LlaMatraI_Orya <anchor 890 0> mark @MatraI.or;
+    pos base @ShaMatraI_Orya <anchor 840 0> mark @MatraI.or;
+    pos base @SsaMatraI_Orya <anchor 810 0> mark @MatraI.or;
+    pos base @SaMatraI_Orya <anchor 800 0> mark @MatraI.or;
+    pos base @HaMatraI_Orya <anchor 833 0> mark @MatraI.or;
+    pos base @VaMatraI_Orya <anchor 839 0> mark @MatraI.or;
+    pos base Wa.or <anchor 762 0> mark @MatraI.or;
+    pos base @KaSsaMatraI_Orya <anchor 878 0> mark @MatraI.or;
+    pos base NgaKa.or <anchor 913 0> mark @MatraI.or;
+    pos base NgaKha.or <anchor 931 0> mark @MatraI.or;
+    pos base NgaGa.or <anchor 926 0> mark @MatraI.or;
+    pos base @CaCaMatraI_Orya <anchor 899 0> mark @MatraI.or;
+    pos base JaNya.or <anchor 881 0> mark @MatraI.or;
+    pos base @NyaChaMatraI_Orya <anchor 841 0> mark @MatraI.or;
+    pos base TtaTta.or <anchor 860 0> mark @MatraI.or;
+    pos base @TaTaMatraI_Orya <anchor 870 0> mark @MatraI.or;
+    pos base @DaDaMatraI_Orya <anchor 870 0> mark @MatraI.or;
+    pos base DaBha.or <anchor 890 0> mark @MatraI.or;
+    pos base DhaYya.or <anchor 840 0> mark @MatraI.or;
+    pos base @NaDaMatraI_Orya <anchor 860 0> mark @MatraI.or;
+    pos base BaDa.or <anchor 875 0> mark @MatraI.or;
+    pos base BaBa.or <anchor 875 0> mark @MatraI.or;
+    pos base @MaPaMatraI_Orya <anchor 820 60> mark @MatraI.or;
+} abvm_Orya_2;
+
+
 feature abvm {
     script deva; language dflt; lookup abvm_Deva_1; lookup abvm_Deva_2;
     script deva; language HIN;  lookup abvm_Deva_1; lookup abvm_Deva_2;
@@ -6689,11 +6877,10 @@ feature abvm {
     script dev2; language dflt; lookup abvm_Deva_1; lookup abvm_Deva_2;
     script dev2; language HIN;  lookup abvm_Deva_1; lookup abvm_Deva_2;
     script dev2; language MAR;  lookup abvm_Deva_1; lookup abvm_Deva_2;
+
+    script orya; language dflt; lookup abvm_Orya_1; lookup abvm_Orya_2;
+    script ory2; language dflt; lookup abvm_Orya_1; lookup abvm_Orya_2;
 } abvm;
-
-
-
-
 
 
 #--------------------------------------------------------------------
