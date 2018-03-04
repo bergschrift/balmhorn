@@ -6504,22 +6504,11 @@ lookupflag IgnoreMarks;
 
 
 
-#-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------
+# abvm - Above-base Mark Positioning
+#--------------------------------------------------------------------
 
-#*****  A B O V E B A S E   M A R K   P O S I T I O N I N G  ******#
-
-#-----------------------------------------------------------------------------------------
-
-
-
-
-feature abvm {
-
-
-
-lookup abvm1 { # all above base matras
-
-
+lookup abvm_Deva_1 { # all above base matras
 pos base vowelI.dv <anchor 553 0> mark @top1;
 pos base vowelU.dv <anchor 453 0> mark @top1;
 pos base vowelUu.dv <anchor 515 0> mark @top1;
@@ -6655,10 +6644,10 @@ pos base PhaNuktaPhaNukta.dv <anchor 1224 0> mark @top1;
 pos base HamatraRu.dv <anchor 561 0> mark @top1;
 pos base KamatraLru.dv <anchor 495 0> mark @top1;
 pos base KamatraLruu.dv <anchor 495 0> mark @top1;
-} abvm1;
+} abvm_Deva_1;
 
 
-lookup abvm2 { # bindu chandrabindu to small ikar matra
+lookup abvm_Deva_2 { # bindu chandrabindu to small ikar matra
 pos base @matraIdefault <anchor 683 80> mark @top2;
 pos base @matraIone <anchor 545 80> mark @top2;
 pos base @matraItwo <anchor 655 80> mark @top2;
@@ -6684,17 +6673,22 @@ pos base @matraItwentyone <anchor 1627 80> mark @top2;
 pos base @matraItwentytwo <anchor 1727 80> mark @top2;
 pos base @matraItwentythree <anchor 2030 80> mark @top2;
 
-
 pos base vowelAi.dv <anchor 724 0> mark @top2;
 pos base vowelO.dv <anchor 1231 0> mark @top2;
 pos base vowelAu.dv <anchor 1303 0> mark @top2;
 pos base vowelShortE.dv <anchor 788 0> mark @top2;
 pos base vowelShortA.dv <anchor 990 0> mark @top2;
-
-} abvm2;
-
+} abvm_Deva_2;
 
 
+feature abvm {
+    script deva; language dflt; lookup abvm_Deva_1; lookup abvm_Deva_2;
+    script deva; language HIN;  lookup abvm_Deva_1; lookup abvm_Deva_2;
+    script deva; language MAR;  lookup abvm_Deva_1; lookup abvm_Deva_2;
+
+    script dev2; language dflt; lookup abvm_Deva_1; lookup abvm_Deva_2;
+    script dev2; language HIN;  lookup abvm_Deva_1; lookup abvm_Deva_2;
+    script dev2; language MAR;  lookup abvm_Deva_1; lookup abvm_Deva_2;
 } abvm;
 
 
